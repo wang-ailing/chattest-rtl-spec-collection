@@ -1,0 +1,91 @@
+### 1. Module Name
+
+The name of this RTL module is `fpu_mul`.
+
+### 2. Module Functions
+
+The `fpu_mul` module is designed to perform floating-point multiplication on two 64-bit IEEE 754 standard double-precision floating-point numbers. The primary functions and objectives of this module include:
+
+- **Multiplication**: It takes two double-precision floating-point numbers as inputs and produces a product as its output.
+- **Rounding Mode Handling**: It supports different rounding modes as specified by the IEEE 754 standard, allowing for the rounding of the product to the nearest value, towards positive infinity, or towards negative infinity.
+- **Exception Handling**: The module can handle special cases such as multiplication by zero, infinity, and detection of overflow during the multiplication process.
+- **Pipeline Processing**: Designed with a pipelined architecture to enhance throughput by allowing multiple operations to be performed simultaneously at different stages of the module.
+
+This module plays a critical role in systems requiring high-precision arithmetic operations, such as scientific computations, digital signal processing, and financial analysis.
+
+### 3. Input and Output Port Descriptions
+
+#### Inputs:
+
+- `clk`: Clock signal (input, 1 bit) - The primary clock input that synchronizes the operation of the module.
+- `rst`: Reset signal (input, 1 bit) - Asynchronously resets the module's internal state when asserted.
+- `enable`: Enable signal (input, 1 bit) - Activates the module's operation when asserted.
+- `rmode`: Rounding mode (input, 2 bits) - Specifies the rounding mode to be used for the operation. The encoding for rounding modes follows the IEEE 754 standard.
+- `opa`, `opb`: Operand A and Operand B (input, 64 bits each) - The two double-precision floating-point numbers to be multiplied.
+
+#### Outputs:
+
+- `ready`: Ready signal (output, 1 bit) - Indicates when the module has completed the multiplication and the result is available.
+- `outfp`: Output floating-point product (output, 64 bits) - The double-precision floating-point result of multiplying `opa` by `opb`.
+
+### 4. Internal Working Principle
+
+The `fpu_mul` module operates based on the IEEE 754 standard for floating-point arithmetic. The internal working principle can be summarized in several key steps:
+
+1. **Initialization**: Upon reset, all internal registers are cleared to ensure a clean start for the next operation.
+
+2. **Sign Calculation**: The sign of the result is determined by XORing the signs of the two operands. This is because, in floating-point arithmetic, the product of two numbers with different signs is negative, and with the same signs is positive.
+
+3. **Exponent Calculation**: The exponents of the operands are added to calculate the preliminary exponent of the product. An offset (bias) is subtracted from or added to this preliminary exponent to account for the IEEE 754 exponent bias.
+
+4. **Mantissa Multiplication**: The mantissas (significands) of the operands are multiplied. Since the operands are normalized, an implicit leading '1' is assumed for each mantissa in the multiplication.
+
+5. **Normalization and Rounding**: The product of the mantissas may need to be normalized (i.e., adjusted so that there is only one non-zero digit to the left of the decimal point). The module then rounds the result according to the specified rounding mode.
+
+6. **Special Case Handling**: The module checks for special cases such as multiplication by zero, infinity, or detection of overflow. It adjusts the output accordingly to comply with the IEEE 754 standard.
+
+7. **Pipeline Processing**: The module is designed with a pipelined architecture, where different stages of the multiplication process are executed in parallel across multiple clock cycles. This design allows for higher throughput by processing multiple operations simultaneously.
+
+### 5. Implementation Logic Explanation
+
+The RTL module presented, named `fpu_mul`, is designed to perform floating-point multiplication on two 64-bit IEEE 754 standard inputs. The module operates synchronously with a clock signal (`clk`) and includes a reset signal (`rst`) for initialization. The core functionality is enabled through an `enable` signal, and the module supports rounding modes specified by the `rmode` input. The output of the module includes a `ready` signal indicating the completion of the operation and a 64-bit output (`outfp`) representing the product of the two inputs.
+
+#### Combinational and Sequential Logic
+
+The module employs a mix of combinational and sequential logic to achieve its functionality:
+
+- **Sequential Logic**: The core of the module operates on the rising edge of the clock signal. Sequential logic is used to store intermediate values across clock cycles, manage the state of the computation, and progress through the steps required to compute the floating-point multiplication. This includes handling sign calculation, exponent adjustment, mantissa multiplication, rounding, and overflow detection.
+
+- **Combinational Logic**: Combinational logic is used within each clock cycle to perform immediate calculations based on the current state and inputs. This includes operations such as sign determination, exponent calculation, and the actual multiplication of the mantissas. Combinational logic also determines the rounding mode and applies the necessary adjustments to the product before final output.
+
+The module meticulously manages the floating-point multiplication process, breaking it down into manageable steps that are executed over multiple clock cycles. This pipelined approach allows for handling complex operations like normalization, rounding, and handling special cases (zero, infinity) efficiently.
+
+### 6. Internally Defined Signal Descriptions
+
+The module defines a variety of internal signals to manage its operations and state. Here's an overview of some key signals and their roles:
+
+- **Sign and Exponent Handling**: 
+  - `sign`, `sign_1` to `sign_20`: These registers are used to calculate and propagate the sign of the result through the stages of the pipeline.
+  - `exponent_a`, `exponent_b`: Extracted exponents from the input operands.
+  - `exponent_terms_1` to `exponent_terms_9`, `exponent_1` to `exponent_9`: These registers are involved in calculating the exponent of the result, adjusting for bias, and handling overflow or underflow conditions.
+
+- **Mantissa Calculation**:
+  - `mantissa_a1`, `mantissa_a2`, `mantissa_b1`, `mantissa_b2`: Registers holding the mantissas of the input operands.
+  - `mul_a`, `mul_b` to `mul_a8`, `mul_b8`: Registers used in the multiplication of the mantissas.
+  - `product_a`, `product_b`, `product_c`...: Intermediate products generated during the multiplication process.
+  - `sum_0`, `sum_1`, `sum_2`...: Registers used to sum the intermediate products.
+
+- **Rounding and Overflow**:
+  - `round_nearest_mode`, `round_posinf_mode`, `round_neginf_mode`: Signals indicating the rounding mode.
+  - `round_nearest_trigger`, `round_posinf_trigger`, `round_neginf_trigger`: Conditions for triggering rounding based on the mode.
+  - `product_overflow`: A flag indicating if the product has overflowed.
+  - `product_shift`: A signal used to normalize the result in case of overflow.
+
+- **Control and Status**:
+  - `ready`, `count_ready`, `count_ready_0`: Signals used to indicate the completion of the multiplication operation.
+  - `count`: A counter used to manage the pipeline stages and control the `ready` signal.
+
+- **Special Cases Handling**:
+  - `a_is_zero`, `b_is_zero`, `a_is_inf`, `b_is_inf`, `in_inf_1`, `in_inf_2`, `in_zero_1`: Flags used to detect and handle special cases such as inputs being zero or infinity.
+
+This module's design showcases a detailed and structured approach to floating-point multiplication, emphasizing accuracy, rounding modes, and special case handling. The use of a pipelined architecture allows for efficient processing, making it suitable for high-performance computing applications where precision and speed are critical.

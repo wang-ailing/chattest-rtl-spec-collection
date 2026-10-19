@@ -1,0 +1,1405 @@
+{
+  "checked_date": "2026-10-19",
+  "scope": "原项目Spec、接口说明、benchmark描述、验证计划、背景手册分别标注；均未证实为ChatTest使用的具体Spec文本和版本。下载不表示已完成构建或复现。",
+  "designs": [
+    {
+      "id": 1,
+      "design": "Adapter",
+      "rtl_status": "rtl_available_correspondence_not_version_proven",
+      "match_status": "同名RTL，行数接近",
+      "spec_status": "已有benchmark整理Spec；尚无独立原项目规格",
+      "source_projects": [
+        "https://github.com/ChatDesignVerification/FIXME/tree/e875437fbb11590b71775b32d3579726d702cfc6/data/TBGen/L2/Text/adapter"
+      ],
+      "files": [
+        {
+          "path": "Adapter/rtl/adapter.v",
+          "bytes": 2564,
+          "sha256": "26ad3daea75004ee2e2ccf43c9d0e43b05f2e43f8a96b3f1d64777341e360f31",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/FIXME/e875437fbb11590b71775b32d3579726d702cfc6/data/TBGen/L2/Text/adapter/adapter.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Adapter/spec/adapter_spec.txt",
+          "bytes": 8091,
+          "sha256": "991ab42d27092ffe0e8eb5bda9c1dabfa3006214644e10fe36e05de2505a093f",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/FIXME/e875437fbb11590b71775b32d3579726d702cfc6/data/TBGen/L2/Text/adapter/adapter_spec.txt",
+          "kind": "benchmark_description",
+          "scope": "FIXME benchmark整理的模块描述，未证实为ChatTest输入Spec"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "design": "TBU",
+      "rtl_status": "rtl_available_correspondence_not_version_proven",
+      "match_status": "同名RTL，行数接近",
+      "spec_status": "已有benchmark整理Spec，包含推测性措辞；尚无独立原项目规格",
+      "source_projects": [
+        "https://github.com/ChatDesignVerification/FIXME/tree/e875437fbb11590b71775b32d3579726d702cfc6/data/TBGen/L3/Text/tbu"
+      ],
+      "files": [
+        {
+          "path": "TBU/rtl/tbu.v",
+          "bytes": 5340,
+          "sha256": "733a2c84b3cfd0a440ef1abb372a984ee96db5700168d973a722fbdad2aa3e23",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/FIXME/e875437fbb11590b71775b32d3579726d702cfc6/data/TBGen/L3/Text/tbu/tbu.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "TBU/spec/tbu_spec.txt",
+          "bytes": 6611,
+          "sha256": "665a9f7ba400906dd730d4e4909b14f1c41498b09619acc7184bb217ee64fb70",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/FIXME/e875437fbb11590b71775b32d3579726d702cfc6/data/TBGen/L3/Text/tbu/tbu_spec.txt",
+          "kind": "benchmark_description",
+          "scope": "FIXME benchmark整理的模块描述，未证实为ChatTest输入Spec"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "design": "FPU_mul",
+      "rtl_status": "rtl_available_correspondence_not_version_proven",
+      "match_status": "同名RTL",
+      "spec_status": "已有benchmark整理Spec及同源流水版本原项目说明",
+      "source_projects": [
+        "https://github.com/ChatDesignVerification/FIXME/tree/e875437fbb11590b71775b32d3579726d702cfc6/data/TBGen/L3/Text/fpu_mul"
+      ],
+      "files": [
+        {
+          "path": "FPU_mul/rtl/fpu_mul.v",
+          "bytes": 11518,
+          "sha256": "48d878278c0dfba6d01dd6b10055259707c03e72692077f72bd00072dcbf13d0",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/FIXME/e875437fbb11590b71775b32d3579726d702cfc6/data/TBGen/L3/Text/fpu_mul/fpu_mul.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "FPU_mul/spec/fpu_mul_spec.txt",
+          "bytes": 8042,
+          "sha256": "bf036e740bede8a49d304448b01239d646c851b8f8aa5e64897d82b36ebc0ac0",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/FIXME/e875437fbb11590b71775b32d3579726d702cfc6/data/TBGen/L3/Text/fpu_mul/fpu_mul_spec.txt",
+          "kind": "benchmark_description",
+          "scope": "FIXME benchmark整理的模块描述，未证实为ChatTest输入Spec"
+        },
+        {
+          "path": "FPU_mul/rtl/original_project/fpu_mul.v",
+          "bytes": 13931,
+          "sha256": "5f5efe3128d5d2c29e77dec7efa1933e7470566ebe296759f21cfc4aae3101b2",
+          "source_url": "https://raw.githubusercontent.com/freecores/double_fpu/cf173d0b7cc13f0ec367c07f8b322850a1428c74/pipeline/fpu_mul.v",
+          "kind": "rtl_origin_reference",
+          "scope": "原始同源RTL参照，不计作独立Spec"
+        },
+        {
+          "path": "FPU_mul/spec/Readme_pipeline.txt",
+          "bytes": 2953,
+          "sha256": "2a357b0ad84129f837e596cf1b215fffb0838d55bbf06de3c8a1350c9270f080",
+          "source_url": "https://raw.githubusercontent.com/freecores/double_fpu/cf173d0b7cc13f0ec367c07f8b322850a1428c74/pipeline/Readme_pipeline.txt",
+          "kind": "original_interface_description",
+          "scope": "流水版本原项目说明；适用于对应pipeline/fpu_mul.v"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "design": "FPU_div",
+      "rtl_status": "rtl_available_correspondence_not_version_proven",
+      "match_status": "同名RTL",
+      "spec_status": "已有benchmark整理Spec及同源完整FPU项目文档；子模块范围需区分",
+      "source_projects": [
+        "https://github.com/ChatDesignVerification/FIXME/tree/e875437fbb11590b71775b32d3579726d702cfc6/data/TBGen/L3/Text/fpu_div"
+      ],
+      "files": [
+        {
+          "path": "FPU_div/rtl/fpu_div.v",
+          "bytes": 16046,
+          "sha256": "c302796ec1a2937054fbdfc5364546f7d555df0953437d7030fe8980bab251e2",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/FIXME/e875437fbb11590b71775b32d3579726d702cfc6/data/TBGen/L3/Text/fpu_div/fpu_div.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "FPU_div/spec/fpu_div_spec.txt",
+          "bytes": 7942,
+          "sha256": "0bfa6d2d628d5e02771ab1ea750737fd4c3c46505a9b7a8ac0c40d1ab7128031",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/FIXME/e875437fbb11590b71775b32d3579726d702cfc6/data/TBGen/L3/Text/fpu_div/fpu_div_spec.txt",
+          "kind": "benchmark_description",
+          "scope": "FIXME benchmark整理的模块描述，未证实为ChatTest输入Spec"
+        },
+        {
+          "path": "FPU_div/rtl/original_project/fpu_div.v",
+          "bytes": 18460,
+          "sha256": "18f521d9bbf186a979323a851357830516f5cd89d89a0295bb89ce37029db9cf",
+          "source_url": "https://raw.githubusercontent.com/freecores/double_fpu/cf173d0b7cc13f0ec367c07f8b322850a1428c74/fpu_div.v",
+          "kind": "rtl_origin_reference",
+          "scope": "原始同源RTL参照，不计作独立Spec"
+        },
+        {
+          "path": "FPU_div/spec/Double_FPU.PDF",
+          "bytes": 102630,
+          "sha256": "4227f7e0cdc7f2f7c9a6f4cff48b3fb52c10da2eed84fd5f359420aae599d409",
+          "source_url": "https://raw.githubusercontent.com/freecores/double_fpu/cf173d0b7cc13f0ec367c07f8b322850a1428c74/Double_FPU.PDF",
+          "kind": "original_project_specification",
+          "scope": "完整双精度FPU项目说明，需结合benchmark子模块Spec阅读"
+        },
+        {
+          "path": "FPU_div/spec/Readme.txt",
+          "bytes": 4935,
+          "sha256": "de5c014a1ef0819d4e5479284f369c593ea3f4dcb8e070e83dbd8c241486f10b",
+          "source_url": "https://raw.githubusercontent.com/freecores/double_fpu/cf173d0b7cc13f0ec367c07f8b322850a1428c74/Readme.txt",
+          "kind": "original_project_description",
+          "scope": "完整FPU顶层说明；不能直接把顶层除法延迟作为fpu_div子模块延迟"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "design": "Cam_slave",
+      "rtl_status": "not_located",
+      "match_status": "尚未定位准确源码",
+      "spec_status": "未找到可靠的模块源码及Spec",
+      "source_projects": [],
+      "files": []
+    },
+    {
+      "id": 6,
+      "design": "Streamdh264ct8",
+      "rtl_status": "not_located",
+      "match_status": "尚未定位准确源码",
+      "spec_status": "未找到可靠的模块源码及Spec",
+      "source_projects": [],
+      "files": []
+    },
+    {
+      "id": 7,
+      "design": "Streamdmpeg2cbp",
+      "rtl_status": "not_located",
+      "match_status": "尚未定位准确源码",
+      "spec_status": "未找到可靠的模块源码及Spec",
+      "source_projects": [],
+      "files": []
+    },
+    {
+      "id": 8,
+      "design": "A7WrapSM",
+      "rtl_status": "vendor_package_and_file_manifest_found_no_plaintext_rtl",
+      "match_status": "找到原厂包及文件清单，未取得明文RTL",
+      "spec_status": "已有原厂A7WrapSM模块手册；现有源码包未提供可读明文RTL",
+      "source_projects": [
+        "https://www.microchip-ip.com/cwps/download_index/DirectCore",
+        "https://cores-prod.s3.amazonaws.com/DirectCore/Actel/DirectCore/CoreMP7Bridge/2.1/Actel_DirectCore_CoreMP7Bridge_2.1.cpz",
+        "https://ww1.microchip.com/downloads/aemdocuments/documents/fpga/ProductDocuments/DataSheets/coremp7bridge_ds.pdf"
+      ],
+      "files": [
+        {
+          "path": "A7WrapSM/rtl/vendor_packages/CoreMP7Bridge-1.1.cpz",
+          "bytes": 84591,
+          "sha256": "cf46c10a328203a3af4183de3051ec27bded2a923689404a105df1e4fd95c8f7",
+          "source_url": "https://cores-prod.s3.amazonaws.com/DirectCore/Actel/DirectCore/CoreMP7Bridge/1.1/Actel_DirectCore_CoreMP7Bridge_1.1.cpz",
+          "kind": "vendor_packaged_content",
+          "scope": "厂商封装包或提取的元数据，不是可读明文RTL"
+        },
+        {
+          "path": "A7WrapSM/rtl/vendor_packages/CoreMP7Bridge-2.0.cpz",
+          "bytes": 84498,
+          "sha256": "3f3547d2d709b89fb825f7b1bf8a74f7b3a99c4d53205bafed188da993feb146",
+          "source_url": "https://cores-prod.s3.amazonaws.com/DirectCore/Actel/DirectCore/CoreMP7Bridge/2.0/Actel_DirectCore_CoreMP7Bridge_2.0.cpz",
+          "kind": "vendor_packaged_content",
+          "scope": "厂商封装包或提取的元数据，不是可读明文RTL"
+        },
+        {
+          "path": "A7WrapSM/rtl/vendor_packages/CoreMP7Bridge-2.1.cpz",
+          "bytes": 84782,
+          "sha256": "ad9c3cb64eabf37fc573b3002594bcb793294179def9e5db12efab5fa3fe0fb1",
+          "source_url": "https://cores-prod.s3.amazonaws.com/DirectCore/Actel/DirectCore/CoreMP7Bridge/2.1/Actel_DirectCore_CoreMP7Bridge_2.1.cpz",
+          "kind": "vendor_packaged_content",
+          "scope": "厂商封装包或提取的元数据，不是可读明文RTL"
+        },
+        {
+          "path": "A7WrapSM/rtl/vendor_packages/CoreMP7Bridge-2.1.xml",
+          "bytes": 45036,
+          "sha256": "b77b7bfffedf8e1b4eaeaee0148ac27ba598f999d225e695e69156b6edeb9dd8",
+          "source_url": "https://cores-prod.s3.amazonaws.com/DirectCore/Actel/DirectCore/CoreMP7Bridge/2.1/Actel_DirectCore_CoreMP7Bridge_2.1.cpz",
+          "kind": "vendor_packaged_content",
+          "scope": "厂商封装包或提取的元数据，不是可读明文RTL"
+        },
+        {
+          "path": "A7WrapSM/spec/ARM_DDI0169D_AHB_CPU_Wrappers_TRM.pdf",
+          "bytes": 504250,
+          "sha256": "759e3fc641d4dc12eca185397fd62930586bd5158217f159714d5d3bd0e36328",
+          "source_url": "https://documentation-service.arm.com/static/5e8e30fd88295d1e18d38ed8",
+          "kind": "vendor_module_specification",
+          "scope": "A7WrapSM专节3.3.5，PDF第49至51页；不表示公开可读RTL已找到"
+        },
+        {
+          "path": "A7WrapSM/spec/ARM_DDI0226A_AMBA_University_Kit.pdf",
+          "bytes": 1292433,
+          "sha256": "c30863282a10819eb7504984170880d79d72b376ea9ad5429b7b8962f49db4ed",
+          "source_url": "https://documentation-service.arm.com/static/5f1070380daa596235e83057",
+          "kind": "vendor_module_specification_older_version",
+          "scope": "旧版本A7WrapSM专节3.3.3，不能与DDI0169D混用版本"
+        },
+        {
+          "path": "A7WrapSM/spec/CoreMP7Bridge_datasheet.pdf",
+          "bytes": 176613,
+          "sha256": "fed0ca294b64eb29ad269750f5807dea8d8621f46dec01d7b9443248c1ac69e1",
+          "source_url": "https://ww1.microchip.com/downloads/aemdocuments/documents/fpga/ProductDocuments/DataSheets/coremp7bridge_ds.pdf",
+          "kind": "integration_datasheet",
+          "scope": "CoreMP7Bridge集成资料，非A7WrapSM全部内部行为规格"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "design": "Streamdh264ct4",
+      "rtl_status": "not_located",
+      "match_status": "尚未定位准确源码",
+      "spec_status": "未找到可靠的模块源码及Spec",
+      "source_projects": [],
+      "files": []
+    },
+    {
+      "id": 10,
+      "design": "Timer",
+      "rtl_status": "rtl_available_correspondence_not_version_proven",
+      "match_status": "候选实现",
+      "spec_status": "已有候选RTL；未找到该模块独立Spec",
+      "source_projects": [
+        "https://github.com/XUANTIE-RV/openc910/tree/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/common"
+      ],
+      "files": [
+        {
+          "path": "Timer/rtl/timer.v",
+          "bytes": 12089,
+          "sha256": "f3c7d3604409960087dee8c0d24679d83d1e947cd937c7eef18d13a46d93746c",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/common/timer.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Timer/spec/licenses/openc910/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Timer/rtl/licenses/openc910/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "design": "Uart_apb_reg",
+      "rtl_status": "rtl_available_correspondence_not_version_proven",
+      "match_status": "同名RTL",
+      "spec_status": "已有同名RTL；未找到该模块独立Spec",
+      "source_projects": [
+        "https://github.com/XUANTIE-RV/openc910/tree/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/uart"
+      ],
+      "files": [
+        {
+          "path": "Uart_apb_reg/rtl/uart_apb_reg.v",
+          "bytes": 11829,
+          "sha256": "d375d57bc365e2393aee2cbd2b076509bdf36f92cdd2b0ea2e2c6ecf9230b453",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/uart/uart_apb_reg.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Uart_apb_reg/spec/licenses/openc910/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Uart_apb_reg/rtl/licenses/openc910/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "design": "SHA3",
+      "rtl_status": "rtl_available_correspondence_not_version_proven",
+      "match_status": "候选实现",
+      "spec_status": "已有原项目正式Spec；RTL与论文具体版本未证实",
+      "source_projects": [
+        "https://github.com/freecores/sha3/tree/master/high_throughput_core/rtl"
+      ],
+      "files": [
+        {
+          "path": "SHA3/rtl/f_permutation.v",
+          "bytes": 2050,
+          "sha256": "0e060e0c2e441c30d9fe5fdab0882631864058b76f48268bc30f00b48d388772",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/master/high_throughput_core/rtl/f_permutation.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SHA3/rtl/keccak.v",
+          "bytes": 3097,
+          "sha256": "b8cfba446544c44a9ac823d1f74188e3011774aeccd592fe15969f5095de6f10",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/master/high_throughput_core/rtl/keccak.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SHA3/rtl/padder.v",
+          "bytes": 3069,
+          "sha256": "62fc7a21770625e696dbf9c0da51c9ac53135943bde7c29454a7056cae5a2914",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/master/high_throughput_core/rtl/padder.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SHA3/rtl/padder1.v",
+          "bytes": 1164,
+          "sha256": "23ebc6ead6ebb060ada420d894aa54b70db5f2d45eba67c8632452926a4d2eaa",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/master/high_throughput_core/rtl/padder1.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SHA3/rtl/rconst2in1.v",
+          "bytes": 1738,
+          "sha256": "4cecc75777f1c03597401093815f55e98aa8fc2b00d8b0a406fb89dbc59c0b5e",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/master/high_throughput_core/rtl/rconst2in1.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SHA3/rtl/round2in1.v",
+          "bytes": 8634,
+          "sha256": "735ee2e6f74f0d7a2b311a6462c43c931376abde81dc77929ad53fc0f43fa884",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/master/high_throughput_core/rtl/round2in1.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SHA3/spec/sha3.pdf",
+          "bytes": 446503,
+          "sha256": "cf0b9cbc4ce8585c660fe2b91ce39422f601da1f9f8c1833bb50e5db51f4b79a",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/document/sha3.pdf",
+          "kind": "original_module_specification",
+          "scope": "SHA3 Core Specification，含高低吞吐版本；当前RTL仅为候选对应"
+        },
+        {
+          "path": "SHA3/spec/licenses/sha3/LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "SHA3/rtl/licenses/sha3/LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "SHA3/spec/licenses/sha3/NOTICE",
+          "bytes": 690,
+          "sha256": "30e473be9cf8950964efe30abbd76bf2675f68fd8d24f488b16d7031ef49dcac",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/NOTICE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "SHA3/rtl/licenses/sha3/NOTICE",
+          "bytes": 690,
+          "sha256": "30e473be9cf8950964efe30abbd76bf2675f68fd8d24f488b16d7031ef49dcac",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/NOTICE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "design": "Ct_had_ctrl",
+      "rtl_status": "rtl_available_correspondence_not_version_proven",
+      "match_status": "同名RTL",
+      "spec_status": "仅补充CPU和调试子系统背景手册；未找到ct_had_ctrl独立Spec",
+      "source_projects": [
+        "https://github.com/XUANTIE-RV/openc910/tree/b91c90914c19f114d35c8f6b73408eb241ed847c/C910_RTL_FACTORY/gen_rtl/had/rtl"
+      ],
+      "files": [
+        {
+          "path": "Ct_had_ctrl/spec/background/玄铁C910用户手册_20240627.pdf",
+          "bytes": 4052198,
+          "sha256": "e1751712376a9b4d8c180e93039ce4b8b3c2e63fb324147c1c0be66580c6042c",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/doc/%E7%8E%84%E9%93%81C910%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C_20240627.pdf",
+          "kind": "subsystem_background_manual",
+          "scope": "HAD所在CPU/调试子系统背景手册，不是ct_had_ctrl独立模块Spec"
+        },
+        {
+          "path": "Ct_had_ctrl/spec/background/玄铁C910集成手册_20240627.pdf",
+          "bytes": 887347,
+          "sha256": "47f98db43098f1e5c2c7298c0779e896d4d6be2169d793092aecd1e88ff1b292",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/doc/%E7%8E%84%E9%93%81C910%E9%9B%86%E6%88%90%E6%89%8B%E5%86%8C_20240627.pdf",
+          "kind": "subsystem_background_manual",
+          "scope": "HAD所在CPU/调试子系统背景手册，不是ct_had_ctrl独立模块Spec"
+        },
+        {
+          "path": "Ct_had_ctrl/rtl/ct_had_ctrl.v",
+          "bytes": 26316,
+          "sha256": "acb2d3bfd7e052a4eeca6f4f8a4b07638cc4ccb9bec31d4550e016250185c1b0",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_ctrl.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Ct_had_ctrl/spec/licenses/openc910/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Ct_had_ctrl/rtl/licenses/openc910/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "design": "AXI_interconnect",
+      "rtl_status": "rtl_available_correspondence_not_version_proven",
+      "match_status": "两个候选实现",
+      "spec_status": "已有alexforencich候选的部分接口说明；C910候选缺独立Spec",
+      "source_projects": [
+        "https://github.com/alexforencich/verilog-axi/tree/master/rtl",
+        "https://github.com/XUANTIE-RV/openc910/tree/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/axi"
+      ],
+      "files": [
+        {
+          "path": "AXI_interconnect/rtl/verilog-axi/axi_interconnect.v",
+          "bytes": 43236,
+          "sha256": "2a06ac654ea73fc960b24922466cb50990584a8318959bea3912cefb0bbf6e65",
+          "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/master/rtl/axi_interconnect.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "AXI_interconnect/rtl/openc910/axi_interconnect128.v",
+          "bytes": 20065,
+          "sha256": "e36f5de3869716982af37bb9b69d5163d7fc0cf6a3417514cc8a44d228223c37",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/axi/axi_interconnect128.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "AXI_interconnect/spec/verilog-axi/verilog_axi_README.md",
+          "bytes": 20806,
+          "sha256": "99499ca09430eff2c4aca5ed472759e4090bf51c1dcef5e07b880f9a11fc3a61",
+          "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/README.md",
+          "kind": "original_interface_description",
+          "scope": "仅适用于alexforencich候选的接口和参数说明，不适用于C910候选"
+        },
+        {
+          "path": "AXI_interconnect/spec/licenses/openc910/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "AXI_interconnect/rtl/licenses/openc910/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "AXI_interconnect/spec/licenses/verilog-axi/COPYING",
+          "bytes": 1057,
+          "sha256": "ba81481b2d63a33e0dce336d9e736130709549feeaf6cd424b34beba712baa50",
+          "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/COPYING",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "AXI_interconnect/rtl/licenses/verilog-axi/COPYING",
+          "bytes": 1057,
+          "sha256": "ba81481b2d63a33e0dce336d9e736130709549feeaf6cd424b34beba712baa50",
+          "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/COPYING",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "design": "AXI2ahb",
+      "rtl_status": "rtl_available_correspondence_not_version_proven",
+      "match_status": "同名功能匹配的候选实现",
+      "spec_status": "已有候选RTL；未找到该模块独立Spec",
+      "source_projects": [
+        "https://github.com/XUANTIE-RV/openc910/tree/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/axi"
+      ],
+      "files": [
+        {
+          "path": "AXI2ahb/rtl/axi2ahb.v",
+          "bytes": 19573,
+          "sha256": "75734fa187130f8c816a536397cf50c573dd002e6769cc4261cd0e128495e8a8",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/axi/axi2ahb.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "AXI2ahb/spec/licenses/openc910/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "AXI2ahb/rtl/licenses/openc910/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "design": "Elliptic_Curve",
+      "rtl_status": "rtl_available_correspondence_not_version_proven",
+      "match_status": "项目功能描述匹配",
+      "spec_status": "已有原项目正式Spec",
+      "source_projects": [
+        "https://github.com/freecores/ecg/tree/master/rtl"
+      ],
+      "files": [
+        {
+          "path": "Elliptic_Curve/rtl/ecg.v",
+          "bytes": 8564,
+          "sha256": "296f860a62dd85c870f40859776a4be5e44953785f692da02ae06688a9cd1eb8",
+          "source_url": "https://raw.githubusercontent.com/freecores/ecg/master/rtl/ecg.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Elliptic_Curve/rtl/f3.v",
+          "bytes": 2129,
+          "sha256": "4395e7875e16db56fd77f39e5eb594bcb0905b57d2e22dba09cff6055dd281ad",
+          "source_url": "https://raw.githubusercontent.com/freecores/ecg/master/rtl/f3.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Elliptic_Curve/rtl/f3m.v",
+          "bytes": 46329,
+          "sha256": "13204d8e09c3810ca226e71f011e604f854f58e7691beaadf10298e175aebe6a",
+          "source_url": "https://raw.githubusercontent.com/freecores/ecg/master/rtl/f3m.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Elliptic_Curve/rtl/fun.v",
+          "bytes": 1343,
+          "sha256": "6ab045bb0d92ea40a27263f671e9047a61170fa9bcdbd92ee41b38bfa6d3e83c",
+          "source_url": "https://raw.githubusercontent.com/freecores/ecg/master/rtl/fun.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Elliptic_Curve/rtl/inc.v",
+          "bytes": 1382,
+          "sha256": "5ac82e38ff42d0deb53cc69b11817b58575e81137f28ad6a06348cad79925a51",
+          "source_url": "https://raw.githubusercontent.com/freecores/ecg/master/rtl/inc.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Elliptic_Curve/spec/elliptic_curve_group_doc.pdf",
+          "bytes": 601930,
+          "sha256": "43e7288f381592f625e3f60a1ded0013509eea8889259910bb8970fbe3a7b08b",
+          "source_url": "https://raw.githubusercontent.com/freecores/ecg/52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a/document/elliptic_curve_group_doc.pdf",
+          "kind": "original_module_specification",
+          "scope": "含point_add和point_scalar_mult接口、操作与时序"
+        },
+        {
+          "path": "Elliptic_Curve/spec/licenses/ecg/COPYING.LESSER.txt",
+          "bytes": 7816,
+          "sha256": "ea7d049c7705dc13afc202dd18e1827f3484f8212fd3fa7b82fc4a0c363432c9",
+          "source_url": "https://raw.githubusercontent.com/freecores/ecg/52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a/rtl/COPYING.LESSER.txt",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Elliptic_Curve/rtl/licenses/ecg/COPYING.LESSER.txt",
+          "bytes": 7816,
+          "sha256": "ea7d049c7705dc13afc202dd18e1827f3484f8212fd3fa7b82fc4a0c363432c9",
+          "source_url": "https://raw.githubusercontent.com/freecores/ecg/52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a/rtl/COPYING.LESSER.txt",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "design": "I2C",
+      "rtl_status": "rtl_available_correspondence_not_version_proven",
+      "match_status": "候选实现",
+      "spec_status": "已有候选原项目正式Spec；I2C名称不能唯一确认论文版本",
+      "source_projects": [
+        "https://github.com/freecores/i2c/tree/master/rtl/verilog"
+      ],
+      "files": [
+        {
+          "path": "I2C/rtl/i2c_master_bit_ctrl.v",
+          "bytes": 25252,
+          "sha256": "09e103a0abaef32a2666145166a51627682fbd050eb3bc64d4b0d8f94ab2fcfe",
+          "source_url": "https://raw.githubusercontent.com/freecores/i2c/master/rtl/verilog/i2c_master_bit_ctrl.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "I2C/rtl/i2c_master_byte_ctrl.v",
+          "bytes": 15219,
+          "sha256": "5e084e3cfcdd30ab7efe9e83dc2202d87a093a2cbe157c2efef0a6de25a45889",
+          "source_url": "https://raw.githubusercontent.com/freecores/i2c/master/rtl/verilog/i2c_master_byte_ctrl.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "I2C/rtl/i2c_master_defines.v",
+          "bytes": 3111,
+          "sha256": "a20cc941c1fbc35f0d24a8283d4683046c0d896860c5ece0ab0715f76a0458ba",
+          "source_url": "https://raw.githubusercontent.com/freecores/i2c/master/rtl/verilog/i2c_master_defines.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "I2C/rtl/i2c_master_top.v",
+          "bytes": 10871,
+          "sha256": "0382530c50abfede70ad5788d68b8a65272b189fe093e61c5635f63ccaa58577",
+          "source_url": "https://raw.githubusercontent.com/freecores/i2c/master/rtl/verilog/i2c_master_top.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "I2C/spec/i2c_specs.pdf",
+          "bytes": 211471,
+          "sha256": "d65ab1bc90ddaf8e73cc7005a4dd8a941230ba43fad42d99a390c36bc5d43758",
+          "source_url": "https://raw.githubusercontent.com/freecores/i2c/3b067f00ccced753b0502024766a51f58f3e04bc/doc/i2c_specs.pdf",
+          "kind": "original_module_specification",
+          "scope": "OpenCores I2C master原项目规格；I2C名称不能唯一证明论文版本"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "design": "Aon_timer",
+      "rtl_status": "rtl_available_correspondence_not_version_proven",
+      "match_status": "同名同功能项目",
+      "spec_status": "已有原项目设计Spec、寄存器定义和验证计划；commit可能晚于论文",
+      "source_projects": [
+        "https://github.com/lowRISC/opentitan/tree/master/hw/ip/aon_timer/rtl"
+      ],
+      "files": [
+        {
+          "path": "Aon_timer/rtl/aon_timer.sv",
+          "bytes": 9577,
+          "sha256": "196bc77d45f0e53a99644563a3bd25a44a10fa7fdcfd218d3951498ee629606d",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/master/hw/ip/aon_timer/rtl/aon_timer.sv",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Aon_timer/rtl/aon_timer_core.sv",
+          "bytes": 3178,
+          "sha256": "64636a5ea5cf95cd31ef0ec66e46c97358894579a194c5b83a194a92fb3a25eb",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/master/hw/ip/aon_timer/rtl/aon_timer_core.sv",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Aon_timer/rtl/aon_timer_reg_pkg.sv",
+          "bytes": 6893,
+          "sha256": "0f93ce3b206cdc56265886ab09088106c46dcc4b64c77f8c21ab56da25633177",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/master/hw/ip/aon_timer/rtl/aon_timer_reg_pkg.sv",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Aon_timer/rtl/aon_timer_reg_top.sv",
+          "bytes": 39676,
+          "sha256": "088aa7e8cac3e6f5da6da06685a9efddc45d85b866856e28668c06b1800dfab8",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/master/hw/ip/aon_timer/rtl/aon_timer_reg_top.sv",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Aon_timer/spec/data/aon_timer.hjson",
+          "bytes": 10965,
+          "sha256": "c6dbf313837d08fc7a86ebea4e0175a5f485f5a3477c820f04a39493ffa26b3d",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/data/aon_timer.hjson",
+          "kind": "original_design_specification",
+          "scope": "原项目设计Spec及寄存器源定义；此commit可能晚于ChatTest论文快照"
+        },
+        {
+          "path": "Aon_timer/spec/doc/aon_timer_block_diagram.svg",
+          "bytes": 107760,
+          "sha256": "e64c1b620cf3799bdb420b1644b708b5a96870e7bb3ed71c45a1d4fd4d90e8a4",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/doc/aon_timer_block_diagram.svg",
+          "kind": "original_design_specification",
+          "scope": "原项目设计Spec及寄存器源定义；此commit可能晚于ChatTest论文快照"
+        },
+        {
+          "path": "Aon_timer/spec/doc/interfaces.md",
+          "bytes": 3768,
+          "sha256": "9638a277fd57fb6bb1bc70484b811969d4d764f79eb09c9305f3513059560794",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/doc/interfaces.md",
+          "kind": "original_design_specification",
+          "scope": "原项目设计Spec及寄存器源定义；此commit可能晚于ChatTest论文快照"
+        },
+        {
+          "path": "Aon_timer/spec/doc/programmers_guide.md",
+          "bytes": 5259,
+          "sha256": "c64c9cfd38895401647e29601f830a47205db950e74a8a5e03c4f625682955e5",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/doc/programmers_guide.md",
+          "kind": "original_design_specification",
+          "scope": "原项目设计Spec及寄存器源定义；此commit可能晚于ChatTest论文快照"
+        },
+        {
+          "path": "Aon_timer/spec/doc/registers.md",
+          "bytes": 12131,
+          "sha256": "6200154bdaeb9044c0f5bdcd67aaa94a8da146f1ff78caa8d97aedd7e58dd2b7",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/doc/registers.md",
+          "kind": "original_design_specification",
+          "scope": "原项目设计Spec及寄存器源定义；此commit可能晚于ChatTest论文快照"
+        },
+        {
+          "path": "Aon_timer/spec/doc/theory_of_operation.md",
+          "bytes": 2701,
+          "sha256": "5833526573c0d2ad948c67bd372511bf377d606da1a4d574e30d76b2e565c706",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/doc/theory_of_operation.md",
+          "kind": "original_design_specification",
+          "scope": "原项目设计Spec及寄存器源定义；此commit可能晚于ChatTest论文快照"
+        },
+        {
+          "path": "Aon_timer/spec/README.md",
+          "bytes": 6002,
+          "sha256": "df57eac43eaa3de284807972cdd58daefd499ea3f615a17883b2675812464700",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/README.md",
+          "kind": "original_design_specification",
+          "scope": "原项目设计Spec及寄存器源定义；此commit可能晚于ChatTest论文快照"
+        },
+        {
+          "path": "Aon_timer/spec/verification/data/aon_timer_sec_cm_testplan.hjson",
+          "bytes": 1349,
+          "sha256": "aa39b2dfdfc695459b97c2178e6c360da3421ca687370b37cab9a41e864b07af",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/data/aon_timer_sec_cm_testplan.hjson",
+          "kind": "verification_plan",
+          "scope": "原项目验证计划与验证环境说明，独立于设计Spec分类"
+        },
+        {
+          "path": "Aon_timer/spec/verification/data/aon_timer_testplan.hjson",
+          "bytes": 5301,
+          "sha256": "ec8846753c611ee26478882a5ea887b9624d39f726b07a6be89a962bdaaf517a",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/data/aon_timer_testplan.hjson",
+          "kind": "verification_plan",
+          "scope": "原项目验证计划与验证环境说明，独立于设计Spec分类"
+        },
+        {
+          "path": "Aon_timer/spec/verification/dv/doc/domains.svg",
+          "bytes": 39105,
+          "sha256": "3a7f7396c914cd099aad11a8b8e037c5538378cd61cbd78f7333dd47b9e10a9e",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/doc/domains.svg",
+          "kind": "verification_plan",
+          "scope": "原项目验证计划与验证环境说明，独立于设计Spec分类"
+        },
+        {
+          "path": "Aon_timer/spec/verification/dv/doc/tb.svg",
+          "bytes": 49084,
+          "sha256": "5e967bf3fd00e953d5ae5675b04b0716ba1199fc0cf97089762396b963898f1f",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/doc/tb.svg",
+          "kind": "verification_plan",
+          "scope": "原项目验证计划与验证环境说明，独立于设计Spec分类"
+        },
+        {
+          "path": "Aon_timer/spec/verification/dv/README.md",
+          "bytes": 11047,
+          "sha256": "2d45084cb2c1539c687cb2c1fe7bb2abd56708edb5eac155faa0fab779866dd7",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/README.md",
+          "kind": "verification_plan",
+          "scope": "原项目验证计划与验证环境说明，独立于设计Spec分类"
+        },
+        {
+          "path": "Aon_timer/spec/verification/imports/hw/dv/tools/dvsim/testplans/alert_test_testplan.hjson",
+          "bytes": 1152,
+          "sha256": "d528544ca88a548a3de099fcfeddb832c0e016214d865e83f5c2368c1fc45500",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/dv/tools/dvsim/testplans/alert_test_testplan.hjson",
+          "kind": "verification_plan_dependency",
+          "scope": "两项OpenTitan验证计划引用的共享验证计划"
+        },
+        {
+          "path": "Aon_timer/spec/verification/imports/hw/dv/tools/dvsim/testplans/csr_testplan.hjson",
+          "bytes": 4790,
+          "sha256": "017ecfde886312665da88ac9f4b31e7e640ef3ca3d656ae24f57d300348f538f",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/dv/tools/dvsim/testplans/csr_testplan.hjson",
+          "kind": "verification_plan_dependency",
+          "scope": "两项OpenTitan验证计划引用的共享验证计划"
+        },
+        {
+          "path": "Aon_timer/spec/verification/imports/hw/dv/tools/dvsim/testplans/intr_test_testplan.hjson",
+          "bytes": 1073,
+          "sha256": "be7ba0d65e58a8a9cc94eb30b4b5acb20a9716f0a5967abbf52ee10739e4eed7",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/dv/tools/dvsim/testplans/intr_test_testplan.hjson",
+          "kind": "verification_plan_dependency",
+          "scope": "两项OpenTitan验证计划引用的共享验证计划"
+        },
+        {
+          "path": "Aon_timer/spec/verification/imports/hw/dv/tools/dvsim/testplans/mem_testplan.hjson",
+          "bytes": 1010,
+          "sha256": "10a7ae38830395dddae5895fdba9623de60141ab9b1f26e656370a998f907606",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/dv/tools/dvsim/testplans/mem_testplan.hjson",
+          "kind": "verification_plan_dependency",
+          "scope": "两项OpenTitan验证计划引用的共享验证计划"
+        },
+        {
+          "path": "Aon_timer/spec/verification/imports/hw/dv/tools/dvsim/testplans/stress_all_with_reset_testplan.hjson",
+          "bytes": 510,
+          "sha256": "aab1d8b00b2816514dc8cc40c3b3050fbff7b2a6392aa6be06c73ffdf35b6fea",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/dv/tools/dvsim/testplans/stress_all_with_reset_testplan.hjson",
+          "kind": "verification_plan_dependency",
+          "scope": "两项OpenTitan验证计划引用的共享验证计划"
+        },
+        {
+          "path": "Aon_timer/spec/verification/imports/hw/dv/tools/dvsim/testplans/tl_device_access_types_testplan.hjson",
+          "bytes": 1437,
+          "sha256": "a24dad965c7b7c5eaa591acc1ed8bb1e02be1dd0181cdac84d048c5217e61db1",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/dv/tools/dvsim/testplans/tl_device_access_types_testplan.hjson",
+          "kind": "verification_plan_dependency",
+          "scope": "两项OpenTitan验证计划引用的共享验证计划"
+        },
+        {
+          "path": "Aon_timer/spec/licenses/opentitan/LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Aon_timer/rtl/licenses/opentitan/LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Aon_timer/spec/licenses/opentitan/NOTICE",
+          "bytes": 695,
+          "sha256": "ef05d5dfb3baa6af69aab949ef01a0db4f79b974e090fa3c6ebdbc02b253dc21",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/NOTICE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Aon_timer/rtl/licenses/opentitan/NOTICE",
+          "bytes": 695,
+          "sha256": "ef05d5dfb3baa6af69aab949ef01a0db4f79b974e090fa3c6ebdbc02b253dc21",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/NOTICE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "design": "SDC_DMA",
+      "rtl_status": "rtl_available_correspondence_not_version_proven",
+      "match_status": "项目目录与功能匹配",
+      "spec_status": "已有原项目功能规格和设计说明",
+      "source_projects": [
+        "https://github.com/freecores/sdcard_mass_storage_controller/tree/master/rtl/sdc_dma/verilog"
+      ],
+      "files": [
+        {
+          "path": "SDC_DMA/rtl/sd_bd.v",
+          "bytes": 3541,
+          "sha256": "c8785650b4737387ddabff1a9889f793bd0f867b33af0ecb5613737c68e9be42",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/master/rtl/sdc_dma/verilog/sd_bd.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SDC_DMA/rtl/sd_clock_divider.v",
+          "bytes": 632,
+          "sha256": "17989453ae16ed0d2322462ddacf9290ea9a2f8f8411fef09d7a407ae1c0b163",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/master/rtl/sdc_dma/verilog/sd_clock_divider.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SDC_DMA/rtl/sd_cmd_master.v",
+          "bytes": 5932,
+          "sha256": "84843a9a21de8f14569f08d4e25beb76d993743b5c1a3410441da7d4dba0aafc",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/master/rtl/sdc_dma/verilog/sd_cmd_master.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SDC_DMA/rtl/sd_cmd_serial_host.v",
+          "bytes": 12911,
+          "sha256": "b402d8ca3ff08602c4b98d6a4fe65ad946496346f0c76fa454b66e640761c746",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/master/rtl/sdc_dma/verilog/sd_cmd_serial_host.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SDC_DMA/rtl/sd_controller_wb.v",
+          "bytes": 9018,
+          "sha256": "2a00cbaed3f0a0acf89e6d68ff6ccecabab612c4b64e876882fd9910f9bc740b",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/master/rtl/sdc_dma/verilog/sd_controller_wb.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SDC_DMA/rtl/sd_crc_16.v",
+          "bytes": 1476,
+          "sha256": "0bc5e7b1de5dd7a749829ef4606fc5c0acb87a0f5234955a4ee71a12028bd466",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/master/rtl/sdc_dma/verilog/sd_crc_16.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SDC_DMA/rtl/sd_crc_7.v",
+          "bytes": 821,
+          "sha256": "8013cfc26dd0d83b89c23b0ddfefb79caf9b81e06e725e402d87c91dfdf470c0",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/master/rtl/sdc_dma/verilog/sd_crc_7.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SDC_DMA/rtl/sd_data_master.v",
+          "bytes": 11698,
+          "sha256": "462df218d8aa94dd0ad17f58294d6ee3fc840c7e9fa3e6eba42c623427dffba7",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/master/rtl/sdc_dma/verilog/sd_data_master.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SDC_DMA/rtl/sd_data_serial_host.v",
+          "bytes": 9846,
+          "sha256": "40021686a337aa74e253fb505472e17650c935791af43bd26282f8f8c0b62e51",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/master/rtl/sdc_dma/verilog/sd_data_serial_host.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SDC_DMA/rtl/sd_defines.v",
+          "bytes": 1509,
+          "sha256": "25f4dc6996217cca4fe76a312890990526e7b48a170c30b95120c02be0a8c516",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/master/rtl/sdc_dma/verilog/sd_defines.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SDC_DMA/rtl/sd_fifo_rx_filler.v",
+          "bytes": 1616,
+          "sha256": "50b60aca932b71aecf32278e31b2a27a5a3b656e651cb33e92dfa1a08794d420",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/master/rtl/sdc_dma/verilog/sd_fifo_rx_filler.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SDC_DMA/rtl/sd_fifo_tx_filler.v",
+          "bytes": 1801,
+          "sha256": "70f8f71ed6b12ba0a367e57a309fcc6ba0eca4af060b125edb0aecfa6a9c99b2",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/master/rtl/sdc_dma/verilog/sd_fifo_tx_filler.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SDC_DMA/rtl/sd_rx_fifo.v",
+          "bytes": 3190,
+          "sha256": "5429a041616bbbe21e0504f2302f7b3ee11752a6909fd90def91188b8d52f9cf",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/master/rtl/sdc_dma/verilog/sd_rx_fifo.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SDC_DMA/rtl/sd_rx_fifo_tb.v",
+          "bytes": 1812,
+          "sha256": "52995513cd904a6c32d37c333116b3fddef900aec6924142ab98c09a70c10785",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/master/rtl/sdc_dma/verilog/sd_rx_fifo_tb.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SDC_DMA/rtl/sd_tx_fifo.v",
+          "bytes": 2029,
+          "sha256": "66b761799eb4d6363af7811ca47f6bb0d4de886b60fc7860848fb037b4a92149",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/master/rtl/sdc_dma/verilog/sd_tx_fifo.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SDC_DMA/rtl/sdc_controller.v",
+          "bytes": 15705,
+          "sha256": "64e2f8d8f7cea4cc4a717b535c0e0ee0cf3dfa7ae50ea38121edf1ea84cc06ac",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/master/rtl/sdc_dma/verilog/sdc_controller.v",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "SDC_DMA/spec/Design SDC_MMC controller.pdf",
+          "bytes": 421767,
+          "sha256": "de388c5ea3b80bf9ceb8aa4aef40823348cd40864320fc6aecff39d7f3753d57",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/e09d1db9da0aa2db58cabf521433c8257f10a451/doc/Design%20SDC_MMC%20controller.pdf",
+          "kind": "original_module_specification",
+          "scope": "原项目功能规格与设计说明，覆盖sdc_dma实现"
+        },
+        {
+          "path": "SDC_DMA/spec/Specification SDC_MMC controller.pdf",
+          "bytes": 316386,
+          "sha256": "4fcf31ed838b46a7a029b8bc5f5eb8b4fbb52e96ad6de206c984fdca28796b62",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/e09d1db9da0aa2db58cabf521433c8257f10a451/doc/Specification%20SDC_MMC%20controller.pdf",
+          "kind": "original_module_specification",
+          "scope": "原项目功能规格与设计说明，覆盖sdc_dma实现"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "design": "Spi_host",
+      "rtl_status": "rtl_available_correspondence_not_version_proven",
+      "match_status": "同名同功能项目",
+      "spec_status": "已有原项目设计Spec、寄存器定义和验证计划；commit可能晚于论文",
+      "source_projects": [
+        "https://github.com/lowRISC/opentitan/tree/master/hw/ip/spi_host/rtl"
+      ],
+      "files": [
+        {
+          "path": "Spi_host/spec/data/spi_host.hjson",
+          "bytes": 26252,
+          "sha256": "6a2c7fdc6bc041d006fd68c1f74c5991e286f007573866b429ec163240240be5",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/data/spi_host.hjson",
+          "kind": "original_design_specification",
+          "scope": "原项目设计Spec及寄存器源定义；此commit可能晚于ChatTest论文快照"
+        },
+        {
+          "path": "Spi_host/spec/doc/interfaces.md",
+          "bytes": 3850,
+          "sha256": "6b1d7a8a90bdd107cf462cba18bdb15fd43f8852e1b559e3def47ae40d28e798",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/doc/interfaces.md",
+          "kind": "original_design_specification",
+          "scope": "原项目设计Spec及寄存器源定义；此commit可能晚于ChatTest论文快照"
+        },
+        {
+          "path": "Spi_host/spec/doc/programmers_guide.md",
+          "bytes": 14324,
+          "sha256": "1d509c8ce4f953248664d01ed1437f5efe117aae2377b73553e0bc3514e95613",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/doc/programmers_guide.md",
+          "kind": "original_design_specification",
+          "scope": "原项目设计Spec及寄存器源定义；此commit可能晚于ChatTest论文快照"
+        },
+        {
+          "path": "Spi_host/spec/doc/registers.md",
+          "bytes": 28546,
+          "sha256": "ce105dc81ba7cfb5e6265c10ea3ae04dc0b5e17055014cd59804dbe1dbd95252",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/doc/registers.md",
+          "kind": "original_design_specification",
+          "scope": "原项目设计Spec及寄存器源定义；此commit可能晚于ChatTest论文快照"
+        },
+        {
+          "path": "Spi_host/spec/doc/spi_host_block_diagram.svg",
+          "bytes": 443970,
+          "sha256": "a57cf17cf94a159e81c06b48673e948ee8aacef967ecdf42b012cab0240a31b4",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/doc/spi_host_block_diagram.svg",
+          "kind": "original_design_specification",
+          "scope": "原项目设计Spec及寄存器源定义；此commit可能晚于ChatTest论文快照"
+        },
+        {
+          "path": "Spi_host/spec/doc/spi_host_bypassable_state.svg",
+          "bytes": 154997,
+          "sha256": "85f55a780d603e047f5b320d04c0f9ad9dddbff3c0ca4a33a43824c7fce17276",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/doc/spi_host_bypassable_state.svg",
+          "kind": "original_design_specification",
+          "scope": "原项目设计Spec及寄存器源定义；此commit可能晚于ChatTest论文快照"
+        },
+        {
+          "path": "Spi_host/spec/doc/spi_host_fsm_complete.svg",
+          "bytes": 422583,
+          "sha256": "ef0f12516731e6fedbb38f8b88e5569cd40a8ea5aea7842fa6e30de4288c9dbb",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/doc/spi_host_fsm_complete.svg",
+          "kind": "original_design_specification",
+          "scope": "原项目设计Spec及寄存器源定义；此commit可能晚于ChatTest论文快照"
+        },
+        {
+          "path": "Spi_host/spec/doc/spi_host_fsm_simplified.svg",
+          "bytes": 163778,
+          "sha256": "ee96dd520bd32aaa2c019960bebed4a354adc13324b964eb765a2f5481577fdd",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/doc/spi_host_fsm_simplified.svg",
+          "kind": "original_design_specification",
+          "scope": "原项目设计Spec及寄存器源定义；此commit可能晚于ChatTest论文快照"
+        },
+        {
+          "path": "Spi_host/spec/doc/spi_host_passthrough.svg",
+          "bytes": 302151,
+          "sha256": "cccb584bb2443fe76f33aa31a4d592f19781b1e9e64736f814628b4837d39380",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/doc/spi_host_passthrough.svg",
+          "kind": "original_design_specification",
+          "scope": "原项目设计Spec及寄存器源定义；此commit可能晚于ChatTest论文快照"
+        },
+        {
+          "path": "Spi_host/spec/doc/theory_of_operation.md",
+          "bytes": 97823,
+          "sha256": "b33f4ca68279ffb39f02447647b1c134787dd503cc0ee3bfec12b5bac24a8904",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/doc/theory_of_operation.md",
+          "kind": "original_design_specification",
+          "scope": "原项目设计Spec及寄存器源定义；此commit可能晚于ChatTest论文快照"
+        },
+        {
+          "path": "Spi_host/spec/README.md",
+          "bytes": 4721,
+          "sha256": "ed2da38f7c6c4eced668e825bb8c37c7a5911f513b2646c151031e497267ddbc",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/README.md",
+          "kind": "original_design_specification",
+          "scope": "原项目设计Spec及寄存器源定义；此commit可能晚于ChatTest论文快照"
+        },
+        {
+          "path": "Spi_host/rtl/spi_host.sv",
+          "bytes": 21730,
+          "sha256": "cf138a8b69249c303cc704a89a3391b021b639b80c5a4788be9bcd910e8e77ac",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/master/hw/ip/spi_host/rtl/spi_host.sv",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Spi_host/rtl/spi_host_byte_merge.sv",
+          "bytes": 1804,
+          "sha256": "68b2c02faa5893399cfa5c48151c67a1d251da1bfe553d2c09674dce8ecf2431",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/master/hw/ip/spi_host/rtl/spi_host_byte_merge.sv",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Spi_host/rtl/spi_host_byte_select.sv",
+          "bytes": 1517,
+          "sha256": "8fe85d2fb05aaa0abbc7742c3e136ab5e7af9143ddfdb902beaf67f6f3121b97",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/master/hw/ip/spi_host/rtl/spi_host_byte_select.sv",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Spi_host/rtl/spi_host_cmd_pkg.sv",
+          "bytes": 1141,
+          "sha256": "a9a44c9cc067c6b0904cfff2f3056b9312a475518be32e36efe0c8a951e1af8d",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/master/hw/ip/spi_host/rtl/spi_host_cmd_pkg.sv",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Spi_host/rtl/spi_host_command_queue.sv",
+          "bytes": 1839,
+          "sha256": "c91fd4aad8cd2bade7dd4e4010aeaa6fe4ad7b0a4fbf6b46f8b0e2d9690281ea",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/master/hw/ip/spi_host/rtl/spi_host_command_queue.sv",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Spi_host/rtl/spi_host_core.sv",
+          "bytes": 4296,
+          "sha256": "dc89b9b63ba31a219eef38999e77ae01b8e361007ef1eaf99306d5e50c72cd7b",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/master/hw/ip/spi_host/rtl/spi_host_core.sv",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Spi_host/rtl/spi_host_data_fifos.sv",
+          "bytes": 3907,
+          "sha256": "9dacf4e1bcb48c85aefc5e858a146974e88ee1a04599e1792bd456dfc9cb6860",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/master/hw/ip/spi_host/rtl/spi_host_data_fifos.sv",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Spi_host/rtl/spi_host_fsm.sv",
+          "bytes": 23071,
+          "sha256": "5324b93183a0475c5e955b76a7b1e9c1c9739e810a70d213491c5657837ee47c",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/master/hw/ip/spi_host/rtl/spi_host_fsm.sv",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Spi_host/rtl/spi_host_reg_pkg.sv",
+          "bytes": 9871,
+          "sha256": "d34380feed72b8111a9cdd44fcaf34893f724c1d25aa70ebd0d1152c35086d19",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/master/hw/ip/spi_host/rtl/spi_host_reg_pkg.sv",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Spi_host/rtl/spi_host_reg_top.sv",
+          "bytes": 51548,
+          "sha256": "31c6cbc9dab04d506ccddb3303a60cadbccf56c96c8d1e9662c11b5253b3e9d1",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/master/hw/ip/spi_host/rtl/spi_host_reg_top.sv",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Spi_host/rtl/spi_host_shift_register.sv",
+          "bytes": 3750,
+          "sha256": "8521227fb238f1962e34d671ffc274b5d43d7c4b5582549c00d6093fe5b0d2ce",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/master/hw/ip/spi_host/rtl/spi_host_shift_register.sv",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Spi_host/rtl/spi_host_window.sv",
+          "bytes": 4187,
+          "sha256": "1fdac5f75e14237f5d49edc9fc7d1cc0f9bb4b7bf101891ac8510d5caea40dd2",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/master/hw/ip/spi_host/rtl/spi_host_window.sv",
+          "kind": "rtl_source",
+          "scope": ""
+        },
+        {
+          "path": "Spi_host/spec/verification/data/spi_host_sec_cm_testplan.hjson",
+          "bytes": 1344,
+          "sha256": "39a59468a889d55404ad2e7e2b27c24a80a8382ae94069d22c01b09be650fcc0",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/data/spi_host_sec_cm_testplan.hjson",
+          "kind": "verification_plan",
+          "scope": "原项目验证计划与验证环境说明，独立于设计Spec分类"
+        },
+        {
+          "path": "Spi_host/spec/verification/data/spi_host_testplan.hjson",
+          "bytes": 14086,
+          "sha256": "b929968068dc6e11672e41ba09a836e5b8dd433a473edaf47f0a8e1227347aaf",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/data/spi_host_testplan.hjson",
+          "kind": "verification_plan",
+          "scope": "原项目验证计划与验证环境说明，独立于设计Spec分类"
+        },
+        {
+          "path": "Spi_host/spec/verification/dv/doc/tb.svg",
+          "bytes": 988467,
+          "sha256": "2261a6873160e2a3bb0b966c4799f9938d8b50b7194d3760a36056615d1614a4",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/doc/tb.svg",
+          "kind": "verification_plan",
+          "scope": "原项目验证计划与验证环境说明，独立于设计Spec分类"
+        },
+        {
+          "path": "Spi_host/spec/verification/dv/README.md",
+          "bytes": 9720,
+          "sha256": "8b57dcfc8f03d25c6ac7f71d31a701be1457a179d33c5f7d4f173990465ff543",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/README.md",
+          "kind": "verification_plan",
+          "scope": "原项目验证计划与验证环境说明，独立于设计Spec分类"
+        },
+        {
+          "path": "Spi_host/spec/verification/imports/hw/dv/tools/dvsim/testplans/alert_test_testplan.hjson",
+          "bytes": 1152,
+          "sha256": "d528544ca88a548a3de099fcfeddb832c0e016214d865e83f5c2368c1fc45500",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/dv/tools/dvsim/testplans/alert_test_testplan.hjson",
+          "kind": "verification_plan_dependency",
+          "scope": "两项OpenTitan验证计划引用的共享验证计划"
+        },
+        {
+          "path": "Spi_host/spec/verification/imports/hw/dv/tools/dvsim/testplans/csr_testplan.hjson",
+          "bytes": 4790,
+          "sha256": "017ecfde886312665da88ac9f4b31e7e640ef3ca3d656ae24f57d300348f538f",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/dv/tools/dvsim/testplans/csr_testplan.hjson",
+          "kind": "verification_plan_dependency",
+          "scope": "两项OpenTitan验证计划引用的共享验证计划"
+        },
+        {
+          "path": "Spi_host/spec/verification/imports/hw/dv/tools/dvsim/testplans/intr_test_testplan.hjson",
+          "bytes": 1073,
+          "sha256": "be7ba0d65e58a8a9cc94eb30b4b5acb20a9716f0a5967abbf52ee10739e4eed7",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/dv/tools/dvsim/testplans/intr_test_testplan.hjson",
+          "kind": "verification_plan_dependency",
+          "scope": "两项OpenTitan验证计划引用的共享验证计划"
+        },
+        {
+          "path": "Spi_host/spec/verification/imports/hw/dv/tools/dvsim/testplans/mem_testplan.hjson",
+          "bytes": 1010,
+          "sha256": "10a7ae38830395dddae5895fdba9623de60141ab9b1f26e656370a998f907606",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/dv/tools/dvsim/testplans/mem_testplan.hjson",
+          "kind": "verification_plan_dependency",
+          "scope": "两项OpenTitan验证计划引用的共享验证计划"
+        },
+        {
+          "path": "Spi_host/spec/verification/imports/hw/dv/tools/dvsim/testplans/stress_all_with_reset_testplan.hjson",
+          "bytes": 510,
+          "sha256": "aab1d8b00b2816514dc8cc40c3b3050fbff7b2a6392aa6be06c73ffdf35b6fea",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/dv/tools/dvsim/testplans/stress_all_with_reset_testplan.hjson",
+          "kind": "verification_plan_dependency",
+          "scope": "两项OpenTitan验证计划引用的共享验证计划"
+        },
+        {
+          "path": "Spi_host/spec/verification/imports/hw/dv/tools/dvsim/testplans/tl_device_access_types_testplan.hjson",
+          "bytes": 1437,
+          "sha256": "a24dad965c7b7c5eaa591acc1ed8bb1e02be1dd0181cdac84d048c5217e61db1",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/dv/tools/dvsim/testplans/tl_device_access_types_testplan.hjson",
+          "kind": "verification_plan_dependency",
+          "scope": "两项OpenTitan验证计划引用的共享验证计划"
+        },
+        {
+          "path": "Spi_host/spec/licenses/opentitan/LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Spi_host/rtl/licenses/opentitan/LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Spi_host/spec/licenses/opentitan/NOTICE",
+          "bytes": 695,
+          "sha256": "ef05d5dfb3baa6af69aab949ef01a0db4f79b974e090fa3c6ebdbc02b253dc21",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/NOTICE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Spi_host/rtl/licenses/opentitan/NOTICE",
+          "bytes": 695,
+          "sha256": "ef05d5dfb3baa6af69aab949ef01a0db4f79b974e090fa3c6ebdbc02b253dc21",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/NOTICE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        }
+      ]
+    }
+  ]
+}

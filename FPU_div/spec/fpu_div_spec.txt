@@ -1,0 +1,77 @@
+### 1. Module Name
+The name of this RTL module is `fpu_div`.
+
+### 2. Module Functions
+The `fpu_div` module is designed to perform floating-point division on two 64-bit IEEE 754 standard floating-point numbers. The primary functions and objectives of this module include:
+
+- **Division Operation**: It carries out the division of two floating-point numbers (`opa` and `opb`) and computes the quotient.
+- **Normalization and Denormalization Handling**: The module is capable of handling both normalized and denormalized numbers, ensuring accurate division results across a wide range of values.
+- **Sign Calculation**: It computes the sign of the result based on the signs of the input operands.
+- **Exponent Adjustment**: The module adjusts the exponent of the quotient based on the exponents of the operands and the division process.
+- **Mantissa Calculation**: It calculates the mantissa of the quotient, taking into consideration the division result and any necessary normalization.
+
+This module plays a critical role in systems requiring high-precision arithmetic operations, such as scientific computations, digital signal processing, and financial analysis.
+
+### 3. Input and Output Port Descriptions
+- **Inputs:**
+  - `clk`: Clock signal (input, 1 bit) - The clock signal for synchronizing the module's operations.
+  - `rst`: Reset signal (input, 1 bit) - Asynchronously resets the module when asserted.
+  - `enable`: Enable signal (input, 1 bit) - Starts the division operation when asserted.
+  - `opa`: Operand A (input, 64 bits) - The dividend in IEEE 754 floating-point format.
+  - `opb`: Operand B (input, 64 bits) - The divisor in IEEE 754 floating-point format.
+
+- **Outputs:**
+  - `sign`: Result sign (output, 1 bit) - The sign of the division result, determined by XORing the signs of the operands.
+  - `mantissa_7`: Result mantissa (output, 55 bits) - The mantissa of the division result, including normalization adjustments.
+  - `exponent_out`: Result exponent (output, 12 bits) - The exponent of the division result after adjusting for the division operation and normalization.
+
+### 4. Internal Working Principle
+The `fpu_div` module operates based on the principles of binary division adapted for floating-point numbers. The internal working principle can be summarized in the following steps:
+
+1. **Initialization**: Upon reset or when enabled, the module initializes internal registers and prepares for the division operation.
+
+2. **Sign Calculation**: The sign of the result is determined by XORing the signs of the two input operands.
+
+3. **Exponent and Mantissa Extraction**: The exponents and mantissas of the operands are extracted from the input floating-point numbers.
+
+4. **Normalization Check**: The module checks if the operands are normalized or denormalized and adjusts the mantissas accordingly.
+
+5. **Division Operation**: The division is performed on the mantissas of the operands. This involves shifting and subtracting operations in a loop controlled by the clock signal until the quotient is obtained.
+
+6. **Exponent Adjustment**: The exponent of the result is calculated based on the exponents of the operands and the shifts performed during the division. Underflow and overflow conditions are handled.
+
+7. **Result Normalization**: The quotient's mantissa is normalized if necessary, and the module ensures the result conforms to the IEEE 754 standard.
+
+8. **Output Generation**: The sign, adjusted exponent, and normalized mantissa are combined to form the final division result in IEEE 754 floating-point format.
+
+### 5. Implementation Logic Explanation
+
+The RTL module presented, named `fpu_div`, is designed to perform floating-point division on two 64-bit IEEE 754 standard floating-point numbers. The module operates in a synchronous manner, driven by a clock signal (`clk`) and a reset signal (`rst`). The division operation is initiated by an enable signal (`enable`), and the operands are provided through `opa` and `opb` inputs. The module outputs the sign, mantissa, and exponent of the division result according to the IEEE 754 standard format.
+
+#### Combinational Logic:
+
+- **Sign Calculation**: The sign of the result is determined by XORing the signs of the two operands (`opa[63]` and `opb[63]`), as per floating-point arithmetic rules.
+- **Normalization Checks**: The module checks whether each operand is normalized (i.e., the exponent is not all zeros) using the `a_is_norm` and `b_is_norm` signals. This is crucial for handling special cases such as zero, infinity, and denormalized numbers.
+- **Exponent Calculation**: The initial exponent of the result is computed by subtracting the exponent of `opb` from the exponent of `opa`, with adjustments made for normalization and underflow conditions. This involves several intermediate signals (`expon_term`, `expon_uf_term_1`, etc.) to handle the intricacies of IEEE 754 exponent arithmetic.
+- **Mantissa Calculation**: The mantissa division is performed using a binary division algorithm, with the dividend and divisor mantissas being shifted and subtracted iteratively. The quotient and remainder from this division form the basis of the result's mantissa and rounding logic.
+
+#### Sequential Logic:
+
+- **Pipeline Stages**: The module employs several pipeline stages, controlled by registers (`enable_reg`, `enable_reg_2`, etc.) that propagate the `enable` signal through the division process. This pipelining is necessary to break down the division operation into manageable steps that can be executed over multiple clock cycles.
+- **Division Algorithm**: The core of the division is implemented through sequential logic that iteratively shifts and subtracts the divisor from the dividend, accumulating the quotient bit by bit. This process is controlled by the `count_out` register, which tracks the progress of the division.
+- **Exponent and Mantissa Adjustment**: After the division, the exponent and mantissa are adjusted based on the final quotient and remainder. This includes handling cases where the result needs to be normalized or rounded, and adjusting the exponent for any shifts that were performed during the division.
+
+### 6. Internally Defined Signal Descriptions
+
+- **`dividend_reg`, `divisor_reg`**: Registers holding the current values of the dividend and divisor during the division process.
+- **`enable_reg`, `enable_reg_2`, ...**: Pipeline registers used to control the flow of the division operation across clock cycles.
+- **`dividend_shift`, `divisor_shift`**: Registers that store the number of positions the dividend and divisor mantissas have been shifted to achieve normalization.
+- **`count_out`**: A counter used to track the progress of the division algorithm, decrementing with each iteration until the division is complete.
+- **`exponent_out`**: The register holding the final calculated exponent of the division result.
+- **`quotient`, `remainder`**: Registers used to accumulate the quotient and remainder of the division as it progresses.
+- **`expon_term`, `expon_uf_term_1`, ...**: Intermediate registers involved in calculating the final exponent, handling underflow and normalization adjustments.
+- **`mantissa_1`, ...**: Intermediate registers used in calculating and adjusting the mantissa of the division result, including handling rounding.
+- **`remainder_a`, `remainder_b`**: Registers used in the calculation and adjustment of the remainder, which affects rounding of the final result.
+- **`remainder_shift_term`**: Register determining how much the remainder needs to be shifted for final rounding adjustments.
+
+This RTL module employs a combination of combinational and sequential logic to perform floating-point division, with careful attention to the IEEE 754 standard's requirements for handling special cases, normalization, and rounding. The use of pipeline stages and iterative algorithms allows the module to efficiently compute the division result over multiple clock cycles.
