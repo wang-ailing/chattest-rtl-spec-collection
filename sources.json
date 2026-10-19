@@ -486,30 +486,6 @@
           "scope": ""
         },
         {
-          "path": "Timer/spec/licenses/openc910/LICENSE",
-          "bytes": 11357,
-          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "Timer/rtl/licenses/openc910/LICENSE",
-          "bytes": 11357,
-          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "Timer/tb/licenses/openc910/LICENSE",
-          "bytes": 11357,
-          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
           "path": "Timer/tb/openc910/LICENSE",
           "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
           "upstream_git_blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
@@ -674,7 +650,10 @@
       ],
       "tb_status": "仅 C910 系统集成 TB；未找到独立模块 TB",
       "tb_notes": " 所收 C910 smart_run TB 需要完整 CPU/SoC RTL、构建环境及 inst.pat/data.pat 软件镜像，不能作为独立模块 TB。",
-      "tb_checked_date": "2026-10-19"
+      "tb_checked_date": "2026-10-19",
+      "license_files": [
+        "licenses/openc910/LICENSE"
+      ]
     },
     {
       "id": 11,
@@ -693,30 +672,6 @@
           "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/uart/uart_apb_reg.v",
           "kind": "rtl_source",
           "scope": ""
-        },
-        {
-          "path": "Uart_apb_reg/spec/licenses/openc910/LICENSE",
-          "bytes": 11357,
-          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "Uart_apb_reg/rtl/licenses/openc910/LICENSE",
-          "bytes": 11357,
-          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "Uart_apb_reg/tb/licenses/openc910/LICENSE",
-          "bytes": 11357,
-          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
         },
         {
           "path": "Uart_apb_reg/tb/openc910/LICENSE",
@@ -883,7 +838,10 @@
       ],
       "tb_status": "仅 C910 系统集成 TB；未找到独立模块 TB",
       "tb_notes": " 所收 C910 smart_run TB 需要完整 CPU/SoC RTL、构建环境及 inst.pat/data.pat 软件镜像，不能作为独立模块 TB。",
-      "tb_checked_date": "2026-10-19"
+      "tb_checked_date": "2026-10-19",
+      "license_files": [
+        "licenses/openc910/LICENSE"
+      ]
     },
     {
       "id": 12,
@@ -952,38 +910,6 @@
           "scope": "SHA3 Core Specification，含高低吞吐版本；当前RTL仅为候选对应"
         },
         {
-          "path": "SHA3/spec/licenses/sha3/LICENSE",
-          "bytes": 11358,
-          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "SHA3/rtl/licenses/sha3/LICENSE",
-          "bytes": 11358,
-          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "SHA3/spec/licenses/sha3/NOTICE",
-          "bytes": 690,
-          "sha256": "30e473be9cf8950964efe30abbd76bf2675f68fd8d24f488b16d7031ef49dcac",
-          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/NOTICE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "SHA3/rtl/licenses/sha3/NOTICE",
-          "bytes": 690,
-          "sha256": "30e473be9cf8950964efe30abbd76bf2675f68fd8d24f488b16d7031ef49dcac",
-          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/NOTICE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
           "path": "SHA3/tb/Read_Me.txt",
           "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/high_throughput_core/testbench/Read_Me.txt",
           "upstream_git_blob_sha": "1c33f95175f4ba864721b2752f50c6b91478c0b9",
@@ -991,22 +917,6 @@
           "kind": "upstream_testbench_material",
           "bytes": 526,
           "sha256": "f52e7b419c7a4caecdf1aa57030bc0e8a332a5d614890a00e4e5c96d94667a6a"
-        },
-        {
-          "path": "SHA3/tb/licenses/sha3/LICENSE",
-          "bytes": 11358,
-          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "SHA3/tb/licenses/sha3/NOTICE",
-          "bytes": 690,
-          "sha256": "30e473be9cf8950964efe30abbd76bf2675f68fd8d24f488b16d7031ef49dcac",
-          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/NOTICE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
         },
         {
           "path": "SHA3/tb/simulation.do",
@@ -1065,7 +975,11 @@
       ],
       "tb_status": "原项目高吞吐版本自检 TB",
       "tb_notes": "仅收录 high_throughput_core 对应测试；测试向量内嵌在 Verilog 中。",
-      "tb_checked_date": "2026-10-19"
+      "tb_checked_date": "2026-10-19",
+      "license_files": [
+        "licenses/sha3/LICENSE",
+        "licenses/sha3/NOTICE"
+      ]
     },
     {
       "id": 13,
@@ -1100,30 +1014,6 @@
           "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_ctrl.v",
           "kind": "rtl_source",
           "scope": ""
-        },
-        {
-          "path": "Ct_had_ctrl/spec/licenses/openc910/LICENSE",
-          "bytes": 11357,
-          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "Ct_had_ctrl/rtl/licenses/openc910/LICENSE",
-          "bytes": 11357,
-          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "Ct_had_ctrl/tb/licenses/openc910/LICENSE",
-          "bytes": 11357,
-          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
         },
         {
           "path": "Ct_had_ctrl/tb/openc910/LICENSE",
@@ -1290,7 +1180,10 @@
       ],
       "tb_status": "仅 C910 系统集成 TB；未找到 HAD 控制器独立 TB",
       "tb_notes": "ct_had_ctrl 是 CPU 内部控制模块；整机 TB 包含 CPU 不代表专门验证了该模块全部功能。 所收 C910 smart_run TB 需要完整 CPU/SoC RTL、构建环境及 inst.pat/data.pat 软件镜像，不能作为独立模块 TB。",
-      "tb_checked_date": "2026-10-19"
+      "tb_checked_date": "2026-10-19",
+      "license_files": [
+        "licenses/openc910/LICENSE"
+      ]
     },
     {
       "id": 14,
@@ -1320,60 +1213,12 @@
           "scope": ""
         },
         {
-          "path": "AXI_interconnect/spec/verilog-axi/verilog_axi_README.md",
+          "path": "AXI_interconnect/spec/verilog-axi/README.md",
           "bytes": 20806,
           "sha256": "99499ca09430eff2c4aca5ed472759e4090bf51c1dcef5e07b880f9a11fc3a61",
           "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/README.md",
           "kind": "original_interface_description",
           "scope": "仅适用于alexforencich候选的接口和参数说明，不适用于C910候选"
-        },
-        {
-          "path": "AXI_interconnect/spec/licenses/openc910/LICENSE",
-          "bytes": 11357,
-          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "AXI_interconnect/rtl/licenses/openc910/LICENSE",
-          "bytes": 11357,
-          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "AXI_interconnect/spec/licenses/verilog-axi/COPYING",
-          "bytes": 1057,
-          "sha256": "ba81481b2d63a33e0dce336d9e736130709549feeaf6cd424b34beba712baa50",
-          "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/COPYING",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "AXI_interconnect/rtl/licenses/verilog-axi/COPYING",
-          "bytes": 1057,
-          "sha256": "ba81481b2d63a33e0dce336d9e736130709549feeaf6cd424b34beba712baa50",
-          "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/COPYING",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "AXI_interconnect/tb/licenses/openc910/LICENSE",
-          "bytes": 11357,
-          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "AXI_interconnect/tb/licenses/verilog-axi/COPYING",
-          "bytes": 1057,
-          "sha256": "ba81481b2d63a33e0dce336d9e736130709549feeaf6cd424b34beba712baa50",
-          "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/COPYING",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
         },
         {
           "path": "AXI_interconnect/tb/openc910/LICENSE",
@@ -1630,7 +1475,11 @@
       ],
       "tb_status": "verilog-axi 单元 TB＋C910 系统集成 TB",
       "tb_notes": "verilog-axi/ 保存 cocotb 单元测试、历史 MyHDL 测试及 wrapper 依赖；openc910/ 为另一个候选的整机验证入口。两者不能合并。",
-      "tb_checked_date": "2026-10-19"
+      "tb_checked_date": "2026-10-19",
+      "license_files": [
+        "licenses/openc910/LICENSE",
+        "licenses/verilog-axi/COPYING"
+      ]
     },
     {
       "id": 15,
@@ -1649,30 +1498,6 @@
           "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/axi/axi2ahb.v",
           "kind": "rtl_source",
           "scope": ""
-        },
-        {
-          "path": "AXI2ahb/spec/licenses/openc910/LICENSE",
-          "bytes": 11357,
-          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "AXI2ahb/rtl/licenses/openc910/LICENSE",
-          "bytes": 11357,
-          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "AXI2ahb/tb/licenses/openc910/LICENSE",
-          "bytes": 11357,
-          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
         },
         {
           "path": "AXI2ahb/tb/openc910/LICENSE",
@@ -1839,7 +1664,10 @@
       ],
       "tb_status": "仅 C910 系统集成 TB；未找到独立模块 TB",
       "tb_notes": " 所收 C910 smart_run TB 需要完整 CPU/SoC RTL、构建环境及 inst.pat/data.pat 软件镜像，不能作为独立模块 TB。",
-      "tb_checked_date": "2026-10-19"
+      "tb_checked_date": "2026-10-19",
+      "license_files": [
+        "licenses/openc910/LICENSE"
+      ]
     },
     {
       "id": 16,
@@ -1900,22 +1728,6 @@
           "scope": "含point_add和point_scalar_mult接口、操作与时序"
         },
         {
-          "path": "Elliptic_Curve/spec/licenses/ecg/COPYING.LESSER.txt",
-          "bytes": 7816,
-          "sha256": "ea7d049c7705dc13afc202dd18e1827f3484f8212fd3fa7b82fc4a0c363432c9",
-          "source_url": "https://raw.githubusercontent.com/freecores/ecg/52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a/rtl/COPYING.LESSER.txt",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "Elliptic_Curve/rtl/licenses/ecg/COPYING.LESSER.txt",
-          "bytes": 7816,
-          "sha256": "ea7d049c7705dc13afc202dd18e1827f3484f8212fd3fa7b82fc4a0c363432c9",
-          "source_url": "https://raw.githubusercontent.com/freecores/ecg/52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a/rtl/COPYING.LESSER.txt",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
           "path": "Elliptic_Curve/tb/COPYING.LESSER.txt",
           "source_url": "https://raw.githubusercontent.com/freecores/ecg/52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a/testbench/COPYING.LESSER.txt",
           "upstream_git_blob_sha": "b14ca0a552d7e97012befc8f4949173e6ace87c9",
@@ -1932,14 +1744,6 @@
           "kind": "upstream_testbench_material",
           "bytes": 581,
           "sha256": "2ca55963fea6e02e9d826b6e6687b4af6ee3c7bafe7feb21c2bcecfbfde755f7"
-        },
-        {
-          "path": "Elliptic_Curve/tb/licenses/ecg/COPYING.LESSER.txt",
-          "bytes": 7816,
-          "sha256": "ea7d049c7705dc13afc202dd18e1827f3484f8212fd3fa7b82fc4a0c363432c9",
-          "source_url": "https://raw.githubusercontent.com/freecores/ecg/52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a/rtl/COPYING.LESSER.txt",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
         },
         {
           "path": "Elliptic_Curve/tb/simulation.do",
@@ -1971,7 +1775,10 @@
       ],
       "tb_status": "原项目点加和标量乘自检 TB",
       "tb_notes": "包含 test_point_add.v 和 test_point_scalar_mult.v，自检向量在 TB 中。",
-      "tb_checked_date": "2026-10-19"
+      "tb_checked_date": "2026-10-19",
+      "license_files": [
+        "licenses/ecg/COPYING.LESSER.txt"
+      ]
     },
     {
       "id": 17,
@@ -2260,39 +2067,7 @@
           "scope": "两项OpenTitan验证计划引用的共享验证计划"
         },
         {
-          "path": "Aon_timer/spec/licenses/opentitan/LICENSE",
-          "bytes": 11358,
-          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "Aon_timer/rtl/licenses/opentitan/LICENSE",
-          "bytes": 11358,
-          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "Aon_timer/spec/licenses/opentitan/NOTICE",
-          "bytes": 695,
-          "sha256": "ef05d5dfb3baa6af69aab949ef01a0db4f79b974e090fa3c6ebdbc02b253dc21",
-          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/NOTICE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "Aon_timer/rtl/licenses/opentitan/NOTICE",
-          "bytes": 695,
-          "sha256": "ef05d5dfb3baa6af69aab949ef01a0db4f79b974e090fa3c6ebdbc02b253dc21",
-          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/NOTICE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "Aon_timer/tb/UPSTREAM_README.md",
+          "path": "Aon_timer/tb/README.md",
           "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/README.md",
           "upstream_git_blob_sha": "00dae0320f08cfb377931d0b9c0babe1750174f9",
           "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
@@ -2562,22 +2337,6 @@
           "sha256": "0ade2f2f9f3a5784c72a584e536ca3553008b65cb4c657d3a50d1481248ff412"
         },
         {
-          "path": "Aon_timer/tb/licenses/opentitan/LICENSE",
-          "bytes": 11358,
-          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "Aon_timer/tb/licenses/opentitan/NOTICE",
-          "bytes": 695,
-          "sha256": "ef05d5dfb3baa6af69aab949ef01a0db4f79b974e090fa3c6ebdbc02b253dc21",
-          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/NOTICE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
           "path": "Aon_timer/tb/sva/aon_timer_bind.sv",
           "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/sva/aon_timer_bind.sv",
           "upstream_git_blob_sha": "d7b28fc00974d8dcc5c1b9517dc3d57a44406eb8",
@@ -2634,7 +2393,11 @@
       ],
       "tb_status": "原项目 UVM DV 目录快照",
       "tb_notes": "包含顶层、scoreboard、功能覆盖率、测试序列、断言和配置；需要 CIP、RAL、usbdev_env 等公共依赖。",
-      "tb_checked_date": "2026-10-19"
+      "tb_checked_date": "2026-10-19",
+      "license_files": [
+        "licenses/opentitan/LICENSE",
+        "licenses/opentitan/NOTICE"
+      ]
     },
     {
       "id": 19,
@@ -3187,39 +2950,7 @@
           "scope": "两项OpenTitan验证计划引用的共享验证计划"
         },
         {
-          "path": "Spi_host/spec/licenses/opentitan/LICENSE",
-          "bytes": 11358,
-          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "Spi_host/rtl/licenses/opentitan/LICENSE",
-          "bytes": 11358,
-          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "Spi_host/spec/licenses/opentitan/NOTICE",
-          "bytes": 695,
-          "sha256": "ef05d5dfb3baa6af69aab949ef01a0db4f79b974e090fa3c6ebdbc02b253dc21",
-          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/NOTICE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "Spi_host/rtl/licenses/opentitan/NOTICE",
-          "bytes": 695,
-          "sha256": "ef05d5dfb3baa6af69aab949ef01a0db4f79b974e090fa3c6ebdbc02b253dc21",
-          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/NOTICE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "Spi_host/tb/UPSTREAM_README.md",
+          "path": "Spi_host/tb/README.md",
           "bytes": 9720,
           "sha256": "8b57dcfc8f03d25c6ac7f71d31a701be1457a179d33c5f7d4f173990465ff543",
           "upstream_git_blob_sha": "f2b22f396c715040d7582cf6a4c14b265fac03f5",
@@ -3543,22 +3274,6 @@
           "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
         },
         {
-          "path": "Spi_host/tb/licenses/opentitan/LICENSE",
-          "bytes": 11358,
-          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/LICENSE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
-          "path": "Spi_host/tb/licenses/opentitan/NOTICE",
-          "bytes": 695,
-          "sha256": "ef05d5dfb3baa6af69aab949ef01a0db4f79b974e090fa3c6ebdbc02b253dc21",
-          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/NOTICE",
-          "kind": "upstream_license_or_notice",
-          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
-        },
-        {
           "path": "Spi_host/tb/spi_host_fsm_if.sv",
           "bytes": 1226,
           "sha256": "44de0b774fae76bc3ae46c1ca4a90c3a1f036d02b1c90b95172410abe3ca6363",
@@ -3650,8 +3365,99 @@
         }
       ],
       "testbench_upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
-      "tb_status": "已收录原项目IP专属DV目录46个上游文件；公共依赖需原工程提供，未运行仿真"
+      "tb_status": "已收录原项目IP专属DV目录46个上游文件；公共依赖需原工程提供，未运行仿真",
+      "license_files": [
+        "licenses/opentitan/LICENSE",
+        "licenses/opentitan/NOTICE"
+      ]
     }
   ],
-  "tb_checked_date": "2026-10-19"
+  "tb_checked_date": "2026-10-19",
+  "shared_licenses": [
+    {
+      "path": "licenses/ecg/COPYING.LESSER.txt",
+      "bytes": 7816,
+      "sha256": "ea7d049c7705dc13afc202dd18e1827f3484f8212fd3fa7b82fc4a0c363432c9",
+      "source_url": "https://raw.githubusercontent.com/freecores/ecg/52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a/rtl/COPYING.LESSER.txt",
+      "kind": "upstream_license_or_notice",
+      "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可",
+      "applies_to": [
+        "Elliptic_Curve"
+      ]
+    },
+    {
+      "path": "licenses/openc910/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+      "kind": "upstream_license_or_notice",
+      "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可",
+      "applies_to": [
+        "AXI2ahb",
+        "AXI_interconnect",
+        "Ct_had_ctrl",
+        "Timer",
+        "Uart_apb_reg"
+      ]
+    },
+    {
+      "path": "licenses/opentitan/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/LICENSE",
+      "kind": "upstream_license_or_notice",
+      "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可",
+      "applies_to": [
+        "Aon_timer",
+        "Spi_host"
+      ]
+    },
+    {
+      "path": "licenses/opentitan/NOTICE",
+      "bytes": 695,
+      "sha256": "ef05d5dfb3baa6af69aab949ef01a0db4f79b974e090fa3c6ebdbc02b253dc21",
+      "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/NOTICE",
+      "kind": "upstream_license_or_notice",
+      "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可",
+      "applies_to": [
+        "Aon_timer",
+        "Spi_host"
+      ]
+    },
+    {
+      "path": "licenses/sha3/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/LICENSE",
+      "kind": "upstream_license_or_notice",
+      "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可",
+      "applies_to": [
+        "SHA3"
+      ]
+    },
+    {
+      "path": "licenses/sha3/NOTICE",
+      "bytes": 690,
+      "sha256": "30e473be9cf8950964efe30abbd76bf2675f68fd8d24f488b16d7031ef49dcac",
+      "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/NOTICE",
+      "kind": "upstream_license_or_notice",
+      "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可",
+      "applies_to": [
+        "SHA3"
+      ]
+    },
+    {
+      "path": "licenses/verilog-axi/COPYING",
+      "bytes": 1057,
+      "sha256": "ba81481b2d63a33e0dce336d9e736130709549feeaf6cd424b34beba712baa50",
+      "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/COPYING",
+      "kind": "upstream_license_or_notice",
+      "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可",
+      "applies_to": [
+        "AXI_interconnect"
+      ]
+    }
+  ],
+  "layout_policy": "rtl/spec/tb 内只保留上游原始文件；整理说明和来源清单位于仓库根目录。缺项不使用子目录占位文件。",
+  "layout_checked_date": "2026-10-19"
 }
