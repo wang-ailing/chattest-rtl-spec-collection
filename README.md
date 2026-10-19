@@ -1,5 +1,11 @@
 # ChatTest RTL and Spec Collection
 
+> **非官方仓库 / Unofficial repository**
+>
+> 本仓库是个人整理的非官方资料集合，不是 ChatTest 论文作者发布的官方代码、数据集或复现仓库，也不代表任何上游项目。
+> 收集的 RTL 和 Spec 尚未确认与论文实验使用的文本及版本完全一致。
+> 原始材料的版权和许可归各自上游作者或权利人所有。
+
 按 ChatTest 论文 Table II 的 20 项设计整理的源码与规格资料。
 
 每个设计目录包含 `spec/` 和 `rtl/`。资料来自原项目或公开 benchmark；
