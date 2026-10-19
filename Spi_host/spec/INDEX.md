@@ -31,3 +31,5 @@
 | [licenses/opentitan/NOTICE](licenses/opentitan/NOTICE) | [原始来源](https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/NOTICE) | upstream_license_or_notice |
 
 verification/ 是验证计划与环境说明；imports/ 保存其共享计划附件。
+
+完整 IP 专属 TB 源码快照和配置见相邻的 [`../tb/`](../tb/)；本目录的 verification/ 主要保存验证说明及测试计划。

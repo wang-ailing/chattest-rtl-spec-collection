@@ -39,6 +39,8 @@
 | 19 | [SDC_DMA](SDC_DMA/) | 已有原项目功能规格和设计说明 |
 | 20 | [Spi_host](Spi_host/) | 已有原项目设计Spec、寄存器定义和验证计划；commit可能晚于论文 |
 
+SPI_HOST 的公开验证源码与配置见 [`Spi_host/tb/`](Spi_host/tb/)，与该设计的 `rtl/`、`spec/` 并列。
+
 ## 文件来源与校验
 
 `sources.json` 记录每个原始文件的相对路径、下载来源及 SHA-256。

@@ -1398,8 +1398,440 @@
           "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/NOTICE",
           "kind": "upstream_license_or_notice",
           "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Spi_host/tb/UPSTREAM_README.md",
+          "bytes": 9720,
+          "sha256": "8b57dcfc8f03d25c6ac7f71d31a701be1457a179d33c5f7d4f173990465ff543",
+          "upstream_git_blob_sha": "f2b22f396c715040d7582cf6a4c14b265fac03f5",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/README.md",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/cov/spi_host_cov.core",
+          "bytes": 518,
+          "sha256": "1e810cf51223dbfd2890cfa8046ce38e88da7c3087fe3d98fbc9bd2f29a99f18",
+          "upstream_git_blob_sha": "2c8f5d34361d294485dff5b5b4717de4f9062c34",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/cov/spi_host_cov.core",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/cov/spi_host_cov_bind.sv",
+          "bytes": 365,
+          "sha256": "b674068e126c316913afed16d5311db7a838f68396182cb5df08e5fdd3cf296f",
+          "upstream_git_blob_sha": "0b15cd81ffa96c0dbd8c4a241310c4c4dfe7b390",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/cov/spi_host_cov_bind.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/cov/spi_host_cov_if.sv",
+          "bytes": 584,
+          "sha256": "08aa934f8e33044331847d8f84fa11dedeaff9012f2c5863c975a02bfc0bc8a8",
+          "upstream_git_blob_sha": "2327135a6accd4acbf6797fdf6265ceb3760f9fc",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/cov/spi_host_cov_if.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/cov/spi_host_unr_excl.vRefine",
+          "bytes": 94800,
+          "sha256": "4340c0b4a7438c185fbeb4d527b60bd77d85b26976018c5f83ec59f6295918e4",
+          "upstream_git_blob_sha": "e7dd6782c5a89e5c060e8f6eba40bccf397f09be",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/cov/spi_host_unr_excl.vRefine",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/doc/tb.svg",
+          "bytes": 988467,
+          "sha256": "2261a6873160e2a3bb0b966c4799f9938d8b50b7194d3760a36056615d1614a4",
+          "upstream_git_blob_sha": "a7f7fff11631e71455957433f7e0bdeea993b8fe",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/doc/tb.svg",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/seq_lib/spi_host_base_vseq.sv",
+          "bytes": 27236,
+          "sha256": "8b8400a4eea35af72ad16c017ed06756815c2a94e9e41a37d422128f681ced57",
+          "upstream_git_blob_sha": "1010bfd4fee96007e6c4f9fc43c01383dde61ddf",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/seq_lib/spi_host_base_vseq.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/seq_lib/spi_host_common_vseq.sv",
+          "bytes": 770,
+          "sha256": "23e4a8fb88109b2bae3091826fadd8cbbcbdb6d06e169a519f2ed15cfc1399aa",
+          "upstream_git_blob_sha": "6e32181b485cbfb24047b652f4fd41a2a20bde3d",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/seq_lib/spi_host_common_vseq.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/seq_lib/spi_host_error_cmd_vseq.sv",
+          "bytes": 1423,
+          "sha256": "fc7c4a6388031adec9dad4f2654b28c0604059d55f71a0d25c35e85c50f7328a",
+          "upstream_git_blob_sha": "77001ecd8b2cc21663e7a271ddb3091a9dcec4f9",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/seq_lib/spi_host_error_cmd_vseq.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/seq_lib/spi_host_event_vseq.sv",
+          "bytes": 4172,
+          "sha256": "df092354aa8e78154d2738863b5f45611f24714d7807ee7f210c3ed7c289d54f",
+          "upstream_git_blob_sha": "7eaddcb7548c9343d86a526725eab1ac246574ad",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/seq_lib/spi_host_event_vseq.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/seq_lib/spi_host_idlecsbactive_vseq.sv",
+          "bytes": 2692,
+          "sha256": "02009616ab40b48c9fe17d874756de488cd26850ae3bc56c4ae581d562f3398f",
+          "upstream_git_blob_sha": "2f1853a99f76c8b3e57769803c7b221928559a44",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/seq_lib/spi_host_idlecsbactive_vseq.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/seq_lib/spi_host_overflow_underflow_vseq.sv",
+          "bytes": 2299,
+          "sha256": "c51ec9ad044ee8191b78bae09371a49c6e98d42b9de9181e8e4a8557e13006c0",
+          "upstream_git_blob_sha": "472a9391b0a32344dd1798e262367e063c4f5550",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/seq_lib/spi_host_overflow_underflow_vseq.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/seq_lib/spi_host_passthrough_mode_vseq.sv",
+          "bytes": 2789,
+          "sha256": "d4cf25fac6a26a341969ff66458ad143ae05385f72375b3788b97be79368cfc0",
+          "upstream_git_blob_sha": "9d2066cb2137f17746df7e2ec2b181523406ba88",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/seq_lib/spi_host_passthrough_mode_vseq.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/seq_lib/spi_host_performance_vseq.sv",
+          "bytes": 1932,
+          "sha256": "db51266474b7735eff2c28e35977b3513bd46ad4d42e867e824308c472db2317",
+          "upstream_git_blob_sha": "849ed626cf49342e32e7c6bb498baf27e4ac8262",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/seq_lib/spi_host_performance_vseq.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/seq_lib/spi_host_smoke_vseq.sv",
+          "bytes": 1482,
+          "sha256": "dc6db6408b01346b6a6e995e87b8e181a57cbd236fe733f313505b1fe545ae23",
+          "upstream_git_blob_sha": "69edd7f8598ab98d67e5fbe3803b993bc6a2285d",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/seq_lib/spi_host_smoke_vseq.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/seq_lib/spi_host_speed_vseq.sv",
+          "bytes": 1704,
+          "sha256": "ea2d8fc426fd0f16d97d7f9235a841c07139b3aa27ba6c1d995ee84d0b9a16c0",
+          "upstream_git_blob_sha": "06981719e0761d63af495bef7dfb1b30465f6355",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/seq_lib/spi_host_speed_vseq.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/seq_lib/spi_host_spien_vseq.sv",
+          "bytes": 2479,
+          "sha256": "6abd18729edaa3aaec2b62c46ff921fe89762f362bdaa564757dd4a4e584ab46",
+          "upstream_git_blob_sha": "5bb25074183ae833dacfc9a7891eab1d6ce784c0",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/seq_lib/spi_host_spien_vseq.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/seq_lib/spi_host_status_stall_vseq.sv",
+          "bytes": 7673,
+          "sha256": "9f723aa212e42a7d434666a53140ba470e1eebfed7c1e6c0b17fe1dd060d74a5",
+          "upstream_git_blob_sha": "e1da777449a5beab755008fcdc20b2adfe80ffaf",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/seq_lib/spi_host_status_stall_vseq.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/seq_lib/spi_host_stress_all_vseq.sv",
+          "bytes": 1463,
+          "sha256": "69becbcd4ead108fbcec850732e4ce925cad31255bc4fb8cef6c6d8e71faa314",
+          "upstream_git_blob_sha": "288e2548a00462604e2f0735775b596c9d6331e4",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/seq_lib/spi_host_stress_all_vseq.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/seq_lib/spi_host_sw_reset_vseq.sv",
+          "bytes": 3558,
+          "sha256": "ed18aecf7b3655bb7d59418475254437a42c4045c9adacd74a6bc5fcdc0cf423",
+          "upstream_git_blob_sha": "2430de1f1577983082b7ac2657437c4b6db0d6b9",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/seq_lib/spi_host_sw_reset_vseq.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/seq_lib/spi_host_tx_rx_vseq.sv",
+          "bytes": 5997,
+          "sha256": "0053b31da6ff03149b235a5acbe4c6a9f578f315b400302239bfddd61d28f925",
+          "upstream_git_blob_sha": "f7a711503486d4c07090aecc6ad6a756921eb40f",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/seq_lib/spi_host_tx_rx_vseq.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/seq_lib/spi_host_upper_range_clkdiv_vseq.sv",
+          "bytes": 2606,
+          "sha256": "2e7dbe91c893ed8f8a1659af07b3a11186b9b762bcfc00035a5d242e70127f7d",
+          "upstream_git_blob_sha": "5e16e226155e140577426f5c45499150ca4b48ce",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/seq_lib/spi_host_upper_range_clkdiv_vseq.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/seq_lib/spi_host_vseq_list.sv",
+          "bytes": 785,
+          "sha256": "2ceeda5f64e7dde9f76eaaf16d7f23a64b865dc4cd07bb02a243b895a0bcad27",
+          "upstream_git_blob_sha": "f7baa7aa425123d9af44fbb1ef9c0eb2859e29a4",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/seq_lib/spi_host_vseq_list.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/spi_host_env.core",
+          "bytes": 2334,
+          "sha256": "8e49906431cf45652df4771bb8b7ceca0d4aae89e313e949fef377b44e4e5881",
+          "upstream_git_blob_sha": "95455569b3ed83eec94c654c4442756178d073a3",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/spi_host_env.core",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/spi_host_env.sv",
+          "bytes": 1885,
+          "sha256": "d285b9864dd194a96cf7d085e18e7da455faebb2c8a328d17b710233a19cf038",
+          "upstream_git_blob_sha": "31082ef62d9595ae49aab0b0ddebb81aff046cc7",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/spi_host_env.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/spi_host_env_cfg.sv",
+          "bytes": 3748,
+          "sha256": "db0b19725b1f31ddc37dde5bd715ae459fe4a4bfc74964a2fd54ac6a80868b28",
+          "upstream_git_blob_sha": "db9e319f1f4ea59199442f62291a2b09aeef0a39",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/spi_host_env_cfg.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/spi_host_env_cfg_pkg.core",
+          "bytes": 414,
+          "sha256": "50cfb8dec277097e9a5aa14ae698614568384fb2689d8f2cda16a1d0475a5242",
+          "upstream_git_blob_sha": "09fe24641b6fb8aef4b4f823f27d5c7378acbb2b",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/spi_host_env_cfg_pkg.core",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/spi_host_env_cfg_pkg.sv",
+          "bytes": 301,
+          "sha256": "76cc49b38bda33b46a0d6676986c43bf0c5db2995d8f5c19cb56dca405244616",
+          "upstream_git_blob_sha": "7e0bee53c1cd1134f8e46084d5f6dbdea94f33f1",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/spi_host_env_cfg_pkg.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/spi_host_env_cov.sv",
+          "bytes": 8688,
+          "sha256": "2538d6d57d2458feb7736c59ff2d472a852b6053f14d87f49f24a4035f54b4d7",
+          "upstream_git_blob_sha": "70020cd81f42ed5a6999d631ef53aa06948eb1c3",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/spi_host_env_cov.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/spi_host_env_pkg.sv",
+          "bytes": 5585,
+          "sha256": "77bf4121c4e0e93307a518ebcb6ea95d30364f7fc7b11f3fd2b576bff4f63e60",
+          "upstream_git_blob_sha": "2e1b370af46ca68bc3650041d4383378301e097d",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/spi_host_env_pkg.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/spi_host_scoreboard.sv",
+          "bytes": 38448,
+          "sha256": "26939e18fa2112fba3ee703fe3595806996a39a79937c6aacb74e8abb64460e9",
+          "upstream_git_blob_sha": "4341a3d4b6a5102172550b103ff641ed37462bab",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/spi_host_scoreboard.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/spi_host_seq_cfg.sv",
+          "bytes": 2621,
+          "sha256": "e9333e32628e30d570c1e230b0768ff7c88fad12e18c159693ed58efcc68838c",
+          "upstream_git_blob_sha": "6c016665e366d82b61e9dc00cfaa9ce329085e18",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/spi_host_seq_cfg.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/spi_host_virtual_sequencer.sv",
+          "bytes": 453,
+          "sha256": "a56b9a339649028ab81840b646bc26f0d960bfed738e2a8b5317a02faa180629",
+          "upstream_git_blob_sha": "c3bf519561b4a5d8770c081e176833c62f08a066",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/spi_host_virtual_sequencer.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/spi_passthrough_if.sv",
+          "bytes": 574,
+          "sha256": "570857904687f21643dc91b116c61854401e8135a09bb2b1175db4172fab988b",
+          "upstream_git_blob_sha": "f17543578cd88e226d97ff5e19f7c8c414fad0df",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/spi_passthrough_if.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/spi_segment_item.sv",
+          "bytes": 5367,
+          "sha256": "30557eff5335c8ef340b27fbbddc26521fa8a7ed3f8dd702425e753b41218ad6",
+          "upstream_git_blob_sha": "8fa4e2d717b72f0361fbfa3461212a8ed11e7c9b",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/spi_segment_item.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/env/spi_transaction_item.sv",
+          "bytes": 4729,
+          "sha256": "c4e39f356fc2280f11fee805fc7bba03464e90964b3775c8c0708a545bf70629",
+          "upstream_git_blob_sha": "5be30d82ca7ad04b9cf0f3281b2238e2ef890fdd",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/env/spi_transaction_item.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/licenses/opentitan/LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Spi_host/tb/licenses/opentitan/NOTICE",
+          "bytes": 695,
+          "sha256": "ef05d5dfb3baa6af69aab949ef01a0db4f79b974e090fa3c6ebdbc02b253dc21",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/NOTICE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Spi_host/tb/spi_host_fsm_if.sv",
+          "bytes": 1226,
+          "sha256": "44de0b774fae76bc3ae46c1ca4a90c3a1f036d02b1c90b95172410abe3ca6363",
+          "upstream_git_blob_sha": "3ac0e3876279f9bb9bb10c7b0c3446e52b9c6c80",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/spi_host_fsm_if.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/spi_host_sim.core",
+          "bytes": 640,
+          "sha256": "5d363c62e9e74efdec6e8852bfffc0333d489b6e35f0655e0a7230091bb7d8d5",
+          "upstream_git_blob_sha": "5a345611be9bf59f8c522cf0d6e329fb8739fcdd",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/spi_host_sim.core",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/spi_host_sim_cfg.hjson",
+          "bytes": 3717,
+          "sha256": "ef22c6172fbf12dda5149bb5c3e6c7436cb8f3a427205ec4f0cea15ef4ec38d3",
+          "upstream_git_blob_sha": "9ebc684c647e91b0393eab4a91302f12dee63966",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/spi_host_sim_cfg.hjson",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/sva/spi_host_bind.sv",
+          "bytes": 753,
+          "sha256": "816b6e205e7084950bf99d16bc564436daed24eb8d08b2e37e0f9a639a09029a",
+          "upstream_git_blob_sha": "45d536bb30b9dc31fa6761d1407a660e121af544",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/sva/spi_host_bind.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/sva/spi_host_data_stable_sva.sv",
+          "bytes": 4836,
+          "sha256": "0c42316afa41d5d4269fa8065898b93ce007c562003b6d9e7cd7d4a05d8e5b94",
+          "upstream_git_blob_sha": "955360b3a4eb36e7889a868a8ab732e243be1b7a",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/sva/spi_host_data_stable_sva.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/sva/spi_host_sva.core",
+          "bytes": 870,
+          "sha256": "874caa9007bff28722e5c318211292b082506f2d194e4a9825fdbd81acbf0373",
+          "upstream_git_blob_sha": "da94bdd1ba298c071e8d86f7c3e5dec99dc09070",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/sva/spi_host_sva.core",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/tb.sv",
+          "bytes": 5555,
+          "sha256": "2914eeade15ccdcff045a9492103969aea097ccc1158b9ce62b8622b04c9113c",
+          "upstream_git_blob_sha": "f88a534b79b1f9175354af08589bd93f500823f7",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/tb.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/tests/spi_host_base_test.sv",
+          "bytes": 1004,
+          "sha256": "5ff0cff39b2a3db5b48e328da0e9852b32ad828a209e5ae94b28b3c920869ec5",
+          "upstream_git_blob_sha": "86eb66e85e60b30268634e7b11efb5b9fe2657dd",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/tests/spi_host_base_test.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/tests/spi_host_test.core",
+          "bytes": 496,
+          "sha256": "f1058de0003bbeef1b337f16ccba884f0a7b1a11172dc53c9929da6ddaf5db1c",
+          "upstream_git_blob_sha": "cdd547b6d77c0bee4c117f231028174e35fa2641",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/tests/spi_host_test.core",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
+        },
+        {
+          "path": "Spi_host/tb/tests/spi_host_test_pkg.sv",
+          "bytes": 498,
+          "sha256": "7601700cebdb98264a342eea8ce9f03a114c310cfad0f91921cc9d0883724fd2",
+          "upstream_git_blob_sha": "dca682f71575bfca50091fd75f9ba19efa71bce5",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/spi_host/dv/tests/spi_host_test_pkg.sv",
+          "kind": "upstream_testbench_source_or_configuration",
+          "scope": "OpenTitan SPI_HOST IP专属DV目录快照；共享依赖需要原项目工程提供"
         }
-      ]
+      ],
+      "testbench_upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+      "tb_status": "已收录原项目IP专属DV目录46个上游文件；公共依赖需原工程提供，未运行仿真"
     }
   ]
 }
