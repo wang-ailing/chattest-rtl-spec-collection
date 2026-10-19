@@ -28,3 +28,5 @@
 | [licenses/opentitan/NOTICE](licenses/opentitan/NOTICE) | [原始来源](https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/NOTICE) | upstream_license_or_notice |
 
 verification/ 是验证计划与环境说明；imports/ 保存其共享计划附件。
+
+TB 查找结果及已收录源码见相邻的 [`../tb/`](../tb/)：原项目 UVM DV 目录快照。

@@ -11,3 +11,5 @@
 | [licenses/openc910/LICENSE](licenses/openc910/LICENSE) | [原始来源](https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE) | upstream_license_or_notice |
 
 background/ 仅为 CPU 和调试子系统背景手册，独立 ct_had_ctrl Spec 仍缺失。
+
+TB 查找结果及已收录源码见相邻的 [`../tb/`](../tb/)：仅 C910 系统集成 TB；未找到 HAD 控制器独立 TB。

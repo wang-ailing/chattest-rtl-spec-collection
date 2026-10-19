@@ -7,3 +7,5 @@
 | 文件 | 来源 | 类别 |
 |---|---|---|
 | [tbu_spec.txt](tbu_spec.txt) | [原始来源](https://raw.githubusercontent.com/ChatDesignVerification/FIXME/e875437fbb11590b71775b32d3579726d702cfc6/data/TBGen/L3/Text/tbu/tbu_spec.txt) | benchmark_description |
+
+TB 查找结果及已收录源码见相邻的 [`../tb/`](../tb/)：同源 GenBen benchmark 比较 TB。

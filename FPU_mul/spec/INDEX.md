@@ -10,3 +10,5 @@
 | [Readme_pipeline.txt](Readme_pipeline.txt) | [原始来源](https://raw.githubusercontent.com/freecores/double_fpu/cf173d0b7cc13f0ec367c07f8b322850a1428c74/pipeline/Readme_pipeline.txt) | original_interface_description |
 
 FPU_mul 对应原项目 pipeline 版本；根目录非流水 FPU 的延迟参数不可直接套用。
+
+TB 查找结果及已收录源码见相邻的 [`../tb/`](../tb/)：原项目流水乘法器单元 TB。

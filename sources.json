@@ -27,8 +27,56 @@
           "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/FIXME/e875437fbb11590b71775b32d3579726d702cfc6/data/TBGen/L2/Text/adapter/adapter_spec.txt",
           "kind": "benchmark_description",
           "scope": "FIXME benchmark整理的模块描述，未证实为ChatTest输入Spec"
+        },
+        {
+          "path": "Adapter/tb/genben/dut.f",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/GenBen/a103f9a892e31bd1c410fe23663bc89f029c6fe9/data/Text/GS_39/dut.f",
+          "upstream_git_blob_sha": "9299aa6ac2767e4a4022c93e4fb699279e8ceed3",
+          "upstream_commit": "a103f9a892e31bd1c410fe23663bc89f029c6fe9",
+          "kind": "upstream_testbench_material",
+          "bytes": 27,
+          "sha256": "85f962db6f0a138db67a6c64fb84664cd2459a96548439499529589bb912a8bc"
+        },
+        {
+          "path": "Adapter/tb/genben/dut.v",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/GenBen/a103f9a892e31bd1c410fe23663bc89f029c6fe9/data/Text/GS_39/dut.v",
+          "upstream_git_blob_sha": "fc4713066ab3c0a16044a2d3ed35d6ac0c87ff46",
+          "upstream_commit": "a103f9a892e31bd1c410fe23663bc89f029c6fe9",
+          "kind": "upstream_testbench_material",
+          "bytes": 2562,
+          "sha256": "af3c71cb0854438a3cde79f943781c0d0c38602301e0866adeb2e968b13cf291"
+        },
+        {
+          "path": "Adapter/tb/genben/makefile",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/GenBen/a103f9a892e31bd1c410fe23663bc89f029c6fe9/data/Text/GS_39/makefile",
+          "upstream_git_blob_sha": "f2b0044890a734b1cce82571b7f0229a5e5d0373",
+          "upstream_commit": "a103f9a892e31bd1c410fe23663bc89f029c6fe9",
+          "kind": "upstream_testbench_material",
+          "bytes": 1000,
+          "sha256": "5a347956af99cde28ff4cf0a688d8bdaa6fd44b14388cf399a62e55dfded3ee2"
+        },
+        {
+          "path": "Adapter/tb/genben/ref.v",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/GenBen/a103f9a892e31bd1c410fe23663bc89f029c6fe9/data/Text/GS_39/ref.v",
+          "upstream_git_blob_sha": "1123f237ad6858e75d5763629e68c0a56e2d5eed",
+          "upstream_commit": "a103f9a892e31bd1c410fe23663bc89f029c6fe9",
+          "kind": "upstream_testbench_material",
+          "bytes": 2737,
+          "sha256": "1d00cf4fed3cf56c04f4aa0673a5d8e024d1bddb29f1d7e374d07baa15fb2da1"
+        },
+        {
+          "path": "Adapter/tb/genben/ref_tb.v",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/GenBen/a103f9a892e31bd1c410fe23663bc89f029c6fe9/data/Text/GS_39/ref_tb.v",
+          "upstream_git_blob_sha": "ca1f28f87b552032cd481b38ad0de9eb070d761b",
+          "upstream_commit": "a103f9a892e31bd1c410fe23663bc89f029c6fe9",
+          "kind": "upstream_testbench_material",
+          "bytes": 7520,
+          "sha256": "48aedd1f4fd45250a249b57976ddb2a4a6f58a2b05e370132ad5d37fed192be8"
         }
-      ]
+      ],
+      "tb_status": "同源 GenBen benchmark 比较 TB",
+      "tb_notes": "GenBen dut.v 与现有 RTL 在模块名、注释和空白归一化后对应；保留模块名为 top 的原始 benchmark DUT，以供其 ref_tb 使用。 未发现 GenBen 数据集独立许可证；保留原始声明和来源，不新增授权声明。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 2,
@@ -55,8 +103,56 @@
           "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/FIXME/e875437fbb11590b71775b32d3579726d702cfc6/data/TBGen/L3/Text/tbu/tbu_spec.txt",
           "kind": "benchmark_description",
           "scope": "FIXME benchmark整理的模块描述，未证实为ChatTest输入Spec"
+        },
+        {
+          "path": "TBU/tb/genben/dut.f",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/GenBen/a103f9a892e31bd1c410fe23663bc89f029c6fe9/data/Text/GA_72/dut.f",
+          "upstream_git_blob_sha": "9299aa6ac2767e4a4022c93e4fb699279e8ceed3",
+          "upstream_commit": "a103f9a892e31bd1c410fe23663bc89f029c6fe9",
+          "kind": "upstream_testbench_material",
+          "bytes": 27,
+          "sha256": "85f962db6f0a138db67a6c64fb84664cd2459a96548439499529589bb912a8bc"
+        },
+        {
+          "path": "TBU/tb/genben/dut.v",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/GenBen/a103f9a892e31bd1c410fe23663bc89f029c6fe9/data/Text/GA_72/dut.v",
+          "upstream_git_blob_sha": "b0c595b3e9a7320299b0096f7e9f8251c7b15e90",
+          "upstream_commit": "a103f9a892e31bd1c410fe23663bc89f029c6fe9",
+          "kind": "upstream_testbench_material",
+          "bytes": 5342,
+          "sha256": "0052b0f297444352039d37141f9a016d3f6f04edb58da1102a05e9bf7c112efe"
+        },
+        {
+          "path": "TBU/tb/genben/makefile",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/GenBen/a103f9a892e31bd1c410fe23663bc89f029c6fe9/data/Text/GA_72/makefile",
+          "upstream_git_blob_sha": "49d70e2b9b4917cf18e3c521d0d76cea19d17576",
+          "upstream_commit": "a103f9a892e31bd1c410fe23663bc89f029c6fe9",
+          "kind": "upstream_testbench_material",
+          "bytes": 865,
+          "sha256": "de1974fd4efad8cbbc2765709ba76331fc80e47c0896457754c9a7680734b5dc"
+        },
+        {
+          "path": "TBU/tb/genben/ref.v",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/GenBen/a103f9a892e31bd1c410fe23663bc89f029c6fe9/data/Text/GA_72/ref.v",
+          "upstream_git_blob_sha": "bd2f9796a1c7f44005c7238bc7211f9fc597763d",
+          "upstream_commit": "a103f9a892e31bd1c410fe23663bc89f029c6fe9",
+          "kind": "upstream_testbench_material",
+          "bytes": 5579,
+          "sha256": "099a35e4b3d7b92fe437b68a2e88c5fbea96ec5c79625cdf480259996049d9c2"
+        },
+        {
+          "path": "TBU/tb/genben/ref_tb.v",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/GenBen/a103f9a892e31bd1c410fe23663bc89f029c6fe9/data/Text/GA_72/ref_tb.v",
+          "upstream_git_blob_sha": "e95008b7ba9d8d9da9a4374892e80dca771d86a3",
+          "upstream_commit": "a103f9a892e31bd1c410fe23663bc89f029c6fe9",
+          "kind": "upstream_testbench_material",
+          "bytes": 4302,
+          "sha256": "45027dd3045649b2dd9f3ddabe76a5d7ee78e6ce5f66f76e6ed2c19678c90d32"
         }
-      ]
+      ],
+      "tb_status": "同源 GenBen benchmark 比较 TB",
+      "tb_notes": "GenBen dut.v 与现有 RTL 在模块名、注释和空白归一化后对应。原 TB 使用 force 操作内部 pstate。 未发现 GenBen 数据集独立许可证；保留原始声明和来源，不新增授权声明。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 3,
@@ -99,8 +195,38 @@
           "source_url": "https://raw.githubusercontent.com/freecores/double_fpu/cf173d0b7cc13f0ec367c07f8b322850a1428c74/pipeline/Readme_pipeline.txt",
           "kind": "original_interface_description",
           "scope": "流水版本原项目说明；适用于对应pipeline/fpu_mul.v"
+        },
+        {
+          "path": "FPU_mul/tb/double_fpu_pipeline/Readme_pipeline.txt",
+          "source_url": "https://raw.githubusercontent.com/freecores/double_fpu/cf173d0b7cc13f0ec367c07f8b322850a1428c74/pipeline/Readme_pipeline.txt",
+          "upstream_git_blob_sha": "591d709b9102f298761b0fce75252d94a049c26a",
+          "upstream_commit": "cf173d0b7cc13f0ec367c07f8b322850a1428c74",
+          "kind": "upstream_testbench_material",
+          "bytes": 2953,
+          "sha256": "2a357b0ad84129f837e596cf1b215fffb0838d55bbf06de3c8a1350c9270f080"
+        },
+        {
+          "path": "FPU_mul/tb/double_fpu_pipeline/fpu_mul.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/double_fpu/cf173d0b7cc13f0ec367c07f8b322850a1428c74/pipeline/fpu_mul.v",
+          "upstream_git_blob_sha": "b6095fc57cda623e17f26329a287749f402d47fd",
+          "upstream_commit": "cf173d0b7cc13f0ec367c07f8b322850a1428c74",
+          "kind": "upstream_testbench_material",
+          "bytes": 13931,
+          "sha256": "5f5efe3128d5d2c29e77dec7efa1933e7470566ebe296759f21cfc4aae3101b2"
+        },
+        {
+          "path": "FPU_mul/tb/double_fpu_pipeline/fpu_mul_TB.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/double_fpu/cf173d0b7cc13f0ec367c07f8b322850a1428c74/pipeline/fpu_mul_TB.v",
+          "upstream_git_blob_sha": "0fb973f64ed4e742ef021be5bef72a751c9fded8",
+          "upstream_commit": "cf173d0b7cc13f0ec367c07f8b322850a1428c74",
+          "kind": "upstream_testbench_material",
+          "bytes": 4705,
+          "sha256": "e0843c6a355efce0657f5b05ad48fe2f9a0001d40437c5b1606b5323335a88e5"
         }
-      ]
+      ],
+      "tb_status": "原项目流水乘法器单元 TB",
+      "tb_notes": "对应 double_fpu/pipeline/fpu_mul.v；不可与非流水 FPU 顶层 TB 混用。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 4,
@@ -151,8 +277,74 @@
           "source_url": "https://raw.githubusercontent.com/freecores/double_fpu/cf173d0b7cc13f0ec367c07f8b322850a1428c74/Readme.txt",
           "kind": "original_project_description",
           "scope": "完整FPU顶层说明；不能直接把顶层除法延迟作为fpu_div子模块延迟"
+        },
+        {
+          "path": "FPU_div/tb/genben/dut.f",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/GenBen/a103f9a892e31bd1c410fe23663bc89f029c6fe9/data/Text/GA_70/dut.f",
+          "upstream_git_blob_sha": "9299aa6ac2767e4a4022c93e4fb699279e8ceed3",
+          "upstream_commit": "a103f9a892e31bd1c410fe23663bc89f029c6fe9",
+          "kind": "upstream_testbench_material",
+          "bytes": 27,
+          "sha256": "85f962db6f0a138db67a6c64fb84664cd2459a96548439499529589bb912a8bc"
+        },
+        {
+          "path": "FPU_div/tb/genben/dut.v",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/GenBen/a103f9a892e31bd1c410fe23663bc89f029c6fe9/data/Text/GA_70/dut.v",
+          "upstream_git_blob_sha": "0c59bd5e80f9e2c17852f4088ac22f01f47fd6f3",
+          "upstream_commit": "a103f9a892e31bd1c410fe23663bc89f029c6fe9",
+          "kind": "upstream_testbench_material",
+          "bytes": 16044,
+          "sha256": "a7d9d23624daf2c59bf049c03640ff875c80adfa7fcad7152e984a49828a8866"
+        },
+        {
+          "path": "FPU_div/tb/genben/fpu_div_ref.cpp",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/GenBen/a103f9a892e31bd1c410fe23663bc89f029c6fe9/data/Text/GA_70/fpu_div_ref.cpp",
+          "upstream_git_blob_sha": "27125115f0058aa39c696973f407467aeb03a0e7",
+          "upstream_commit": "a103f9a892e31bd1c410fe23663bc89f029c6fe9",
+          "kind": "upstream_testbench_material",
+          "bytes": 1241,
+          "sha256": "f5131fc928b4ca397b6b7648951b2b49be2c5310eb74b2d66378deee8d71ef3e"
+        },
+        {
+          "path": "FPU_div/tb/genben/makefile",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/GenBen/a103f9a892e31bd1c410fe23663bc89f029c6fe9/data/Text/GA_70/makefile",
+          "upstream_git_blob_sha": "49d70e2b9b4917cf18e3c521d0d76cea19d17576",
+          "upstream_commit": "a103f9a892e31bd1c410fe23663bc89f029c6fe9",
+          "kind": "upstream_testbench_material",
+          "bytes": 865,
+          "sha256": "de1974fd4efad8cbbc2765709ba76331fc80e47c0896457754c9a7680734b5dc"
+        },
+        {
+          "path": "FPU_div/tb/genben/ref.v",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/GenBen/a103f9a892e31bd1c410fe23663bc89f029c6fe9/data/Text/GA_70/ref.v",
+          "upstream_git_blob_sha": "ec9bcd71da12e7d0834a3633c1f56dc82d273fe3",
+          "upstream_commit": "a103f9a892e31bd1c410fe23663bc89f029c6fe9",
+          "kind": "upstream_testbench_material",
+          "bytes": 16460,
+          "sha256": "d57d605b7d62b83b09c63a14ef1a829fdbdff596e1a7f507cfecd8460a55279d"
+        },
+        {
+          "path": "FPU_div/tb/genben/ref_output.txt",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/GenBen/a103f9a892e31bd1c410fe23663bc89f029c6fe9/data/Text/GA_70/ref_output.txt",
+          "upstream_git_blob_sha": "a7e1a131f5b8e2b1d56069d0388ca577448d267c",
+          "upstream_commit": "a103f9a892e31bd1c410fe23663bc89f029c6fe9",
+          "kind": "upstream_testbench_material",
+          "bytes": 21,
+          "sha256": "8f8c6255fbc4fc8ea637036352e20e56d954b46a8c87f4ef3aba6df7ac1ff379"
+        },
+        {
+          "path": "FPU_div/tb/genben/ref_tb.v",
+          "source_url": "https://raw.githubusercontent.com/ChatDesignVerification/GenBen/a103f9a892e31bd1c410fe23663bc89f029c6fe9/data/Text/GA_70/ref_tb.v",
+          "upstream_git_blob_sha": "ddc1d23766dc1f0ba20bfd333ff5ea7b6084f21f",
+          "upstream_commit": "a103f9a892e31bd1c410fe23663bc89f029c6fe9",
+          "kind": "upstream_testbench_material",
+          "bytes": 3229,
+          "sha256": "6687ea1b536eeac8528f211895a3d8cfc1337e5da61f03ddafe6315f9480ed44"
         }
-      ]
+      ],
+      "tb_status": "同源 GenBen benchmark 比较 TB；上游模型调用需检查",
+      "tb_notes": "GenBen dut.v 与现有 fpu_div 逻辑对应；原 TB 的 $system 模型调用被上游注释，仍读取 ref_output.txt。原样收录，未修复或运行。 未发现 GenBen 数据集独立许可证；保留原始声明和来源，不新增授权声明。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 5,
@@ -161,7 +353,10 @@
       "match_status": "尚未定位准确源码",
       "spec_status": "未找到可靠的模块源码及Spec",
       "source_projects": [],
-      "files": []
+      "files": [],
+      "tb_status": "未找到可确认对应的公开 TB",
+      "tb_notes": "尚未定位到可靠对应的公开 TB；未用其他同类设计替代。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 6,
@@ -170,7 +365,10 @@
       "match_status": "尚未定位准确源码",
       "spec_status": "未找到可靠的模块源码及Spec",
       "source_projects": [],
-      "files": []
+      "files": [],
+      "tb_status": "未找到可确认对应的公开 TB",
+      "tb_notes": "尚未定位到可靠对应的公开 TB；未用其他同类设计替代。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 7,
@@ -179,7 +377,10 @@
       "match_status": "尚未定位准确源码",
       "spec_status": "未找到可靠的模块源码及Spec",
       "source_projects": [],
-      "files": []
+      "files": [],
+      "tb_status": "未找到可确认对应的公开 TB",
+      "tb_notes": "尚未定位到可靠对应的公开 TB；未用其他同类设计替代。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 8,
@@ -249,7 +450,10 @@
           "kind": "integration_datasheet",
           "scope": "CoreMP7Bridge集成资料，非A7WrapSM全部内部行为规格"
         }
-      ]
+      ],
+      "tb_status": "未找到公开可读 TB；厂商 CPZ 不算 TB",
+      "tb_notes": "未找到可公开读取的 A7WrapSM TB 源码。已有 CPZ 包和手册不能证明已获得可读 TB。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 9,
@@ -258,7 +462,10 @@
       "match_status": "尚未定位准确源码",
       "spec_status": "未找到可靠的模块源码及Spec",
       "source_projects": [],
-      "files": []
+      "files": [],
+      "tb_status": "未找到可确认对应的公开 TB",
+      "tb_notes": "尚未定位到可靠对应的公开 TB；未用其他同类设计替代。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 10,
@@ -293,8 +500,181 @@
           "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
           "kind": "upstream_license_or_notice",
           "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Timer/tb/licenses/openc910/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Timer/tb/openc910/LICENSE",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "upstream_git_blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "Timer/tb/openc910/README.md",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/README.md",
+          "upstream_git_blob_sha": "c4febe774fac8e191100f8ecc66ef619d7e6245f",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 2481,
+          "sha256": "525250377119b40f3533ccb5df449e64190854c6ef5fa9fabc24882032698c79"
+        },
+        {
+          "path": "Timer/tb/openc910/smart_run/Makefile",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/Makefile",
+          "upstream_git_blob_sha": "86c06f3aaee6222df7917a6f52326e37bdbe7943",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 10302,
+          "sha256": "65018831694c8f47ac392208ee809357acdc3a2e454fd9def865c94d1a37ffae"
+        },
+        {
+          "path": "Timer/tb/openc910/smart_run/logical/filelists/ip.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/ip.fl",
+          "upstream_git_blob_sha": "7983ec178ec2227e336a8303f42ff5225b01c7b2",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 637,
+          "sha256": "91064bf5cb4c649090602e5d18769963736f18467bf000d7ea556bbe630385b8"
+        },
+        {
+          "path": "Timer/tb/openc910/smart_run/logical/filelists/sim.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/sim.fl",
+          "upstream_git_blob_sha": "1a61b3a8ad47c84386e60247622e1aa0423de8f8",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 674,
+          "sha256": "0ffb30569091d274f3038dd6c4c0491fa7090ed1b3aefa60b0714f818f086906"
+        },
+        {
+          "path": "Timer/tb/openc910/smart_run/logical/filelists/sim_verilator.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/sim_verilator.fl",
+          "upstream_git_blob_sha": "0acbfa2fd18ccd8554b3bad62664beba2028b467",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 684,
+          "sha256": "85f6d4ac9e4aaa7cc61d89d2bc80196c5727f65c2c00b8e16bf560d0c1d78155"
+        },
+        {
+          "path": "Timer/tb/openc910/smart_run/logical/filelists/smart.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/smart.fl",
+          "upstream_git_blob_sha": "1a8dffbd3bd9f8ea56b9b82571cc3eb5568259f2",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 794,
+          "sha256": "f726fa6606a816a412a8fe1261aa4fcd3a839456f35e9ea5da88490a8b5965c6"
+        },
+        {
+          "path": "Timer/tb/openc910/smart_run/logical/filelists/tb.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/tb.fl",
+          "upstream_git_blob_sha": "9f26d97d562beb39b6a37724f53f6294a684fb07",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 665,
+          "sha256": "fcede1c292014fa6360d82c75908da41fc64b13cbe9eb86e67d2982329d97851"
+        },
+        {
+          "path": "Timer/tb/openc910/smart_run/logical/filelists/tb_verilator.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/tb_verilator.fl",
+          "upstream_git_blob_sha": "b7948632f6d30ecc3dd65f474164aa1d68161b9e",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 703,
+          "sha256": "c5f1c3064c8adb6aac112852d1ff7cf383216f351cb02e888d2e8d46eee2557c"
+        },
+        {
+          "path": "Timer/tb/openc910/smart_run/logical/tb/Makefile_obj",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/Makefile_obj",
+          "upstream_git_blob_sha": "418970971024489292824d8839f6a2aeb30c0b20",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 1842,
+          "sha256": "4b3fec65cb8d7d962ea039321d12dfe4fc5656fd99ecef1cc39bf220829f177c"
+        },
+        {
+          "path": "Timer/tb/openc910/smart_run/logical/tb/int_mnt.v",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/int_mnt.v",
+          "upstream_git_blob_sha": "9f28ea4152a889baa52fc46b78549ca0665d6952",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 610,
+          "sha256": "0a0b1f326b30aa5afc768c04f37f8b08fe4633ee009daf644c99f0fb71974357"
+        },
+        {
+          "path": "Timer/tb/openc910/smart_run/logical/tb/sim_main1.cpp",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/sim_main1.cpp",
+          "upstream_git_blob_sha": "518b4d6adb7267423da2b77c924c12e3bf923642",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 4597,
+          "sha256": "7fe2cbecddd5c31e2548affa92c484b027fc38632a92d0cde8467bedb7faee12"
+        },
+        {
+          "path": "Timer/tb/openc910/smart_run/logical/tb/tb.v",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/tb.v",
+          "upstream_git_blob_sha": "788307145764332f89f46fe42de7e335ebd3d9de",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 12256,
+          "sha256": "8f0dba41508b0cd666b5a4dabae8709d0dcf6edcaf34483de4eaca5663dee17a"
+        },
+        {
+          "path": "Timer/tb/openc910/smart_run/logical/tb/tb_verilator.v",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/tb_verilator.v",
+          "upstream_git_blob_sha": "ab4fee56b73f02e1174fe18d82df51c0171af6c3",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 13392,
+          "sha256": "fddf65cbd13688cc0b27f854792e5daf8937b918449c08a9bdd6f2649b8a12d3"
+        },
+        {
+          "path": "Timer/tb/openc910/smart_run/setup/env_check.mk",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/env_check.mk",
+          "upstream_git_blob_sha": "28ccc8ae41f66726cd5eb5bc6f1d8d92605c4a9e",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 1286,
+          "sha256": "4f99fe0568341667801dd22ec4557c2a124de6d4cff684e4b30cd481a9fd4881"
+        },
+        {
+          "path": "Timer/tb/openc910/smart_run/setup/example_setup.csh",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/example_setup.csh",
+          "upstream_git_blob_sha": "c3c6c87d9cdcdf8abf850fa26b52b24d0b342a1a",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 730,
+          "sha256": "690c65117c133aef448ac40904e3747fe45f519e7245855e27945704eb590f87"
+        },
+        {
+          "path": "Timer/tb/openc910/smart_run/setup/nc.tcl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/nc.tcl",
+          "upstream_git_blob_sha": "f3519fe70e86a67eebcd4b5b120f0aeeb79d58d6",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 650,
+          "sha256": "d16ff96e53686e6847bd72bd2735df15c8b75d80adb04c4ad879609406cc2ecd"
+        },
+        {
+          "path": "Timer/tb/openc910/smart_run/setup/smart_cfg.mk",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/smart_cfg.mk",
+          "upstream_git_blob_sha": "8fb93e7ef2daa7b401e8b4fd6c3b0686e7706dee",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 6170,
+          "sha256": "0442ae37a2784bba96ee0cb539c6ff9d6d7b5a00e2d4c5d20dc6d6894d1e4187"
         }
-      ]
+      ],
+      "tb_status": "仅 C910 系统集成 TB；未找到独立模块 TB",
+      "tb_notes": " 所收 C910 smart_run TB 需要完整 CPU/SoC RTL、构建环境及 inst.pat/data.pat 软件镜像，不能作为独立模块 TB。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 11,
@@ -329,8 +709,181 @@
           "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
           "kind": "upstream_license_or_notice",
           "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Uart_apb_reg/tb/licenses/openc910/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Uart_apb_reg/tb/openc910/LICENSE",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "upstream_git_blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "Uart_apb_reg/tb/openc910/README.md",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/README.md",
+          "upstream_git_blob_sha": "c4febe774fac8e191100f8ecc66ef619d7e6245f",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 2481,
+          "sha256": "525250377119b40f3533ccb5df449e64190854c6ef5fa9fabc24882032698c79"
+        },
+        {
+          "path": "Uart_apb_reg/tb/openc910/smart_run/Makefile",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/Makefile",
+          "upstream_git_blob_sha": "86c06f3aaee6222df7917a6f52326e37bdbe7943",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 10302,
+          "sha256": "65018831694c8f47ac392208ee809357acdc3a2e454fd9def865c94d1a37ffae"
+        },
+        {
+          "path": "Uart_apb_reg/tb/openc910/smart_run/logical/filelists/ip.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/ip.fl",
+          "upstream_git_blob_sha": "7983ec178ec2227e336a8303f42ff5225b01c7b2",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 637,
+          "sha256": "91064bf5cb4c649090602e5d18769963736f18467bf000d7ea556bbe630385b8"
+        },
+        {
+          "path": "Uart_apb_reg/tb/openc910/smart_run/logical/filelists/sim.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/sim.fl",
+          "upstream_git_blob_sha": "1a61b3a8ad47c84386e60247622e1aa0423de8f8",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 674,
+          "sha256": "0ffb30569091d274f3038dd6c4c0491fa7090ed1b3aefa60b0714f818f086906"
+        },
+        {
+          "path": "Uart_apb_reg/tb/openc910/smart_run/logical/filelists/sim_verilator.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/sim_verilator.fl",
+          "upstream_git_blob_sha": "0acbfa2fd18ccd8554b3bad62664beba2028b467",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 684,
+          "sha256": "85f6d4ac9e4aaa7cc61d89d2bc80196c5727f65c2c00b8e16bf560d0c1d78155"
+        },
+        {
+          "path": "Uart_apb_reg/tb/openc910/smart_run/logical/filelists/smart.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/smart.fl",
+          "upstream_git_blob_sha": "1a8dffbd3bd9f8ea56b9b82571cc3eb5568259f2",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 794,
+          "sha256": "f726fa6606a816a412a8fe1261aa4fcd3a839456f35e9ea5da88490a8b5965c6"
+        },
+        {
+          "path": "Uart_apb_reg/tb/openc910/smart_run/logical/filelists/tb.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/tb.fl",
+          "upstream_git_blob_sha": "9f26d97d562beb39b6a37724f53f6294a684fb07",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 665,
+          "sha256": "fcede1c292014fa6360d82c75908da41fc64b13cbe9eb86e67d2982329d97851"
+        },
+        {
+          "path": "Uart_apb_reg/tb/openc910/smart_run/logical/filelists/tb_verilator.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/tb_verilator.fl",
+          "upstream_git_blob_sha": "b7948632f6d30ecc3dd65f474164aa1d68161b9e",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 703,
+          "sha256": "c5f1c3064c8adb6aac112852d1ff7cf383216f351cb02e888d2e8d46eee2557c"
+        },
+        {
+          "path": "Uart_apb_reg/tb/openc910/smart_run/logical/tb/Makefile_obj",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/Makefile_obj",
+          "upstream_git_blob_sha": "418970971024489292824d8839f6a2aeb30c0b20",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 1842,
+          "sha256": "4b3fec65cb8d7d962ea039321d12dfe4fc5656fd99ecef1cc39bf220829f177c"
+        },
+        {
+          "path": "Uart_apb_reg/tb/openc910/smart_run/logical/tb/int_mnt.v",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/int_mnt.v",
+          "upstream_git_blob_sha": "9f28ea4152a889baa52fc46b78549ca0665d6952",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 610,
+          "sha256": "0a0b1f326b30aa5afc768c04f37f8b08fe4633ee009daf644c99f0fb71974357"
+        },
+        {
+          "path": "Uart_apb_reg/tb/openc910/smart_run/logical/tb/sim_main1.cpp",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/sim_main1.cpp",
+          "upstream_git_blob_sha": "518b4d6adb7267423da2b77c924c12e3bf923642",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 4597,
+          "sha256": "7fe2cbecddd5c31e2548affa92c484b027fc38632a92d0cde8467bedb7faee12"
+        },
+        {
+          "path": "Uart_apb_reg/tb/openc910/smart_run/logical/tb/tb.v",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/tb.v",
+          "upstream_git_blob_sha": "788307145764332f89f46fe42de7e335ebd3d9de",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 12256,
+          "sha256": "8f0dba41508b0cd666b5a4dabae8709d0dcf6edcaf34483de4eaca5663dee17a"
+        },
+        {
+          "path": "Uart_apb_reg/tb/openc910/smart_run/logical/tb/tb_verilator.v",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/tb_verilator.v",
+          "upstream_git_blob_sha": "ab4fee56b73f02e1174fe18d82df51c0171af6c3",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 13392,
+          "sha256": "fddf65cbd13688cc0b27f854792e5daf8937b918449c08a9bdd6f2649b8a12d3"
+        },
+        {
+          "path": "Uart_apb_reg/tb/openc910/smart_run/setup/env_check.mk",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/env_check.mk",
+          "upstream_git_blob_sha": "28ccc8ae41f66726cd5eb5bc6f1d8d92605c4a9e",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 1286,
+          "sha256": "4f99fe0568341667801dd22ec4557c2a124de6d4cff684e4b30cd481a9fd4881"
+        },
+        {
+          "path": "Uart_apb_reg/tb/openc910/smart_run/setup/example_setup.csh",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/example_setup.csh",
+          "upstream_git_blob_sha": "c3c6c87d9cdcdf8abf850fa26b52b24d0b342a1a",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 730,
+          "sha256": "690c65117c133aef448ac40904e3747fe45f519e7245855e27945704eb590f87"
+        },
+        {
+          "path": "Uart_apb_reg/tb/openc910/smart_run/setup/nc.tcl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/nc.tcl",
+          "upstream_git_blob_sha": "f3519fe70e86a67eebcd4b5b120f0aeeb79d58d6",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 650,
+          "sha256": "d16ff96e53686e6847bd72bd2735df15c8b75d80adb04c4ad879609406cc2ecd"
+        },
+        {
+          "path": "Uart_apb_reg/tb/openc910/smart_run/setup/smart_cfg.mk",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/smart_cfg.mk",
+          "upstream_git_blob_sha": "8fb93e7ef2daa7b401e8b4fd6c3b0686e7706dee",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 6170,
+          "sha256": "0442ae37a2784bba96ee0cb539c6ff9d6d7b5a00e2d4c5d20dc6d6894d1e4187"
         }
-      ]
+      ],
+      "tb_status": "仅 C910 系统集成 TB；未找到独立模块 TB",
+      "tb_notes": " 所收 C910 smart_run TB 需要完整 CPU/SoC RTL、构建环境及 inst.pat/data.pat 软件镜像，不能作为独立模块 TB。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 12,
@@ -429,8 +982,90 @@
           "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/NOTICE",
           "kind": "upstream_license_or_notice",
           "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "SHA3/tb/Read_Me.txt",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/high_throughput_core/testbench/Read_Me.txt",
+          "upstream_git_blob_sha": "1c33f95175f4ba864721b2752f50c6b91478c0b9",
+          "upstream_commit": "c25a5befc75e8f8392fdbff040165428b2f54bfd",
+          "kind": "upstream_testbench_material",
+          "bytes": 526,
+          "sha256": "f52e7b419c7a4caecdf1aa57030bc0e8a332a5d614890a00e4e5c96d94667a6a"
+        },
+        {
+          "path": "SHA3/tb/licenses/sha3/LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "SHA3/tb/licenses/sha3/NOTICE",
+          "bytes": 690,
+          "sha256": "30e473be9cf8950964efe30abbd76bf2675f68fd8d24f488b16d7031ef49dcac",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/NOTICE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "SHA3/tb/simulation.do",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/high_throughput_core/testbench/simulation.do",
+          "upstream_git_blob_sha": "b3bb045fc24fbded9664939d9818a98a7d6dcd82",
+          "upstream_commit": "c25a5befc75e8f8392fdbff040165428b2f54bfd",
+          "kind": "upstream_testbench_material",
+          "bytes": 785,
+          "sha256": "8b566effcf4d0ac2e2a8e9bfa7e6b9188d29282134d1a6f93649f5f7f6c9e09f"
+        },
+        {
+          "path": "SHA3/tb/test_f_permutation.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/high_throughput_core/testbench/test_f_permutation.v",
+          "upstream_git_blob_sha": "0788c037332277f36402adae21574dc4297a1f2a",
+          "upstream_commit": "c25a5befc75e8f8392fdbff040165428b2f54bfd",
+          "kind": "upstream_testbench_material",
+          "bytes": 4874,
+          "sha256": "96ee1a09e08e0798c3369b75dffef0cb4c456b023ea6a0119aadd62268838ded"
+        },
+        {
+          "path": "SHA3/tb/test_keccak.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/high_throughput_core/testbench/test_keccak.v",
+          "upstream_git_blob_sha": "3d62594951615af7ff971bd8c3d88211153f828c",
+          "upstream_commit": "c25a5befc75e8f8392fdbff040165428b2f54bfd",
+          "kind": "upstream_testbench_material",
+          "bytes": 7007,
+          "sha256": "40a5e19993bcc8e30339b51f08aceb5dacacc7b4c9f661e888bbebfbf4ed8cda"
+        },
+        {
+          "path": "SHA3/tb/test_padder.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/high_throughput_core/testbench/test_padder.v",
+          "upstream_git_blob_sha": "28854de573e3fc3cfe62798f388aea46c4cfa918",
+          "upstream_commit": "c25a5befc75e8f8392fdbff040165428b2f54bfd",
+          "kind": "upstream_testbench_material",
+          "bytes": 4869,
+          "sha256": "60becad80cda6911b895ada0feea674eba14896854f93a96958485861432c1ed"
+        },
+        {
+          "path": "SHA3/tb/test_padder1.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/high_throughput_core/testbench/test_padder1.v",
+          "upstream_git_blob_sha": "0d9ac205eb2dacd11ce55ad5b76ac850088edd5c",
+          "upstream_commit": "c25a5befc75e8f8392fdbff040165428b2f54bfd",
+          "kind": "upstream_testbench_material",
+          "bytes": 1973,
+          "sha256": "e379a74d754b554e288cd36cde0f834051d7fc39a391aa2c18b3bbd12d9439e9"
+        },
+        {
+          "path": "SHA3/tb/test_rconst2in1.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/sha3/c25a5befc75e8f8392fdbff040165428b2f54bfd/high_throughput_core/testbench/test_rconst2in1.v",
+          "upstream_git_blob_sha": "4e323137b63df44311990aeb649e823e6fd1493a",
+          "upstream_commit": "c25a5befc75e8f8392fdbff040165428b2f54bfd",
+          "kind": "upstream_testbench_material",
+          "bytes": 3303,
+          "sha256": "ee6fa1c299ca23a8d99d69682fdbed1b45a27f7681157009b989ff5901eb3de6"
         }
-      ]
+      ],
+      "tb_status": "原项目高吞吐版本自检 TB",
+      "tb_notes": "仅收录 high_throughput_core 对应测试；测试向量内嵌在 Verilog 中。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 13,
@@ -481,8 +1116,181 @@
           "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
           "kind": "upstream_license_or_notice",
           "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/licenses/openc910/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/openc910/LICENSE",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "upstream_git_blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/openc910/README.md",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/README.md",
+          "upstream_git_blob_sha": "c4febe774fac8e191100f8ecc66ef619d7e6245f",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 2481,
+          "sha256": "525250377119b40f3533ccb5df449e64190854c6ef5fa9fabc24882032698c79"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/openc910/smart_run/Makefile",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/Makefile",
+          "upstream_git_blob_sha": "86c06f3aaee6222df7917a6f52326e37bdbe7943",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 10302,
+          "sha256": "65018831694c8f47ac392208ee809357acdc3a2e454fd9def865c94d1a37ffae"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/openc910/smart_run/logical/filelists/ip.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/ip.fl",
+          "upstream_git_blob_sha": "7983ec178ec2227e336a8303f42ff5225b01c7b2",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 637,
+          "sha256": "91064bf5cb4c649090602e5d18769963736f18467bf000d7ea556bbe630385b8"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/openc910/smart_run/logical/filelists/sim.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/sim.fl",
+          "upstream_git_blob_sha": "1a61b3a8ad47c84386e60247622e1aa0423de8f8",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 674,
+          "sha256": "0ffb30569091d274f3038dd6c4c0491fa7090ed1b3aefa60b0714f818f086906"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/openc910/smart_run/logical/filelists/sim_verilator.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/sim_verilator.fl",
+          "upstream_git_blob_sha": "0acbfa2fd18ccd8554b3bad62664beba2028b467",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 684,
+          "sha256": "85f6d4ac9e4aaa7cc61d89d2bc80196c5727f65c2c00b8e16bf560d0c1d78155"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/openc910/smart_run/logical/filelists/smart.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/smart.fl",
+          "upstream_git_blob_sha": "1a8dffbd3bd9f8ea56b9b82571cc3eb5568259f2",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 794,
+          "sha256": "f726fa6606a816a412a8fe1261aa4fcd3a839456f35e9ea5da88490a8b5965c6"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/openc910/smart_run/logical/filelists/tb.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/tb.fl",
+          "upstream_git_blob_sha": "9f26d97d562beb39b6a37724f53f6294a684fb07",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 665,
+          "sha256": "fcede1c292014fa6360d82c75908da41fc64b13cbe9eb86e67d2982329d97851"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/openc910/smart_run/logical/filelists/tb_verilator.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/tb_verilator.fl",
+          "upstream_git_blob_sha": "b7948632f6d30ecc3dd65f474164aa1d68161b9e",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 703,
+          "sha256": "c5f1c3064c8adb6aac112852d1ff7cf383216f351cb02e888d2e8d46eee2557c"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/openc910/smart_run/logical/tb/Makefile_obj",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/Makefile_obj",
+          "upstream_git_blob_sha": "418970971024489292824d8839f6a2aeb30c0b20",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 1842,
+          "sha256": "4b3fec65cb8d7d962ea039321d12dfe4fc5656fd99ecef1cc39bf220829f177c"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/openc910/smart_run/logical/tb/int_mnt.v",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/int_mnt.v",
+          "upstream_git_blob_sha": "9f28ea4152a889baa52fc46b78549ca0665d6952",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 610,
+          "sha256": "0a0b1f326b30aa5afc768c04f37f8b08fe4633ee009daf644c99f0fb71974357"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/openc910/smart_run/logical/tb/sim_main1.cpp",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/sim_main1.cpp",
+          "upstream_git_blob_sha": "518b4d6adb7267423da2b77c924c12e3bf923642",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 4597,
+          "sha256": "7fe2cbecddd5c31e2548affa92c484b027fc38632a92d0cde8467bedb7faee12"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/openc910/smart_run/logical/tb/tb.v",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/tb.v",
+          "upstream_git_blob_sha": "788307145764332f89f46fe42de7e335ebd3d9de",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 12256,
+          "sha256": "8f0dba41508b0cd666b5a4dabae8709d0dcf6edcaf34483de4eaca5663dee17a"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/openc910/smart_run/logical/tb/tb_verilator.v",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/tb_verilator.v",
+          "upstream_git_blob_sha": "ab4fee56b73f02e1174fe18d82df51c0171af6c3",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 13392,
+          "sha256": "fddf65cbd13688cc0b27f854792e5daf8937b918449c08a9bdd6f2649b8a12d3"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/openc910/smart_run/setup/env_check.mk",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/env_check.mk",
+          "upstream_git_blob_sha": "28ccc8ae41f66726cd5eb5bc6f1d8d92605c4a9e",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 1286,
+          "sha256": "4f99fe0568341667801dd22ec4557c2a124de6d4cff684e4b30cd481a9fd4881"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/openc910/smart_run/setup/example_setup.csh",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/example_setup.csh",
+          "upstream_git_blob_sha": "c3c6c87d9cdcdf8abf850fa26b52b24d0b342a1a",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 730,
+          "sha256": "690c65117c133aef448ac40904e3747fe45f519e7245855e27945704eb590f87"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/openc910/smart_run/setup/nc.tcl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/nc.tcl",
+          "upstream_git_blob_sha": "f3519fe70e86a67eebcd4b5b120f0aeeb79d58d6",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 650,
+          "sha256": "d16ff96e53686e6847bd72bd2735df15c8b75d80adb04c4ad879609406cc2ecd"
+        },
+        {
+          "path": "Ct_had_ctrl/tb/openc910/smart_run/setup/smart_cfg.mk",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/smart_cfg.mk",
+          "upstream_git_blob_sha": "8fb93e7ef2daa7b401e8b4fd6c3b0686e7706dee",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 6170,
+          "sha256": "0442ae37a2784bba96ee0cb539c6ff9d6d7b5a00e2d4c5d20dc6d6894d1e4187"
         }
-      ]
+      ],
+      "tb_status": "仅 C910 系统集成 TB；未找到 HAD 控制器独立 TB",
+      "tb_notes": "ct_had_ctrl 是 CPU 内部控制模块；整机 TB 包含 CPU 不代表专门验证了该模块全部功能。 所收 C910 smart_run TB 需要完整 CPU/SoC RTL、构建环境及 inst.pat/data.pat 软件镜像，不能作为独立模块 TB。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 14,
@@ -550,8 +1358,279 @@
           "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/COPYING",
           "kind": "upstream_license_or_notice",
           "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "AXI_interconnect/tb/licenses/openc910/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "AXI_interconnect/tb/licenses/verilog-axi/COPYING",
+          "bytes": 1057,
+          "sha256": "ba81481b2d63a33e0dce336d9e736130709549feeaf6cd424b34beba712baa50",
+          "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/COPYING",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "AXI_interconnect/tb/openc910/LICENSE",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "upstream_git_blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "AXI_interconnect/tb/openc910/README.md",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/README.md",
+          "upstream_git_blob_sha": "c4febe774fac8e191100f8ecc66ef619d7e6245f",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 2481,
+          "sha256": "525250377119b40f3533ccb5df449e64190854c6ef5fa9fabc24882032698c79"
+        },
+        {
+          "path": "AXI_interconnect/tb/openc910/smart_run/Makefile",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/Makefile",
+          "upstream_git_blob_sha": "86c06f3aaee6222df7917a6f52326e37bdbe7943",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 10302,
+          "sha256": "65018831694c8f47ac392208ee809357acdc3a2e454fd9def865c94d1a37ffae"
+        },
+        {
+          "path": "AXI_interconnect/tb/openc910/smart_run/logical/filelists/ip.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/ip.fl",
+          "upstream_git_blob_sha": "7983ec178ec2227e336a8303f42ff5225b01c7b2",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 637,
+          "sha256": "91064bf5cb4c649090602e5d18769963736f18467bf000d7ea556bbe630385b8"
+        },
+        {
+          "path": "AXI_interconnect/tb/openc910/smart_run/logical/filelists/sim.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/sim.fl",
+          "upstream_git_blob_sha": "1a61b3a8ad47c84386e60247622e1aa0423de8f8",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 674,
+          "sha256": "0ffb30569091d274f3038dd6c4c0491fa7090ed1b3aefa60b0714f818f086906"
+        },
+        {
+          "path": "AXI_interconnect/tb/openc910/smart_run/logical/filelists/sim_verilator.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/sim_verilator.fl",
+          "upstream_git_blob_sha": "0acbfa2fd18ccd8554b3bad62664beba2028b467",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 684,
+          "sha256": "85f6d4ac9e4aaa7cc61d89d2bc80196c5727f65c2c00b8e16bf560d0c1d78155"
+        },
+        {
+          "path": "AXI_interconnect/tb/openc910/smart_run/logical/filelists/smart.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/smart.fl",
+          "upstream_git_blob_sha": "1a8dffbd3bd9f8ea56b9b82571cc3eb5568259f2",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 794,
+          "sha256": "f726fa6606a816a412a8fe1261aa4fcd3a839456f35e9ea5da88490a8b5965c6"
+        },
+        {
+          "path": "AXI_interconnect/tb/openc910/smart_run/logical/filelists/tb.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/tb.fl",
+          "upstream_git_blob_sha": "9f26d97d562beb39b6a37724f53f6294a684fb07",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 665,
+          "sha256": "fcede1c292014fa6360d82c75908da41fc64b13cbe9eb86e67d2982329d97851"
+        },
+        {
+          "path": "AXI_interconnect/tb/openc910/smart_run/logical/filelists/tb_verilator.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/tb_verilator.fl",
+          "upstream_git_blob_sha": "b7948632f6d30ecc3dd65f474164aa1d68161b9e",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 703,
+          "sha256": "c5f1c3064c8adb6aac112852d1ff7cf383216f351cb02e888d2e8d46eee2557c"
+        },
+        {
+          "path": "AXI_interconnect/tb/openc910/smart_run/logical/tb/Makefile_obj",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/Makefile_obj",
+          "upstream_git_blob_sha": "418970971024489292824d8839f6a2aeb30c0b20",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 1842,
+          "sha256": "4b3fec65cb8d7d962ea039321d12dfe4fc5656fd99ecef1cc39bf220829f177c"
+        },
+        {
+          "path": "AXI_interconnect/tb/openc910/smart_run/logical/tb/int_mnt.v",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/int_mnt.v",
+          "upstream_git_blob_sha": "9f28ea4152a889baa52fc46b78549ca0665d6952",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 610,
+          "sha256": "0a0b1f326b30aa5afc768c04f37f8b08fe4633ee009daf644c99f0fb71974357"
+        },
+        {
+          "path": "AXI_interconnect/tb/openc910/smart_run/logical/tb/sim_main1.cpp",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/sim_main1.cpp",
+          "upstream_git_blob_sha": "518b4d6adb7267423da2b77c924c12e3bf923642",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 4597,
+          "sha256": "7fe2cbecddd5c31e2548affa92c484b027fc38632a92d0cde8467bedb7faee12"
+        },
+        {
+          "path": "AXI_interconnect/tb/openc910/smart_run/logical/tb/tb.v",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/tb.v",
+          "upstream_git_blob_sha": "788307145764332f89f46fe42de7e335ebd3d9de",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 12256,
+          "sha256": "8f0dba41508b0cd666b5a4dabae8709d0dcf6edcaf34483de4eaca5663dee17a"
+        },
+        {
+          "path": "AXI_interconnect/tb/openc910/smart_run/logical/tb/tb_verilator.v",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/tb_verilator.v",
+          "upstream_git_blob_sha": "ab4fee56b73f02e1174fe18d82df51c0171af6c3",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 13392,
+          "sha256": "fddf65cbd13688cc0b27f854792e5daf8937b918449c08a9bdd6f2649b8a12d3"
+        },
+        {
+          "path": "AXI_interconnect/tb/openc910/smart_run/setup/env_check.mk",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/env_check.mk",
+          "upstream_git_blob_sha": "28ccc8ae41f66726cd5eb5bc6f1d8d92605c4a9e",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 1286,
+          "sha256": "4f99fe0568341667801dd22ec4557c2a124de6d4cff684e4b30cd481a9fd4881"
+        },
+        {
+          "path": "AXI_interconnect/tb/openc910/smart_run/setup/example_setup.csh",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/example_setup.csh",
+          "upstream_git_blob_sha": "c3c6c87d9cdcdf8abf850fa26b52b24d0b342a1a",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 730,
+          "sha256": "690c65117c133aef448ac40904e3747fe45f519e7245855e27945704eb590f87"
+        },
+        {
+          "path": "AXI_interconnect/tb/openc910/smart_run/setup/nc.tcl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/nc.tcl",
+          "upstream_git_blob_sha": "f3519fe70e86a67eebcd4b5b120f0aeeb79d58d6",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 650,
+          "sha256": "d16ff96e53686e6847bd72bd2735df15c8b75d80adb04c4ad879609406cc2ecd"
+        },
+        {
+          "path": "AXI_interconnect/tb/openc910/smart_run/setup/smart_cfg.mk",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/smart_cfg.mk",
+          "upstream_git_blob_sha": "8fb93e7ef2daa7b401e8b4fd6c3b0686e7706dee",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 6170,
+          "sha256": "0442ae37a2784bba96ee0cb539c6ff9d6d7b5a00e2d4c5d20dc6d6894d1e4187"
+        },
+        {
+          "path": "AXI_interconnect/tb/verilog-axi/rtl/arbiter.v",
+          "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/rtl/arbiter.v",
+          "upstream_git_blob_sha": "cfac70d1c6df31d283242bb1cca2099fb4d02565",
+          "upstream_commit": "516bd5dadc3365b7f9e225d2af8fe0b8d804fe53",
+          "kind": "upstream_testbench_material",
+          "bytes": 5027,
+          "sha256": "a001507c82843e36e133dea75491fc044f56660fac0aff0127cf3afec7f927e0"
+        },
+        {
+          "path": "AXI_interconnect/tb/verilog-axi/rtl/axi_interconnect.v",
+          "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/rtl/axi_interconnect.v",
+          "upstream_git_blob_sha": "14256ad7de362d25a8b9b3e386f274bd40ec9e62",
+          "upstream_commit": "516bd5dadc3365b7f9e225d2af8fe0b8d804fe53",
+          "kind": "upstream_testbench_material",
+          "bytes": 43236,
+          "sha256": "2a06ac654ea73fc960b24922466cb50990584a8318959bea3912cefb0bbf6e65"
+        },
+        {
+          "path": "AXI_interconnect/tb/verilog-axi/rtl/axi_interconnect_wrap.py",
+          "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/rtl/axi_interconnect_wrap.py",
+          "upstream_git_blob_sha": "874f5a4d65044759d789c9ba550a20e4dd840684",
+          "upstream_commit": "516bd5dadc3365b7f9e225d2af8fe0b8d804fe53",
+          "kind": "upstream_testbench_material",
+          "bytes": 21700,
+          "sha256": "d25d218284bd84fccd8592b03fecd4312269d7b35247a953f72a433517ea324c"
+        },
+        {
+          "path": "AXI_interconnect/tb/verilog-axi/rtl/priority_encoder.v",
+          "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/rtl/priority_encoder.v",
+          "upstream_git_blob_sha": "cf82512ba84c43cfddc7728782493241b563b8f3",
+          "upstream_commit": "516bd5dadc3365b7f9e225d2af8fe0b8d804fe53",
+          "kind": "upstream_testbench_material",
+          "bytes": 3253,
+          "sha256": "df28220d95b47df349a72803a9751aad331eb8e1435416e8686d00572a974dd5"
+        },
+        {
+          "path": "AXI_interconnect/tb/verilog-axi/tb/axi.py",
+          "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/tb/axi.py",
+          "upstream_git_blob_sha": "f7a216c79132011d61cee17cb73b15156d4963c9",
+          "upstream_commit": "516bd5dadc3365b7f9e225d2af8fe0b8d804fe53",
+          "kind": "upstream_testbench_material",
+          "bytes": 35529,
+          "sha256": "e164cb261dade0c759e8e6838f0a40b6bc8dc7c381bac1509591fa314f88e705"
+        },
+        {
+          "path": "AXI_interconnect/tb/verilog-axi/tb/axi_interconnect/Makefile",
+          "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/tb/axi_interconnect/Makefile",
+          "upstream_git_blob_sha": "8034966f6804a223c7c18de3d979b4ffb60f628b",
+          "upstream_commit": "516bd5dadc3365b7f9e225d2af8fe0b8d804fe53",
+          "kind": "upstream_testbench_material",
+          "bytes": 3008,
+          "sha256": "6256f2875636d9bc1fbc4770200fa9b733aedea6c59204da2f04241fdb2e145b"
+        },
+        {
+          "path": "AXI_interconnect/tb/verilog-axi/tb/axi_interconnect/test_axi_interconnect.py",
+          "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/tb/axi_interconnect/test_axi_interconnect.py",
+          "upstream_git_blob_sha": "7c48d72e8b00a9ce9bab0cf792ac1ec0252e1ea6",
+          "upstream_commit": "516bd5dadc3365b7f9e225d2af8fe0b8d804fe53",
+          "kind": "upstream_testbench_material",
+          "bytes": 9839,
+          "sha256": "e3fe671f9be7c34f9d2d028f1d53c278b7f4d693c19895dc04543797145aef39"
+        },
+        {
+          "path": "AXI_interconnect/tb/verilog-axi/tb/test_axi_interconnect_4x4.py",
+          "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/tb/test_axi_interconnect_4x4.py",
+          "upstream_git_blob_sha": "8a8389f8875bc6038800b7bd538af40502d7a0d6",
+          "upstream_commit": "516bd5dadc3365b7f9e225d2af8fe0b8d804fe53",
+          "kind": "upstream_testbench_material",
+          "bytes": 29947,
+          "sha256": "e77aa2fc0d29ebdbf93feb6b378d7359b19aca072943f2e536e7f33f5f866392"
+        },
+        {
+          "path": "AXI_interconnect/tb/verilog-axi/tb/test_axi_interconnect_4x4.v",
+          "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/tb/test_axi_interconnect_4x4.v",
+          "upstream_git_blob_sha": "020f25833c7df800d7894c4051f3f7e16c5acecd",
+          "upstream_commit": "516bd5dadc3365b7f9e225d2af8fe0b8d804fe53",
+          "kind": "upstream_testbench_material",
+          "bytes": 11037,
+          "sha256": "c863c5bc9f9a1ce97ec54a5d339e9c5862e5bed16962d39a22e59ed8cd4ed2dc"
+        },
+        {
+          "path": "AXI_interconnect/tb/verilog-axi/tox.ini",
+          "source_url": "https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/tox.ini",
+          "upstream_git_blob_sha": "9c053a64a6b36c4ae125470d30fb31f5e72c6f9c",
+          "upstream_commit": "516bd5dadc3365b7f9e225d2af8fe0b8d804fe53",
+          "kind": "upstream_testbench_material",
+          "bytes": 522,
+          "sha256": "ff14e354adedf1f9f2f9e8d7cf0480e4c54e74e1e21b1981be9cfa395e95434e"
         }
-      ]
+      ],
+      "tb_status": "verilog-axi 单元 TB＋C910 系统集成 TB",
+      "tb_notes": "verilog-axi/ 保存 cocotb 单元测试、历史 MyHDL 测试及 wrapper 依赖；openc910/ 为另一个候选的整机验证入口。两者不能合并。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 15,
@@ -586,8 +1665,181 @@
           "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
           "kind": "upstream_license_or_notice",
           "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "AXI2ahb/tb/licenses/openc910/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "AXI2ahb/tb/openc910/LICENSE",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/LICENSE",
+          "upstream_git_blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "AXI2ahb/tb/openc910/README.md",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/README.md",
+          "upstream_git_blob_sha": "c4febe774fac8e191100f8ecc66ef619d7e6245f",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 2481,
+          "sha256": "525250377119b40f3533ccb5df449e64190854c6ef5fa9fabc24882032698c79"
+        },
+        {
+          "path": "AXI2ahb/tb/openc910/smart_run/Makefile",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/Makefile",
+          "upstream_git_blob_sha": "86c06f3aaee6222df7917a6f52326e37bdbe7943",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 10302,
+          "sha256": "65018831694c8f47ac392208ee809357acdc3a2e454fd9def865c94d1a37ffae"
+        },
+        {
+          "path": "AXI2ahb/tb/openc910/smart_run/logical/filelists/ip.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/ip.fl",
+          "upstream_git_blob_sha": "7983ec178ec2227e336a8303f42ff5225b01c7b2",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 637,
+          "sha256": "91064bf5cb4c649090602e5d18769963736f18467bf000d7ea556bbe630385b8"
+        },
+        {
+          "path": "AXI2ahb/tb/openc910/smart_run/logical/filelists/sim.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/sim.fl",
+          "upstream_git_blob_sha": "1a61b3a8ad47c84386e60247622e1aa0423de8f8",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 674,
+          "sha256": "0ffb30569091d274f3038dd6c4c0491fa7090ed1b3aefa60b0714f818f086906"
+        },
+        {
+          "path": "AXI2ahb/tb/openc910/smart_run/logical/filelists/sim_verilator.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/sim_verilator.fl",
+          "upstream_git_blob_sha": "0acbfa2fd18ccd8554b3bad62664beba2028b467",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 684,
+          "sha256": "85f6d4ac9e4aaa7cc61d89d2bc80196c5727f65c2c00b8e16bf560d0c1d78155"
+        },
+        {
+          "path": "AXI2ahb/tb/openc910/smart_run/logical/filelists/smart.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/smart.fl",
+          "upstream_git_blob_sha": "1a8dffbd3bd9f8ea56b9b82571cc3eb5568259f2",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 794,
+          "sha256": "f726fa6606a816a412a8fe1261aa4fcd3a839456f35e9ea5da88490a8b5965c6"
+        },
+        {
+          "path": "AXI2ahb/tb/openc910/smart_run/logical/filelists/tb.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/tb.fl",
+          "upstream_git_blob_sha": "9f26d97d562beb39b6a37724f53f6294a684fb07",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 665,
+          "sha256": "fcede1c292014fa6360d82c75908da41fc64b13cbe9eb86e67d2982329d97851"
+        },
+        {
+          "path": "AXI2ahb/tb/openc910/smart_run/logical/filelists/tb_verilator.fl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/filelists/tb_verilator.fl",
+          "upstream_git_blob_sha": "b7948632f6d30ecc3dd65f474164aa1d68161b9e",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 703,
+          "sha256": "c5f1c3064c8adb6aac112852d1ff7cf383216f351cb02e888d2e8d46eee2557c"
+        },
+        {
+          "path": "AXI2ahb/tb/openc910/smart_run/logical/tb/Makefile_obj",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/Makefile_obj",
+          "upstream_git_blob_sha": "418970971024489292824d8839f6a2aeb30c0b20",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 1842,
+          "sha256": "4b3fec65cb8d7d962ea039321d12dfe4fc5656fd99ecef1cc39bf220829f177c"
+        },
+        {
+          "path": "AXI2ahb/tb/openc910/smart_run/logical/tb/int_mnt.v",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/int_mnt.v",
+          "upstream_git_blob_sha": "9f28ea4152a889baa52fc46b78549ca0665d6952",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 610,
+          "sha256": "0a0b1f326b30aa5afc768c04f37f8b08fe4633ee009daf644c99f0fb71974357"
+        },
+        {
+          "path": "AXI2ahb/tb/openc910/smart_run/logical/tb/sim_main1.cpp",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/sim_main1.cpp",
+          "upstream_git_blob_sha": "518b4d6adb7267423da2b77c924c12e3bf923642",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 4597,
+          "sha256": "7fe2cbecddd5c31e2548affa92c484b027fc38632a92d0cde8467bedb7faee12"
+        },
+        {
+          "path": "AXI2ahb/tb/openc910/smart_run/logical/tb/tb.v",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/tb.v",
+          "upstream_git_blob_sha": "788307145764332f89f46fe42de7e335ebd3d9de",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 12256,
+          "sha256": "8f0dba41508b0cd666b5a4dabae8709d0dcf6edcaf34483de4eaca5663dee17a"
+        },
+        {
+          "path": "AXI2ahb/tb/openc910/smart_run/logical/tb/tb_verilator.v",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/logical/tb/tb_verilator.v",
+          "upstream_git_blob_sha": "ab4fee56b73f02e1174fe18d82df51c0171af6c3",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 13392,
+          "sha256": "fddf65cbd13688cc0b27f854792e5daf8937b918449c08a9bdd6f2649b8a12d3"
+        },
+        {
+          "path": "AXI2ahb/tb/openc910/smart_run/setup/env_check.mk",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/env_check.mk",
+          "upstream_git_blob_sha": "28ccc8ae41f66726cd5eb5bc6f1d8d92605c4a9e",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 1286,
+          "sha256": "4f99fe0568341667801dd22ec4557c2a124de6d4cff684e4b30cd481a9fd4881"
+        },
+        {
+          "path": "AXI2ahb/tb/openc910/smart_run/setup/example_setup.csh",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/example_setup.csh",
+          "upstream_git_blob_sha": "c3c6c87d9cdcdf8abf850fa26b52b24d0b342a1a",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 730,
+          "sha256": "690c65117c133aef448ac40904e3747fe45f519e7245855e27945704eb590f87"
+        },
+        {
+          "path": "AXI2ahb/tb/openc910/smart_run/setup/nc.tcl",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/nc.tcl",
+          "upstream_git_blob_sha": "f3519fe70e86a67eebcd4b5b120f0aeeb79d58d6",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 650,
+          "sha256": "d16ff96e53686e6847bd72bd2735df15c8b75d80adb04c4ad879609406cc2ecd"
+        },
+        {
+          "path": "AXI2ahb/tb/openc910/smart_run/setup/smart_cfg.mk",
+          "source_url": "https://raw.githubusercontent.com/XUANTIE-RV/openc910/b91c90914c19f114d35c8f6b73408eb241ed847c/smart_run/setup/smart_cfg.mk",
+          "upstream_git_blob_sha": "8fb93e7ef2daa7b401e8b4fd6c3b0686e7706dee",
+          "upstream_commit": "b91c90914c19f114d35c8f6b73408eb241ed847c",
+          "kind": "upstream_testbench_material",
+          "bytes": 6170,
+          "sha256": "0442ae37a2784bba96ee0cb539c6ff9d6d7b5a00e2d4c5d20dc6d6894d1e4187"
         }
-      ]
+      ],
+      "tb_status": "仅 C910 系统集成 TB；未找到独立模块 TB",
+      "tb_notes": " 所收 C910 smart_run TB 需要完整 CPU/SoC RTL、构建环境及 inst.pat/data.pat 软件镜像，不能作为独立模块 TB。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 16,
@@ -662,8 +1914,64 @@
           "source_url": "https://raw.githubusercontent.com/freecores/ecg/52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a/rtl/COPYING.LESSER.txt",
           "kind": "upstream_license_or_notice",
           "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Elliptic_Curve/tb/COPYING.LESSER.txt",
+          "source_url": "https://raw.githubusercontent.com/freecores/ecg/52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a/testbench/COPYING.LESSER.txt",
+          "upstream_git_blob_sha": "b14ca0a552d7e97012befc8f4949173e6ace87c9",
+          "upstream_commit": "52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a",
+          "kind": "upstream_testbench_material",
+          "bytes": 7816,
+          "sha256": "ea7d049c7705dc13afc202dd18e1827f3484f8212fd3fa7b82fc4a0c363432c9"
+        },
+        {
+          "path": "Elliptic_Curve/tb/Read_Me.txt",
+          "source_url": "https://raw.githubusercontent.com/freecores/ecg/52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a/testbench/Read_Me.txt",
+          "upstream_git_blob_sha": "ab861eabc52b13ea3d178fecc93dedf02c6699a1",
+          "upstream_commit": "52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a",
+          "kind": "upstream_testbench_material",
+          "bytes": 581,
+          "sha256": "2ca55963fea6e02e9d826b6e6687b4af6ee3c7bafe7feb21c2bcecfbfde755f7"
+        },
+        {
+          "path": "Elliptic_Curve/tb/licenses/ecg/COPYING.LESSER.txt",
+          "bytes": 7816,
+          "sha256": "ea7d049c7705dc13afc202dd18e1827f3484f8212fd3fa7b82fc4a0c363432c9",
+          "source_url": "https://raw.githubusercontent.com/freecores/ecg/52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a/rtl/COPYING.LESSER.txt",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Elliptic_Curve/tb/simulation.do",
+          "source_url": "https://raw.githubusercontent.com/freecores/ecg/52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a/testbench/simulation.do",
+          "upstream_git_blob_sha": "d22a3c93f7f21e29d92ceb36e5f585f77d1e8485",
+          "upstream_commit": "52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a",
+          "kind": "upstream_testbench_material",
+          "bytes": 956,
+          "sha256": "7ab62de4b23bd82abdd13519af800c223f3032c4882e4971c379b9ac1c67729f"
+        },
+        {
+          "path": "Elliptic_Curve/tb/test_point_add.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/ecg/52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a/testbench/test_point_add.v",
+          "upstream_git_blob_sha": "e41ae5720f6771d5b4f3aa5eb6b2462d99bab00c",
+          "upstream_commit": "52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a",
+          "kind": "upstream_testbench_material",
+          "bytes": 4810,
+          "sha256": "bd17eec47763baf476027d000fa001acd05c60b929e3d038fcc9609ba98915e5"
+        },
+        {
+          "path": "Elliptic_Curve/tb/test_point_scalar_mult.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/ecg/52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a/testbench/test_point_scalar_mult.v",
+          "upstream_git_blob_sha": "f343a1cff2c59b580235e9d51cb8158cba1b6399",
+          "upstream_commit": "52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a",
+          "kind": "upstream_testbench_material",
+          "bytes": 3392,
+          "sha256": "0e543e7b83686da1792924ff667ab1654ab446534057885137e84b4bd4d743de"
         }
-      ]
+      ],
+      "tb_status": "原项目点加和标量乘自检 TB",
+      "tb_notes": "包含 test_point_add.v 和 test_point_scalar_mult.v，自检向量在 TB 中。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 17,
@@ -714,8 +2022,56 @@
           "source_url": "https://raw.githubusercontent.com/freecores/i2c/3b067f00ccced753b0502024766a51f58f3e04bc/doc/i2c_specs.pdf",
           "kind": "original_module_specification",
           "scope": "OpenCores I2C master原项目规格；I2C名称不能唯一证明论文版本"
+        },
+        {
+          "path": "I2C/tb/upstream/bench/verilog/i2c_slave_model.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/i2c/3b067f00ccced753b0502024766a51f58f3e04bc/bench/verilog/i2c_slave_model.v",
+          "upstream_git_blob_sha": "53298b680e7af18343dd33e36928edadbbf75a3e",
+          "upstream_commit": "3b067f00ccced753b0502024766a51f58f3e04bc",
+          "kind": "upstream_testbench_material",
+          "bytes": 11401,
+          "sha256": "36fa19e140e19f5375a417e304976c8f3edfe51093c7e523e2ab12aaf3549d40"
+        },
+        {
+          "path": "I2C/tb/upstream/bench/verilog/tst_bench_top.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/i2c/3b067f00ccced753b0502024766a51f58f3e04bc/bench/verilog/tst_bench_top.v",
+          "upstream_git_blob_sha": "8b6a29069005025be7260403737b75781da9a70b",
+          "upstream_commit": "3b067f00ccced753b0502024766a51f58f3e04bc",
+          "kind": "upstream_testbench_material",
+          "bytes": 14666,
+          "sha256": "4b0b6a24ccd6f479979c1473a33a33a5a74c41be1621615ef152483945cef21c"
+        },
+        {
+          "path": "I2C/tb/upstream/bench/verilog/wb_master_model.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/i2c/3b067f00ccced753b0502024766a51f58f3e04bc/bench/verilog/wb_master_model.v",
+          "upstream_git_blob_sha": "1b2f43ccd1c6ff58ba24c720f66d3ee537a1aaad",
+          "upstream_commit": "3b067f00ccced753b0502024766a51f58f3e04bc",
+          "kind": "upstream_testbench_material",
+          "bytes": 5543,
+          "sha256": "9fb7b85b0e76cdcf18fd6ad9afcfbc8794c9804c8d43c46d650755e004b6bcd3"
+        },
+        {
+          "path": "I2C/tb/upstream/i2c.core",
+          "source_url": "https://raw.githubusercontent.com/freecores/i2c/3b067f00ccced753b0502024766a51f58f3e04bc/i2c.core",
+          "upstream_git_blob_sha": "bd617c8b161c17c1550c085b48180137866aa6e8",
+          "upstream_commit": "3b067f00ccced753b0502024766a51f58f3e04bc",
+          "kind": "upstream_testbench_material",
+          "bytes": 1302,
+          "sha256": "d2d5228e08b8da00dadbd263db3ce42e10a9e81ca6943ee2b0a4787d8e1ac6c2"
+        },
+        {
+          "path": "I2C/tb/upstream/sim/i2c_verilog/run/run",
+          "source_url": "https://raw.githubusercontent.com/freecores/i2c/3b067f00ccced753b0502024766a51f58f3e04bc/sim/i2c_verilog/run/run",
+          "upstream_git_blob_sha": "41bcaab30c5410a0f3f576f96d35c95c08da8649",
+          "upstream_commit": "3b067f00ccced753b0502024766a51f58f3e04bc",
+          "kind": "upstream_testbench_material",
+          "bytes": 514,
+          "sha256": "57a801e97160c14530dcb25f499c3029ad620ddef3556d5e43a26d14be65381f"
         }
-      ]
+      ],
+      "tb_status": "原项目 I2C 主机 TB 及总线、从机模型",
+      "tb_notes": "原配置另有 vlog_tb_utils、wiredelay 等依赖，需配套原项目工程。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 18,
@@ -934,8 +2290,351 @@
           "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/NOTICE",
           "kind": "upstream_license_or_notice",
           "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Aon_timer/tb/UPSTREAM_README.md",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/README.md",
+          "upstream_git_blob_sha": "00dae0320f08cfb377931d0b9c0babe1750174f9",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 11047,
+          "sha256": "2d45084cb2c1539c687cb2c1fe7bb2abd56708edb5eac155faa0fab779866dd7"
+        },
+        {
+          "path": "Aon_timer/tb/aon_timer_sim.core",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/aon_timer_sim.core",
+          "upstream_git_blob_sha": "059a4280b504796ec23c042c40972e905c86bccd",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 613,
+          "sha256": "835b7ce557476a96f10c88632e9950bf324f9bc252506e8c9665dbbec7fe3d52"
+        },
+        {
+          "path": "Aon_timer/tb/aon_timer_sim_cfg.hjson",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/aon_timer_sim_cfg.hjson",
+          "upstream_git_blob_sha": "56a125867a471591d3a0b98fa7f8b4c1c2abf097",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 3465,
+          "sha256": "5a35127657142db1804f7ffac5e0b457ca2c6dcf99410fa5f6aec196ed0da4bb"
+        },
+        {
+          "path": "Aon_timer/tb/cov/aon_timer_unr_excl.el",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/cov/aon_timer_unr_excl.el",
+          "upstream_git_blob_sha": "393e19e11b1ecf034ca981b763a30b30ff0dc562",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 3325,
+          "sha256": "1c994081fe4d488a66ddac9302830c2f7f89cd288dd2cd837aaa3791e26747d8"
+        },
+        {
+          "path": "Aon_timer/tb/cov/aon_timer_unr_manually_excluded_excl.el",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/cov/aon_timer_unr_manually_excluded_excl.el",
+          "upstream_git_blob_sha": "58f93ef1d0ce2bf1bb42032254f6bf75a2b67214",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 4602,
+          "sha256": "1949fbaa3dbd0aaabb1fdaff96c89c027aa3b0a6e8c8459c4d62075517987738"
+        },
+        {
+          "path": "Aon_timer/tb/cov/aon_timer_unr_non_racl_manually_excluded_excl.el",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/cov/aon_timer_unr_non_racl_manually_excluded_excl.el",
+          "upstream_git_blob_sha": "7323fc40f8e336d73178a6f4c1f492975e081dee",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 2852,
+          "sha256": "77014e6726bdb212388a0f9ff606887eb69347664a8d9ab6a4a85e16e3f0e1d8"
+        },
+        {
+          "path": "Aon_timer/tb/cov/rtl_exclusions_pending_rtl_changes.el",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/cov/rtl_exclusions_pending_rtl_changes.el",
+          "upstream_git_blob_sha": "7a658ef47ee6726d7d4b88a46ff1c7bea02e7e9a",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 5143,
+          "sha256": "0b33767c5fc8649c827c6dfff0df753bfa2ac82239d8d774fe31ac62c0bb197f"
+        },
+        {
+          "path": "Aon_timer/tb/doc/domains.svg",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/doc/domains.svg",
+          "upstream_git_blob_sha": "5b3300617ec5736838520a1b1c3b13248b239272",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 39105,
+          "sha256": "3a7f7396c914cd099aad11a8b8e037c5538378cd61cbd78f7333dd47b9e10a9e"
+        },
+        {
+          "path": "Aon_timer/tb/doc/tb.svg",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/doc/tb.svg",
+          "upstream_git_blob_sha": "22e7c719ce65fa1f98e55bcdfea427bc0c79e900",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 49084,
+          "sha256": "5e967bf3fd00e953d5ae5675b04b0716ba1199fc0cf97089762396b963898f1f"
+        },
+        {
+          "path": "Aon_timer/tb/env/aon_timer_core_if.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/aon_timer_core_if.sv",
+          "upstream_git_blob_sha": "284321162ad148cde90fb9bd42278c30f08aa7da",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 2082,
+          "sha256": "dedff710b5360e676a069028db6ad7d98f3d21540467d5880cabaa9024d433fa"
+        },
+        {
+          "path": "Aon_timer/tb/env/aon_timer_env.core",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/aon_timer_env.core",
+          "upstream_git_blob_sha": "4b96ba86281ebbea00e3d0f0147d16caf8687985",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 1873,
+          "sha256": "4210d608d2765ae1fee61c4392cac855826d32b5b5c4ef72daabd03aa4f89e39"
+        },
+        {
+          "path": "Aon_timer/tb/env/aon_timer_env.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/aon_timer_env.sv",
+          "upstream_git_blob_sha": "48f2956b4e3815b9590d142587e4c665bde32814",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 1595,
+          "sha256": "2bf164844f872479a67ad00c160d2fa94240677f35f54b4e5bb2e6347157afe8"
+        },
+        {
+          "path": "Aon_timer/tb/env/aon_timer_env_cfg.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/aon_timer_env_cfg.sv",
+          "upstream_git_blob_sha": "27ec91ac85a3dd228d327a9de05ffa1cb062b77d",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 3244,
+          "sha256": "633d60c25d14e271663f7b64ac241347aabd69b0990eba4de2e7e4c1eac33627"
+        },
+        {
+          "path": "Aon_timer/tb/env/aon_timer_env_cov.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/aon_timer_env_cov.sv",
+          "upstream_git_blob_sha": "ef634b22406d00c440fc203c2499cedf5e4291fe",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 5663,
+          "sha256": "bfd0bf019198a6f294b853be0c35f808c2f0abdd26d5e7d27521bda3d739dfe9"
+        },
+        {
+          "path": "Aon_timer/tb/env/aon_timer_env_pkg.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/aon_timer_env_pkg.sv",
+          "upstream_git_blob_sha": "54a670db114ff67a461617538004b06cb9cb834f",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 1651,
+          "sha256": "ca73e5c6c1ec5d833a6b9ad8d86d5a391ba0e5902673108ce8da8129d12703a6"
+        },
+        {
+          "path": "Aon_timer/tb/env/aon_timer_intr_timed_regs.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/aon_timer_intr_timed_regs.sv",
+          "upstream_git_blob_sha": "01205c48e4c3ec9dbd96acfcbc92d31cdb836c73",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 5242,
+          "sha256": "7cd46f89481694a6c2f779aff80427b2f9264f49bfa787eea5fabb838eded997"
+        },
+        {
+          "path": "Aon_timer/tb/env/aon_timer_scoreboard.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/aon_timer_scoreboard.sv",
+          "upstream_git_blob_sha": "4ca0cc0673d4b0183702b1cc5ed4e8bb1ce9d2a5",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 61328,
+          "sha256": "237a886db513be298d9c8c579c24faee84cf0b841ec1fa45aa8fe6478ae9914e"
+        },
+        {
+          "path": "Aon_timer/tb/env/aon_timer_virtual_sequencer.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/aon_timer_virtual_sequencer.sv",
+          "upstream_git_blob_sha": "06e6e027c676438a9fc88f2588f23c24111eeb1d",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 556,
+          "sha256": "ae03e88609eae4ab8d2c14b9809fa3959624d42c44899a22587fe9bcf7a45812"
+        },
+        {
+          "path": "Aon_timer/tb/env/seq_lib/aon_timer_alternating_enable_on_off_vseq.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/seq_lib/aon_timer_alternating_enable_on_off_vseq.sv",
+          "upstream_git_blob_sha": "c14ecffec6153048fc0a88993778482124a3dbf8",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 4203,
+          "sha256": "05aaaf17924e9189fb7401ed96be3a0d7a641286be5bf7e15e0fb0f928b1d36f"
+        },
+        {
+          "path": "Aon_timer/tb/env/seq_lib/aon_timer_base_vseq.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/seq_lib/aon_timer_base_vseq.sv",
+          "upstream_git_blob_sha": "763897fc66b7342e9ec8455a96d409b238779be1",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 11383,
+          "sha256": "0eb191416d29501c4689a10b104b20d1f438cbe9caccebf8834f9dfd9270e992"
+        },
+        {
+          "path": "Aon_timer/tb/env/seq_lib/aon_timer_common_vseq.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/seq_lib/aon_timer_common_vseq.sv",
+          "upstream_git_blob_sha": "59fc2c8904ca01bc642e596b29f1c8f2016963a9",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 649,
+          "sha256": "0660138e312e9e0bbe9875df7b53987af880550af4a52d495346142dfd07e867"
+        },
+        {
+          "path": "Aon_timer/tb/env/seq_lib/aon_timer_custom_intr_vseq.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/seq_lib/aon_timer_custom_intr_vseq.sv",
+          "upstream_git_blob_sha": "d58cbcb722356ebf3895a41732c7c6ac97ac98b1",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 1654,
+          "sha256": "1c59e6c12ed18b2ee595498ae8e85417c9a433eddc411f5912dd0130b3a7fbce"
+        },
+        {
+          "path": "Aon_timer/tb/env/seq_lib/aon_timer_jump_vseq.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/seq_lib/aon_timer_jump_vseq.sv",
+          "upstream_git_blob_sha": "32778d697ae20e8280c664e43b8116ed9805ae67",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 2154,
+          "sha256": "700c43a6c2f53620427534dc441891d216113c3308d0556061ddedd0cc685d15"
+        },
+        {
+          "path": "Aon_timer/tb/env/seq_lib/aon_timer_prescaler_vseq.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/seq_lib/aon_timer_prescaler_vseq.sv",
+          "upstream_git_blob_sha": "e59bbdfa6adff38a5bcaef0260bc84dfe93ab14f",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 2198,
+          "sha256": "2929dcf506b1e96236fea003dbdc88bbec6194f4bb10a7c775be7b8d3a3e2974"
+        },
+        {
+          "path": "Aon_timer/tb/env/seq_lib/aon_timer_smoke_max_thold_vseq.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/seq_lib/aon_timer_smoke_max_thold_vseq.sv",
+          "upstream_git_blob_sha": "88e303dd4780a8db7446dfde384f633d4ad5c6d8",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 774,
+          "sha256": "aeddce9253886d44eeb294a12b0559c025d6026a0aba980856525e6a6a39bff3"
+        },
+        {
+          "path": "Aon_timer/tb/env/seq_lib/aon_timer_smoke_min_thold_vseq.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/seq_lib/aon_timer_smoke_min_thold_vseq.sv",
+          "upstream_git_blob_sha": "6e34fed947e6ee59748c154c6f81f078a84d3c44",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 726,
+          "sha256": "c83893920839138d14b0a06b5bd08f384afd6bcef9198c01761e2075f0814aa0"
+        },
+        {
+          "path": "Aon_timer/tb/env/seq_lib/aon_timer_smoke_vseq.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/seq_lib/aon_timer_smoke_vseq.sv",
+          "upstream_git_blob_sha": "32159d8b86e8d9ba7884e9766fd5341578c5c746",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 1271,
+          "sha256": "837e6b8a7a33778edffd146b348d0cc9b2c0f37d6a865bab5fb5942aa29f9f09"
+        },
+        {
+          "path": "Aon_timer/tb/env/seq_lib/aon_timer_stress_all_vseq.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/seq_lib/aon_timer_stress_all_vseq.sv",
+          "upstream_git_blob_sha": "200fe02f78203cf4d05a7f2f346a9d0922c62abb",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 1753,
+          "sha256": "581e7af78fa827c237d64b50fbae131b5613de7e52a8f4bd19e3673aa43d9d1a"
+        },
+        {
+          "path": "Aon_timer/tb/env/seq_lib/aon_timer_vseq_list.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/seq_lib/aon_timer_vseq_list.sv",
+          "upstream_git_blob_sha": "da1924fb7282a317cc647308c014f258606acc16",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 622,
+          "sha256": "6a93ba138bf81d29c1d560a46e9bfc52b086cbac9550ba2fd23f373bca148684"
+        },
+        {
+          "path": "Aon_timer/tb/env/seq_lib/aon_timer_wkup_count_cdc_hi_vseq.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/env/seq_lib/aon_timer_wkup_count_cdc_hi_vseq.sv",
+          "upstream_git_blob_sha": "d525b8e41fbdb60f9b407e7de463e456075b256c",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 4095,
+          "sha256": "0ade2f2f9f3a5784c72a584e536ca3553008b65cb4c657d3a50d1481248ff412"
+        },
+        {
+          "path": "Aon_timer/tb/licenses/opentitan/LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/LICENSE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Aon_timer/tb/licenses/opentitan/NOTICE",
+          "bytes": 695,
+          "sha256": "ef05d5dfb3baa6af69aab949ef01a0db4f79b974e090fa3c6ebdbc02b253dc21",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/NOTICE",
+          "kind": "upstream_license_or_notice",
+          "scope": "适用于对应上游项目材料；不为整个资料集合授予统一许可"
+        },
+        {
+          "path": "Aon_timer/tb/sva/aon_timer_bind.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/sva/aon_timer_bind.sv",
+          "upstream_git_blob_sha": "d7b28fc00974d8dcc5c1b9517dc3d57a44406eb8",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 491,
+          "sha256": "f42cdcf070225645d3d300effbdfd3566f98828909dd9bd6483bff27c4cd30a6"
+        },
+        {
+          "path": "Aon_timer/tb/sva/aon_timer_sva.core",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/sva/aon_timer_sva.core",
+          "upstream_git_blob_sha": "e8d91d1cc38c09c618d9a3c534c564f3340e92da",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 827,
+          "sha256": "c32f4dae50187ac834c5bbfbe63f8cd95ce63551916b96ec6545a4cc5df275d0"
+        },
+        {
+          "path": "Aon_timer/tb/tb.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/tb.sv",
+          "upstream_git_blob_sha": "1f5a4a9b737e5919a51e788d6e9b0d3ec97081a9",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 3593,
+          "sha256": "926a377cdf2b08a975b39993d6d55cca0596c07e2600cb74f0de66ce20e04956"
+        },
+        {
+          "path": "Aon_timer/tb/tests/aon_timer_base_test.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/tests/aon_timer_base_test.sv",
+          "upstream_git_blob_sha": "36342baa24f755a971e7a6950ed0bccc9a1192e3",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 1035,
+          "sha256": "e6b4698e2687760c55108fcb36eb76d294794436885b91cc97ab54c80c9d14df"
+        },
+        {
+          "path": "Aon_timer/tb/tests/aon_timer_test.core",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/tests/aon_timer_test.core",
+          "upstream_git_blob_sha": "28589034c5d39e01eb957f1e2ad6d2f9b9f3a8e8",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 501,
+          "sha256": "0138fff84fb8c62cbd2f3ef1f82e6063a7bf09c504210135a29fb963ffd14f95"
+        },
+        {
+          "path": "Aon_timer/tb/tests/aon_timer_test_pkg.sv",
+          "source_url": "https://raw.githubusercontent.com/lowRISC/opentitan/e404f576d4e48cdbd2e56e4b34f686107bf38850/hw/ip/aon_timer/dv/tests/aon_timer_test_pkg.sv",
+          "upstream_git_blob_sha": "c49f099cdd2aca95566f6103f8323f8dcbfd3983",
+          "upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
+          "kind": "upstream_testbench_material",
+          "bytes": 501,
+          "sha256": "86b39b86607e5c6061176fe37c065e1c66d416ec12a8a71ea82fb5cf9ed46a45"
         }
-      ]
+      ],
+      "tb_status": "原项目 UVM DV 目录快照",
+      "tb_notes": "包含顶层、scoreboard、功能覆盖率、测试序列、断言和配置；需要 CIP、RAL、usbdev_env 等公共依赖。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 19,
@@ -1090,8 +2789,128 @@
           "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/e09d1db9da0aa2db58cabf521433c8257f10a451/doc/Specification%20SDC_MMC%20controller.pdf",
           "kind": "original_module_specification",
           "scope": "原项目功能规格与设计说明，覆盖sdc_dma实现"
+        },
+        {
+          "path": "SDC_DMA/tb/upstream/bench/sdc_dma/verilog/sdModel.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/e09d1db9da0aa2db58cabf521433c8257f10a451/bench/sdc_dma/verilog/sdModel.v",
+          "upstream_git_blob_sha": "544b36eeec72a8d45bc91e1da5a6983f43af9b57",
+          "upstream_commit": "e09d1db9da0aa2db58cabf521433c8257f10a451",
+          "kind": "upstream_testbench_material",
+          "bytes": 22670,
+          "sha256": "df87e7c6d1cd249c2023e0b616d4f5727c9fd9e0e1d4775d7d5680bd51b591a1"
+        },
+        {
+          "path": "SDC_DMA/tb/upstream/bench/sdc_dma/verilog/sd_controller_top_tb.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/e09d1db9da0aa2db58cabf521433c8257f10a451/bench/sdc_dma/verilog/sd_controller_top_tb.v",
+          "upstream_git_blob_sha": "5ece5a9b49ff1614c97b4f30d4e0ace487316127",
+          "upstream_commit": "e09d1db9da0aa2db58cabf521433c8257f10a451",
+          "kind": "upstream_testbench_material",
+          "bytes": 110822,
+          "sha256": "7170e8c78de7a50482f3155e9e988eb49e20ec252d2c8285789320b513b8bbea"
+        },
+        {
+          "path": "SDC_DMA/tb/upstream/bench/sdc_dma/verilog/timescale.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/e09d1db9da0aa2db58cabf521433c8257f10a451/bench/sdc_dma/verilog/timescale.v",
+          "upstream_git_blob_sha": "a5826954de8b10c69d1cf97877729201c6c3097a",
+          "upstream_commit": "e09d1db9da0aa2db58cabf521433c8257f10a451",
+          "kind": "upstream_testbench_material",
+          "bytes": 2929,
+          "sha256": "1224f4db9bd19cb6f7462e7d9dd16b0afcf20a25bf2c922e34ed2467f7805a21"
+        },
+        {
+          "path": "SDC_DMA/tb/upstream/bench/sdc_dma/verilog/wb_bus_mon.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/e09d1db9da0aa2db58cabf521433c8257f10a451/bench/sdc_dma/verilog/wb_bus_mon.v",
+          "upstream_git_blob_sha": "f7bb3f81255695934a3b44ea540fc5fa3461a8aa",
+          "upstream_commit": "e09d1db9da0aa2db58cabf521433c8257f10a451",
+          "kind": "upstream_testbench_material",
+          "bytes": 18743,
+          "sha256": "00afd620488a4453fb55758f4d4d63fea4cdb2cb695647fbc72d9377e8a7d4bb"
+        },
+        {
+          "path": "SDC_DMA/tb/upstream/bench/sdc_dma/verilog/wb_master32.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/e09d1db9da0aa2db58cabf521433c8257f10a451/bench/sdc_dma/verilog/wb_master32.v",
+          "upstream_git_blob_sha": "f8525b31584e22965f4460ad079af305a024c14e",
+          "upstream_commit": "e09d1db9da0aa2db58cabf521433c8257f10a451",
+          "kind": "upstream_testbench_material",
+          "bytes": 13486,
+          "sha256": "2da117cf2cd0a51eca7851992fb2c3b628fa28262a6621099de251f90b8ef4b8"
+        },
+        {
+          "path": "SDC_DMA/tb/upstream/bench/sdc_dma/verilog/wb_master_behavioral.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/e09d1db9da0aa2db58cabf521433c8257f10a451/bench/sdc_dma/verilog/wb_master_behavioral.v",
+          "upstream_git_blob_sha": "2b8b654f33815785121893f00f5c8f83004c042d",
+          "upstream_commit": "e09d1db9da0aa2db58cabf521433c8257f10a451",
+          "kind": "upstream_testbench_material",
+          "bytes": 23268,
+          "sha256": "1bc94b1b1c2ecd291ead3aec187845085194856e6a1ef5e95252ca0d8163c1f2"
+        },
+        {
+          "path": "SDC_DMA/tb/upstream/bench/sdc_dma/verilog/wb_model_defines.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/e09d1db9da0aa2db58cabf521433c8257f10a451/bench/sdc_dma/verilog/wb_model_defines.v",
+          "upstream_git_blob_sha": "a1e9cd2b223ff0ad8a2ef8d026fffbeab60c1727",
+          "upstream_commit": "e09d1db9da0aa2db58cabf521433c8257f10a451",
+          "kind": "upstream_testbench_material",
+          "bytes": 7223,
+          "sha256": "ee515d285cd2d0f92a4ce07436f21df7443b4d540159b855860f8e1fe233cf00"
+        },
+        {
+          "path": "SDC_DMA/tb/upstream/bench/sdc_dma/verilog/wb_slave_behavioral.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/e09d1db9da0aa2db58cabf521433c8257f10a451/bench/sdc_dma/verilog/wb_slave_behavioral.v",
+          "upstream_git_blob_sha": "894c018d958d0c42361eb46b599142a723151578",
+          "upstream_commit": "e09d1db9da0aa2db58cabf521433c8257f10a451",
+          "kind": "upstream_testbench_material",
+          "bytes": 12418,
+          "sha256": "af56e29c3816464685a856dced978e53afef92c3c9cdabb4967603af4eb2ce45"
+        },
+        {
+          "path": "SDC_DMA/tb/upstream/rtl/sdc_dma/verilog/sd_rx_fifo_tb.v",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/e09d1db9da0aa2db58cabf521433c8257f10a451/rtl/sdc_dma/verilog/sd_rx_fifo_tb.v",
+          "upstream_git_blob_sha": "856e1ff2fb7b8fcf2e2f0da89f3b35ba78bc6bba",
+          "upstream_commit": "e09d1db9da0aa2db58cabf521433c8257f10a451",
+          "kind": "upstream_testbench_material",
+          "bytes": 1812,
+          "sha256": "52995513cd904a6c32d37c333116b3fddef900aec6924142ab98c09a70c10785"
+        },
+        {
+          "path": "SDC_DMA/tb/upstream/sim/rtl_sim/bin/FLASH.txt",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/e09d1db9da0aa2db58cabf521433c8257f10a451/sim/rtl_sim/bin/FLASH.txt",
+          "upstream_git_blob_sha": "34ac9e601402a5b02d6ef86f78ea05e51df4fa2f",
+          "upstream_commit": "e09d1db9da0aa2db58cabf521433c8257f10a451",
+          "kind": "upstream_testbench_material",
+          "bytes": 8190,
+          "sha256": "43f944606393f09a874021c69a7ecbb256e0af35cae31ab7b2818be9ff1e848b"
+        },
+        {
+          "path": "SDC_DMA/tb/upstream/sim/rtl_sim/bin/ramdisk2.hex",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/e09d1db9da0aa2db58cabf521433c8257f10a451/sim/rtl_sim/bin/ramdisk2.hex",
+          "upstream_git_blob_sha": "ea2b36e366475d247d35caddfaaf13912315c617",
+          "upstream_commit": "e09d1db9da0aa2db58cabf521433c8257f10a451",
+          "kind": "upstream_testbench_material",
+          "bytes": 12652,
+          "sha256": "76357f9301202e0f75aa61c8f70d746da49be6c7b05785458e717593ab692dc5"
+        },
+        {
+          "path": "SDC_DMA/tb/upstream/sim/rtl_sim/bin/wb_memory.txt",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/e09d1db9da0aa2db58cabf521433c8257f10a451/sim/rtl_sim/bin/wb_memory.txt",
+          "upstream_git_blob_sha": "3c1c469a5f2529b9e40c7ca8b32ccb95a701c0f9",
+          "upstream_commit": "e09d1db9da0aa2db58cabf521433c8257f10a451",
+          "kind": "upstream_testbench_material",
+          "bytes": 844508,
+          "sha256": "aa97b5b7a7795a2f1c38a8f4ae880a855720834f7bb861d7523d897d0744284b"
+        },
+        {
+          "path": "SDC_DMA/tb/upstream/sim/rtl_sim/run/comp.do",
+          "source_url": "https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/e09d1db9da0aa2db58cabf521433c8257f10a451/sim/rtl_sim/run/comp.do",
+          "upstream_git_blob_sha": "9b9c6dc5881d251d68dd0c3e53e3b71397db12a4",
+          "upstream_commit": "e09d1db9da0aa2db58cabf521433c8257f10a451",
+          "kind": "upstream_testbench_material",
+          "bytes": 5055,
+          "sha256": "10c7d5d0c8c4445abeb03d94efb5ce899c30d760c22f044d5b860fc2868bc5e6"
         }
-      ]
+      ],
+      "tb_status": "原项目 DMA 版顶层 TB＋局部 FIFO TB",
+      "tb_notes": "对应 sdc_dma 版本；sdModel 与 Wishbone memory model 读取相对路径下的初始化文件，需按原项目目录运行。",
+      "tb_checked_date": "2026-10-19"
     },
     {
       "id": 20,
@@ -1833,5 +3652,6 @@
       "testbench_upstream_commit": "e404f576d4e48cdbd2e56e4b34f686107bf38850",
       "tb_status": "已收录原项目IP专属DV目录46个上游文件；公共依赖需原工程提供，未运行仿真"
     }
-  ]
+  ],
+  "tb_checked_date": "2026-10-19"
 }

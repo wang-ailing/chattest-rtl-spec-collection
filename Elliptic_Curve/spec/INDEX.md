@@ -8,3 +8,5 @@
 |---|---|---|
 | [elliptic_curve_group_doc.pdf](elliptic_curve_group_doc.pdf) | [原始来源](https://raw.githubusercontent.com/freecores/ecg/52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a/document/elliptic_curve_group_doc.pdf) | original_module_specification |
 | [licenses/ecg/COPYING.LESSER.txt](licenses/ecg/COPYING.LESSER.txt) | [原始来源](https://raw.githubusercontent.com/freecores/ecg/52dee5f8b3ed18715dff2bd9e1d8fe1ebb75b82a/rtl/COPYING.LESSER.txt) | upstream_license_or_notice |
+
+TB 查找结果及已收录源码见相邻的 [`../tb/`](../tb/)：原项目点加和标量乘自检 TB。

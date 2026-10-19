@@ -8,3 +8,5 @@
 |---|---|---|
 | [Design SDC_MMC controller.pdf](Design%20SDC_MMC%20controller.pdf) | [原始来源](https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/e09d1db9da0aa2db58cabf521433c8257f10a451/doc/Design%20SDC_MMC%20controller.pdf) | original_module_specification |
 | [Specification SDC_MMC controller.pdf](Specification%20SDC_MMC%20controller.pdf) | [原始来源](https://raw.githubusercontent.com/freecores/sdcard_mass_storage_controller/e09d1db9da0aa2db58cabf521433c8257f10a451/doc/Specification%20SDC_MMC%20controller.pdf) | original_module_specification |
+
+TB 查找结果及已收录源码见相邻的 [`../tb/`](../tb/)：原项目 DMA 版顶层 TB＋局部 FIFO TB。

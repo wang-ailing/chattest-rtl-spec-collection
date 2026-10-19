@@ -11,3 +11,5 @@
 | [licenses/verilog-axi/COPYING](licenses/verilog-axi/COPYING) | [原始来源](https://raw.githubusercontent.com/alexforencich/verilog-axi/516bd5dadc3365b7f9e225d2af8fe0b8d804fe53/COPYING) | upstream_license_or_notice |
 
 verilog-axi 与 openc910 是两个候选来源，不应合并成一个实现。
+
+TB 查找结果及已收录源码见相邻的 [`../tb/`](../tb/)：verilog-axi 单元 TB＋C910 系统集成 TB。
